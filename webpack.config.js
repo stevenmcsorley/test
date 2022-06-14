@@ -20,6 +20,14 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.scss$/i,
+        use: [
+            "style-loader",
+            "css-loader",
+            "sass-loader"
+        ]
+      }
     ],
   },
   plugins: [new HtmlWebpackPlugin({ title: "Development" })],

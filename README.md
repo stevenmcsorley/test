@@ -27,3 +27,15 @@ npm run build
 npm run dev
 ```
 
+<h4> Adding Css Loader </h4>
+
+-- Add Css loader
+```
+npm i style-loader css-loader --save-dev
+```
+
+-- Add Sass
+```
+npm i sass-loader sass --dev-dev
+```
+
