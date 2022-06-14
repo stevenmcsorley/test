@@ -18,6 +18,12 @@ npm i html-webpack-plugin --save-dev
 ```
 -- Add babel
 ```
-npm i babel-loader @babel/core --save-dev 
+npm i babel-loader @babel/core --save-dev
+npm i @babel/preset-env --save-dev
+```
+-- Run dev server
+```
+npm run build
+npm run dev
 ```
 
