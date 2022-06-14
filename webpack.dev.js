@@ -9,6 +9,7 @@ module.exports = merge(common, {
   devServer: {
     // contentBase deprecated in latest webpack v5
     static: "dist",
+    watchFiles: ['src/**/*'],
   },
   module: {
     rules: [
