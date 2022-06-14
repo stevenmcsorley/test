@@ -4,11 +4,6 @@ const common = require("./webpack.common");
 
 module.exports = merge(common, {
   mode: "production",
-  entry: "./src/index.js",
-  devServer: {
-    // contentBase deprecated in latest webpack v5
-    static: "dist",
-  },
   module: {
     rules: [
       {
