@@ -62,3 +62,16 @@ or use rucksack-css https://github.com/madeleineostoja/rucksack .
 ```
 npm i mini-css-extract-plugin --save-dev
 ```
+<h4> Setting up dev and prod configs </h4>
+-- For Windows NODE_ENV to work
+
+```
+npm install -g win-node-env
+```
+
+Wepack merge
+
+```
+npm install --save-dev webpack-merge
+
+```
