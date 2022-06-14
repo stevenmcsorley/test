@@ -39,3 +39,26 @@ npm i style-loader css-loader --save-dev
 npm i sass-loader sass --dev-dev
 ```
 
+-- Add postcss loader
+```
+npm i postcss-loader postcss --save-dev
+```
+
+-- Add post-css plugins
+
+Autoprefixer = adds vendor prefixes for browser support.
+cssnano - minify and compress css.
+satchel -- useful utilities https://www.satchel.style/getting-started .
+
+or use rucksack-css https://github.com/madeleineostoja/rucksack .
+
+```
+ npm i cssnano autoprefixer satchel-css --save-dev
+```
+
+
+-- Add mincss extract plugin = seperates css files
+
+```
+npm i mini-css-extract-plugin --save-dev
+```
