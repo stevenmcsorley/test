@@ -2,7 +2,9 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./src/js/index.js",
+  entry: {
+index: "./src/js/index.js",
+  },
   module: {
     rules: [
       {
@@ -20,11 +22,27 @@ module.exports = {
   optimization: {
     splitChunks: {
       chunks: "all",
+        cacheGroups: {
+            vendor: {
+                test: /[\\/]node_modules[\\/]/,
+                priority: -10,
+                name: "vendor",
+                enforce: true,
+            },
+        },
+
     },
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [new HtmlWebpackPlugin(
+    {
+        template: './src/index.html',
+        inject: true,
+        chunks: ['index'],
+        filename: 'index.html'
+    }
+  )],
   output: {
-    filename: "bundle.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
 };
