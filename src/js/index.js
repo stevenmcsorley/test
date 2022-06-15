@@ -1,7 +1,6 @@
 import "../css/main.scss";
 import "normalize.css";
 
-const testArrowFunction = (title) => {
-  console.log(`testArrowFunction ${title}`);
-};
-testArrowFunction("in babel");
+import { filter } from "./filter/filter"
+
+filter();

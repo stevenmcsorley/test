@@ -1,0 +1,18 @@
+@keyframes fadeOutFromOne {
+    0% {
+      opacity: 1;
+    }
+  
+    1% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0.2;
+    }
+  }
+  
+  .hidden {
+    animation: fadeOutFromOne 0.5s ease-out;
+    animation-fill-mode: forwards;
+  }
