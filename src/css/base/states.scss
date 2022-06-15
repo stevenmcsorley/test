@@ -15,4 +15,7 @@
   .hidden {
     animation: fadeOutFromOne 0.5s ease-out;
     animation-fill-mode: forwards;
+    @media #{$medaia-breakpoint-mobile} {
+        display: none!important;
+      }
   }
