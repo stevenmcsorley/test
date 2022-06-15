@@ -6,26 +6,30 @@
   @include container();
 }
 
-.grid-2 {
-  @include responsive-grid(1, 2, 2);
-}
-
 .hero-unit {
   @include hero-image("../images/ben-den-engelsen-UFwW97AP0LI-unsplash.jpg");
   color: $white;
+  .grid-2 {
+    @include responsive-grid(1, 2, 2);
+    padding-bottom: $padding-base * 2;
+  }
 }
 
-.header{
+.header {
   @include flex(row, flex-end, flex-end);
+  padding-bottom: $padding-base * 4;
 
   @media #{$medaia-breakpoint-mobile} {
     @include flex(column, center, center);
   }
-
 }
 
 .industry-section {
   padding: $padding-base * 4;
+
+  @media #{$medaia-breakpoint-mobile} {
+    padding: $padding-base * 4 $padding-base;
+  }
 }
 .industry {
   margin-bottom: $padding-base;
@@ -41,16 +45,28 @@
   @include body-text();
   background-color: $background-color-secondary;
   padding: $padding-base * 4;
+
+  @media #{$medaia-breakpoint-mobile} {
+    padding: $padding-base * 4 $padding-base;
+  }
 }
 
 .main-content {
   @include max-width(100%);
   @include body-text();
   padding: $padding-base * 4;
+
+  @media #{$medaia-breakpoint-mobile} {
+    padding: $padding-base * 4 $padding-base;
+  }
 }
 
 .video-wrapper {
   padding: $padding-base * 4;
+
+  @media #{$medaia-breakpoint-mobile} {
+    padding: $padding-base * 4 $padding-base;
+  }
 
   video {
     margin: 0px auto;
@@ -68,4 +84,8 @@
   background-color: $border-color-base;
   color: $white;
   padding: $padding-base * 4;
+
+  @media #{$medaia-breakpoint-mobile} {
+    padding: $padding-base * 4 $padding-base;
+  }
 }
