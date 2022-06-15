@@ -1,6 +1,6 @@
 .card {
-@include card();
-background-color: $background-color-base;
+  @include card();
+  background-color: $background-color-base;
 }
 .card-image {
   max-width: 100%;

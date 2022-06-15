@@ -1,19 +1,17 @@
-
 // Branding colors
-$solitude: #E9EDF0;
-$black-russian: #171A2D;
-$ronchi: #E7B55C;
+$solitude: #e9edf0;
+$black-russian: #171a2d;
+$ronchi: #e7b55c;
 $stormgrey: #727588;
-$pohutukawa: #640A0C;
+$pohutukawa: #640a0c;
 $bluezodiac: #434752;
-$white: #FFFFFF;
-
+$white: #ffffff;
 
 // Sizes
 $baseUnit: 1rem;
 
 // Typography
-$font-family-base: 'Open Sans', sans-serif;
+$font-family-base: "Open Sans", sans-serif;
 
 // Font sizes
 $font-size-base: $baseUnit;
@@ -61,7 +59,7 @@ $shadow-base: 0 0 $baseUnit rgba(0, 0, 0, 0.1);
 $opacity-base: 1;
 
 // Transitions
-$transition-base: all .2.5s;
+$transition-base: all 0.2.5s;
 
 // Z-index
 $z-index-base: 1;
@@ -88,4 +86,4 @@ $media-breakpoint-xs: "(min-width: #{$breakpoint-xs})";
 $media-breakpoint-sm: "(min-width: #{$breakpoint-sm})";
 $media-breakpoint-md: "(min-width: #{$breakpoint-md})";
 $media-breakpoint-lg: "(min-width: #{$breakpoint-lg})";
-$media-breakpoint-xl: "(min-width: #{$breakpoint-lg})";  
+$media-breakpoint-xl: "(min-width: #{$breakpoint-lg})";

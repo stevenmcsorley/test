@@ -1,4 +1,4 @@
-body{
-    @include body-text();
-    background-color: $background-color-base;
+body {
+  @include body-text();
+  background-color: $background-color-base;
 }

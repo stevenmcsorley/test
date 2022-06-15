@@ -51,7 +51,6 @@
   background-color: $background-color-base;
 }
 
-
 @mixin hero-image($heroImage) {
   background-image: url($heroImage);
   background-size: cover;
