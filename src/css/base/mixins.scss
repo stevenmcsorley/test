@@ -11,10 +11,6 @@
   @include max-hw(100%, 100%);
 }
 
-
-@mixin grid($cols) {
-}
-
 @mixin responsive-grid($cols-xs, $cols-sm, $cols-lg) {
   display: grid;
   grid-gap: $spacing-base * 2;
@@ -44,6 +40,7 @@
 }
 
 @mixin body-text() {
+  font-family: $font-family-base;
   font-size: $font-size-base;
   line-height: $line-height-base;
   letter-spacing: $letter-spacing-base;
@@ -91,7 +88,6 @@
   align-items: $align;
   justify-content: $justify;
 }
-
 
 // spacing, height, box shadow, radius utils
 
@@ -143,4 +139,3 @@
 @mixin box-shadow($color, $offset, $blur, $spread) {
   box-shadow: $offset $blur $spread $color;
 }
-

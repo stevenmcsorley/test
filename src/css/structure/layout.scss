@@ -7,6 +7,14 @@
 }
 
 .grid-2 {
+  @include responsive-grid(1, 2, 2);
+}
+
+.hero-unit{
+  @include hero-image('../images/ben-den-engelsen-UFwW97AP0LI-unsplash.jpg');
+}
+
+.grid-3 {
   @include responsive-grid(1, 2, 3);
 
   padding: $padding-base * 4;

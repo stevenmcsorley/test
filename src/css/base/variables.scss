@@ -8,11 +8,15 @@ $pohutukawa: #640A0C;
 $bluezodiac: #434752;
 $white: #FFFFFF;
 
-// Fonts
-$font-family-base: 'Roboto', sans-serif;
+
+// Sizes
+$baseUnit: 1rem;
+
+// Typography
+$font-family-base: 'Open Sans', sans-serif;
 
 // Font sizes
-$font-size-base: 16px;
+$font-size-base: $baseUnit;
 
 // Line-height
 $line-height-base: 1.5;
@@ -42,16 +46,16 @@ $border-color-disabled: $stormgrey;
 $border-width-base: 1px;
 
 // Border radius
-$border-radius-base: 5px;
+$border-radius-base: calc($baseUnit / 4);
 
 // Padding
-$padding-base: 16px;
+$padding-base: $baseUnit;
 
 // Margin
-$margin-base: 16px;
+$margin-base: $baseUnit;
 
 // Shadow
-$shadow-base: 0 0 10px rgba(0, 0, 0, 0.1);
+$shadow-base: 0 0 $baseUnit rgba(0, 0, 0, 0.1);
 
 // Opacity
 $opacity-base: 1;
@@ -63,10 +67,13 @@ $transition-base: all .2.5s;
 $z-index-base: 1;
 
 // Spacing
-$spacing-base: 16px;
+$spacing-base: $baseUnit;
 
 // Sizes
-$size-base: 16px;
+$size-base: $baseUnit;
+
+// conainer width
+$container-width: 1200px;
 
 // Breakpoints
 $breakpoint-xs: 0;
@@ -81,15 +88,3 @@ $media-breakpoint-sm: "(min-width: #{$breakpoint-sm})";
 $media-breakpoint-md: "(min-width: #{$breakpoint-md})";
 $media-breakpoint-lg: "(min-width: #{$breakpoint-lg})";
 $media-breakpoint-xl: "(min-width: #{$breakpoint-lg})";  
-
-// Responsive utilities
-$responsive-utilities-base: $font-size-base;
-$responsive-utilities-xs: $responsive-utilities-base * 0.75;
-$responsive-utilities-sm: $responsive-utilities-base * 0.875;
-$responsive-utilities-md: $responsive-utilities-base;
-$responsive-utilities-lg: $responsive-utilities-base * 1.125;
-$responsive-utilities-xl: $responsive-utilities-base * 1.25;
-
-$container-width: 1200px;
-
-$heroImage: '../images/ben-den-engelsen-UFwW97AP0LI-unsplash.jpg';
