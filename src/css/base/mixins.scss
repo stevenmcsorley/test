@@ -45,15 +45,12 @@
   line-height: $line-height-base;
   letter-spacing: $letter-spacing-base;
   font-weight: $font-weight-base;
-  color: $text-color;
 }
 
 @mixin hero-bg() {
   background-color: $background-color-base;
 }
-@mixin hero-text() {
-  color: $text-color;
-}
+
 
 @mixin hero-image($heroImage) {
   background-image: url($heroImage);
