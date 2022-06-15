@@ -4,10 +4,41 @@
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
+  color: $white;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
   background-color: #000;
 }
+
+.btn-primary {
+  color: $white;
+  background-color: $black-russian;
+  text-decoration: none;
+  padding: $padding-base $padding-base * 2;
+  border-radius: $border-radius-base * 2;
+  transition: $transition-base;
+
+  &:hover {
+    color: $white;
+    background-color: lighten($black-russian, 10%);
+    text-decoration: none;
+  }
+
+  &--outline {
+    background-color: transparent;
+    border: $border-width-base solid $white;
+
+    &:hover {
+      color: $ronchi;
+      background-color: transparent;
+      border-color: $ronchi;
+      text-decoration: none;
+    }
+  
+  }
+}
+
+
+

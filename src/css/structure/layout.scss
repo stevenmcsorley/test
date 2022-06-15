@@ -15,11 +15,20 @@
   color: $white;
 }
 
+.header{
+  @include flex(row, flex-end, flex-end);
+
+  @media #{$medaia-breakpoint-mobile} {
+    @include flex(column, center, center);
+  }
+
+}
+
 .industry-section {
   padding: $padding-base * 4;
 }
 .industry {
-  margin-bottom: $padding-base * 4;
+  margin-bottom: $padding-base;
 }
 
 .grid-3 {
@@ -31,7 +40,7 @@
   @include max-width(100%);
   @include body-text();
   background-color: $background-color-secondary;
-  padding-bottom: $padding-base * 4;
+  padding: $padding-base * 4;
 }
 
 .main-content {
