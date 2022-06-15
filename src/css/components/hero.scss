@@ -1,0 +1,7 @@
+.hero-unit{
+    @include hero-bg;
+    @include hero-text;
+    @include hero-image($heroImage);
+    @include button();
+    padding: $padding-base * 4;
+}

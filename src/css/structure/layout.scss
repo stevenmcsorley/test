@@ -1,0 +1,45 @@
+.theme-light {
+  background-color: $background-color-secondary;
+}
+
+.container {
+  @include container();
+}
+
+.grid-2 {
+  @include responsive-grid(1, 2, 3);
+
+  padding: $padding-base * 4;
+}
+
+.cta {
+  @include flex(column, center, center);
+  @include min-width(100%);
+  @include body-text();
+  flex: 0 0 100%;
+  background-color: $background-color-secondary;
+  padding-bottom: $padding-base * 4;
+}
+
+.main-content {
+  // @include flex(column, center, center);
+  @include min-width(100%);
+  @include body-text();
+  flex: 0 0 100%;
+}
+
+video {
+  margin: 0px auto 0px;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: fill;
+}
+
+.footer {
+  @include flex(column, center, center);
+  @include min-width(100%);
+  @include body-text();
+  flex: 0 0 100%;
+  background-color: $border-color-base;
+}

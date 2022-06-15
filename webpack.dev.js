@@ -1,4 +1,3 @@
-
 const { merge } = require("webpack-merge");
 const common = require("./webpack.common");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -9,7 +8,7 @@ module.exports = merge(common, {
   devServer: {
     // contentBase deprecated in latest webpack v5
     static: "dist",
-    watchFiles: ['src/**/*'],
+    watchFiles: ["src/**/**/*"],
   },
   module: {
     rules: [
@@ -18,11 +17,12 @@ module.exports = merge(common, {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {}, // no need for hmr webpack 5 supports it automatically
+            options: {},
           },
-          {loader: "css-loader", options: {sourceMap: true}},
-          {loader: "postcss-loader", options: {sourceMap: true}},
-          {loader: "sass-loader", options: {sourceMap: true}}
+          { loader: "css-loader", options: { sourceMap: true } },
+          { loader: "sass-loader", options: { sourceMap: true, warnRuleAsWarning: true, /* Hide interpolation error with webpack */ } },
+          { loader: "postcss-loader", options: { sourceMap: true } },
+          
         ],
       },
     ],
@@ -30,6 +30,6 @@ module.exports = merge(common, {
   plugins: [
     new MiniCssExtractPlugin({
       filename: "[name].css",
-  }),
+    }),
   ],
 });

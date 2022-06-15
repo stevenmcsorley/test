@@ -18,6 +18,10 @@ index: "./src/js/index.js",
           },
         },
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      }
     ],
   },
   optimization: {
@@ -47,5 +51,6 @@ index: "./src/js/index.js",
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
+    assetModuleFilename: 'src/assets/images/[name].[ext]'
   },
 };

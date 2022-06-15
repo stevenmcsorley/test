@@ -14,8 +14,9 @@ module.exports = merge(common, {
             options: {}, // no need for hmr webpack 5 supports it automatically
           },
           "css-loader",
+          { loader: "sass-loader", options: { sourceMap: true, warnRuleAsWarning: true, /* Hide interpolation error with webpack */ } },
           "postcss-loader",
-          "sass-loader",
+          
         ],
       },
     ],

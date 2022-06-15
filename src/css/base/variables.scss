@@ -1,0 +1,95 @@
+
+// Branding colors
+$solitude: #E9EDF0;
+$black-russian: #171A2D;
+$ronchi: #E7B55C;
+$stormgrey: #727588;
+$pohutukawa: #640A0C;
+$bluezodiac: #434752;
+$white: #FFFFFF;
+
+// Fonts
+$font-family-base: 'Roboto', sans-serif;
+
+// Font sizes
+$font-size-base: 16px;
+
+// Line-height
+$line-height-base: 1.5;
+
+// Letter-spacing
+$letter-spacing-base: 0;
+
+// Font weights
+$font-weight-base: 400;
+
+// Text colors
+$text-color: $black-russian;
+$text-color-secondary: $white;
+$text-color-disabled: $stormgrey;
+
+// Background colors
+$background-color-base: $white;
+$background-color-secondary: $solitude;
+$background-color-disabled: $stormgrey;
+
+// Border colors
+$border-color-base: $black-russian;
+$border-color-secondary: $ronchi;
+$border-color-disabled: $stormgrey;
+
+// Border widths
+$border-width-base: 1px;
+
+// Border radius
+$border-radius-base: 5px;
+
+// Padding
+$padding-base: 16px;
+
+// Margin
+$margin-base: 16px;
+
+// Shadow
+$shadow-base: 0 0 10px rgba(0, 0, 0, 0.1);
+
+// Opacity
+$opacity-base: 1;
+
+// Transitions
+$transition-base: all .2.5s;
+
+// Z-index
+$z-index-base: 1;
+
+// Spacing
+$spacing-base: 16px;
+
+// Sizes
+$size-base: 16px;
+
+// Breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Media queries
+$media-breakpoint-xs: "(min-width: #{$breakpoint-xs})";
+$media-breakpoint-sm: "(min-width: #{$breakpoint-sm})";
+$media-breakpoint-md: "(min-width: #{$breakpoint-md})";
+$media-breakpoint-lg: "(min-width: #{$breakpoint-lg})";
+$media-breakpoint-xl: "(min-width: #{$breakpoint-lg})";  
+
+// Responsive utilities
+$responsive-utilities-base: $font-size-base;
+$responsive-utilities-xs: $responsive-utilities-base * 0.75;
+$responsive-utilities-sm: $responsive-utilities-base * 0.875;
+$responsive-utilities-md: $responsive-utilities-base;
+$responsive-utilities-lg: $responsive-utilities-base * 1.125;
+$responsive-utilities-xl: $responsive-utilities-base * 1.25;
+
+$container-width: 1200px;
+
+$heroImage: '../images/ben-den-engelsen-UFwW97AP0LI-unsplash.jpg';

@@ -1,4 +1,4 @@
-import "../main.scss";
+import "../css/main.scss";
 import "normalize.css";
 
 const testArrowFunction = (title) => {
