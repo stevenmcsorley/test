@@ -3,6 +3,53 @@ describe('Test', () => {
     cy.visit('http://localhost:8080/');
   })
 
+  it('hero-unit should have a title', () => {
+    cy.get('.hero-unit h1').should('have.text', 'Explore our sectors');
+  })
+
+  it('hero-unit should be visible', () => {
+    cy.get('.hero-unit').should('be.visible');
+  })
+
+  it('hero-unit should have background image', () => {
+    cy.get('.hero-unit').should('have.css', 'background-image');
+  })
+
+  it('hero-unit should have background clip', () => {
+    cy.get('.hero-unit').should('have.css', 'background-clip');
+  })
+
+  it('should have grid', () => {
+    cy.get('.grid-2').should('be.visible');
+  })
+
+  it('should have grid-item', () => {
+    cy.get('.grid-2 > div').should('be.visible');
+  })
+
+  it('should have 2 links in hero-unit', () => {
+    cy.get('.hero-unit a').should('have.length', 2);
+  })
+
+  it( 'should have defined link in hero-unit', () => {
+    cy.get('.hero-unit a.btn').first().should('have.class', 'btn').and('have.attr', 'href', '#');
+  })
+
+  it('should have a filter', () => {
+    cy.get('[js-data-select]').should('be.visible');
+  })
+
+  it('select should have a default value', () => {
+    cy.get('[js-data-select]').should('have.value', 'all');
+  })
+
+  it('select should have a list of options', () => {
+    cy.get('[js-data-select] option').should('have.length', 4);
+  })
+
+  it('should have a list of cards', () => {
+    cy.get('[data-industry]').should('be.visible');
+  })
 
 it('displays 9 cards with titles', () => {
   cy.get('.card').should('have.length', 9)
@@ -68,4 +115,30 @@ it('filters cards by industry when minning is choosen', () => {
   cy.get('.card:nth-child(5)').not('have.class', 'hidden')
 
 })
+
+it('filters cards by industry when manufacturing is choosen', () => {
+  cy.get('.industry').select('manufacturing').should('have.value', 'manufacturing')
+  cy.get('.card:nth-child(1)').not('have.class', 'hidden')
+  cy.get('.card:nth-child(2)').should('have.class', 'hidden')
+  cy.get('.card:nth-child(3)').should('have.class', 'hidden')
+  cy.get('.card:nth-child(4)').not('have.class', 'hidden')
+  cy.get('.card:nth-child(5)').should('have.class', 'hidden')
+
+})
+
+it('filters cards by industry when aviation is choosen', () => {
+  cy.get('.industry').select('aviation').should('have.value', 'aviation')
+  cy.get('.card:nth-child(1)').should('have.class', 'hidden')
+  cy.get('.card:nth-child(2)').should('have.class', 'hidden')
+  cy.get('.card:nth-child(3)').not('have.class', 'hidden')
+  cy.get('.card:nth-child(4)').should('have.class', 'hidden')
+})
+
+it('filters cards by industry when all is choosen', () => {
+  cy.get('.industry').select('all').should('have.value', 'all')
+  cy.get('.card').should('not.have.class', 'hidden')
+
+})
+
+
 })
