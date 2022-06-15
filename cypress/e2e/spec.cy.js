@@ -59,5 +59,13 @@ it('displays 9 cards with data-industry attributes', () => {
 
 })
 
+it('filters cards by industry when minning is choosen', () => {
+  cy.get('.industry').select('mining').should('have.value', 'mining')
+  cy.get('.card:nth-child(1)').should('have.class', 'hidden')
+  cy.get('.card:nth-child(2)').not('have.class', 'hidden')
+  cy.get('.card:nth-child(3)').should('have.class', 'hidden')
+  cy.get('.card:nth-child(4)').should('have.class', 'hidden')
+  cy.get('.card:nth-child(5)').not('have.class', 'hidden')
 
+})
 })
