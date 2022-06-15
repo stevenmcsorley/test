@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll --no-cache --env=jsdom",
+    "test:coverage": "jest --coverage",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "build": "NODE_ENV=production webpack --config webpack.prod.js",
     "deploy": "npm run build && gh-pages -d dist"
@@ -21,6 +24,8 @@
     "cssnano": "^5.1.11",
     "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
     "mini-css-extract-plugin": "^2.6.0",
     "postcss": "^8.4.14",
     "postcss-loader": "^7.0.0",
