@@ -15,10 +15,15 @@
   color: $white;
 }
 
+.industry-section {
+  padding: $padding-base * 4;
+}
+.industry {
+  margin-bottom: $padding-base * 4;
+}
+
 .grid-3 {
   @include responsive-grid(1, 2, 3);
-
-  padding: $padding-base * 4;
 }
 
 .cta {
