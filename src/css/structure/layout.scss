@@ -9,15 +9,24 @@
 .hero-unit {
   @include hero-image("../images/ben-den-engelsen-UFwW97AP0LI-unsplash.jpg");
   color: $white;
+  padding: $padding-base * 4;
+
+  @media #{$medaia-breakpoint-mobile} {
+    padding: $padding-base;
+  }
+
   .grid-2 {
     @include responsive-grid(1, 2, 2);
-    padding-bottom: $padding-base * 2;
   }
 }
 
 .header {
   @include flex(row, flex-end, flex-end);
   padding-bottom: $padding-base * 4;
+
+  @media #{$medaia-breakpoint-mobile} {
+    padding: $padding-base;
+  }
 
   @media #{$medaia-breakpoint-mobile} {
     @include flex(column, center, center);

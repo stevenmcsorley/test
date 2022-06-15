@@ -18,14 +18,17 @@
 
   @media #{$media-breakpoint-xs} {
     grid-template-columns: repeat($cols-xs, 1fr);
+    grid-gap: $spacing-base;
   }
 
   @media #{$media-breakpoint-sm} {
     grid-template-columns: repeat($cols-sm, 1fr);
+    grid-gap: $spacing-base * 2;
   }
 
   @media #{$media-breakpoint-lg} {
     grid-template-columns: repeat($cols-lg, 1fr);
+    grid-gap: $spacing-base * 2;
   }
 }
 
