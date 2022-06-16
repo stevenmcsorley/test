@@ -21,6 +21,10 @@
 
   .grid-2 {
     @include responsive-grid(1, 2, 2);
+    @media #{$medaia-breakpoint-mobile} {
+      @include text-align(center);
+    }
+   
   }
 }
 
