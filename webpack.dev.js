@@ -3,7 +3,7 @@ const common = require("./webpack.common");
 const cyp = require("./webpack.cypress");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-module.exports = merge(common, cyp, {
+module.exports = merge(common,{
   mode: "development",
   devtool: "inline-source-map",
   devServer: {

@@ -79,6 +79,7 @@ module.exports = {
       inject: true,
       chunks: ["index"],
       filename: "index.html",
+      scriptLoading: 'defer'
     }),
     new ImageMinWebpWebpackPlugin({
       config: [
