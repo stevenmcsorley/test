@@ -1,11 +1,11 @@
 // Branding colors
-$solitude: #e9edf0;
-$black-russian: #171a2d;
-$ronchi: #e7b55c;
-$stormgrey: #727588;
-$pohutukawa: #640a0c;
-$bluezodiac: #434752;
-$white: #ffffff;
+$solitude: #e9edf0!default;
+$black-russian: #171a2d!default;
+$ronchi: #e7b55c!default;
+$stormgrey: #727588!default;
+$pohutukawa: #640a0c!default;
+$bluezodiac: #434752!default;
+$white: #ffffff!default;
 
 // Sizes
 $baseUnit: 1rem;
@@ -23,7 +23,12 @@ $line-height-base: 1.5;
 $letter-spacing-base: 0;
 
 // Font weights
-$font-weight-base: 400;
+$font-weight-bold: 700;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-medium: 500;
+
 
 // Text colors
 $text-color: $black-russian;

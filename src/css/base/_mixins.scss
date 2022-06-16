@@ -1,0 +1,194 @@
+// Elements
+
+@mixin container() {
+  @include max-width($container-width);
+  margin: 0 auto;
+}
+
+@mixin card() {
+  @include border-radius($border-radius-base);
+  @include flex(column, left, center);
+  @include box-shadow(rgba(0, 0, 0, 0.1), 0, 0, 10px);
+  @include padding($padding-base);
+  @include max-hw(100%, 100%);
+}
+
+// Typography
+@mixin body-text() {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  letter-spacing: $letter-spacing-base;
+  font-weight: $font-weight-regular;
+}
+
+@mixin h1() {
+  @include body-text();
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@mixin h2() {
+  @include body-text();
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@mixin h3() {
+  @include body-text();
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+@mixin h4() {
+  @include body-text();
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@mixin h5() {
+  @include body-text();
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+@mixin h6() {
+  @include body-text();
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@mixin text-color($text-color) {
+  color: $text-color;
+}
+
+@mixin text-align($text-align) {
+  text-align: $text-align;
+}
+  
+
+// Grid
+@mixin grid-item() {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+
+
+// backgrounds
+@mixin bg($background-color) {
+  background-color: $background-color;
+}
+
+@mixin bg-image($heroImage) {
+  background-image: url($heroImage);
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin bg-gradient($color1, $color2, $direction) {
+  background-image: linear-gradient(to #{$direction}, $color1, $color2);
+}
+
+@mixin bg-blend($mode) {
+  background-blend-mode: $mode;
+}
+
+
+// Flex utils
+
+@mixin flex($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin flex-basis($value) {
+  flex-basis: $value;
+}
+
+// padding
+@mixin padding($padding) {
+  padding: $padding;
+}
+
+//margin
+@mixin margin($margin) {
+  margin: $margin;
+}
+
+// border, radius, box-shadow
+@mixin border($border) {
+  border: $border;
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin box-shadow($color, $offset, $blur, $spread) {
+  box-shadow: $offset $blur $spread $color;
+}
+
+// widths heights
+
+@mixin max-width($maxWidth) {
+  max-width: $maxWidth;
+}
+
+@mixin max-height($maxHeight) {
+  max-height: $maxHeight;
+}
+
+@mixin min-width($minWidth) {
+  min-width: $minWidth;
+}
+
+@mixin max-hw($maxWidth, $maxHeight) {
+  max-width: $maxWidth;
+  max-height: $maxHeight;
+}
+
+@mixin min-height($minHeight) {
+  min-height: $minHeight;
+}
+
+@mixin width($width) {
+  width: $width;
+}
+
+@mixin height($height) {
+  height: $height;
+}
+
+//responsive utils
+
+@mixin responsive-grid($cols-xs, $cols-sm, $cols-lg) {
+  display: grid;
+  grid-gap: $spacing-base * 2;
+  grid-auto-rows: minmax($size-base, auto);
+
+  @media #{$media-breakpoint-xs} {
+    grid-template-columns: repeat($cols-xs, 1fr);
+    grid-gap: $spacing-base;
+  }
+
+  @media #{$media-breakpoint-sm} {
+    grid-template-columns: repeat($cols-sm, 1fr);
+    grid-gap: $spacing-base * 2;
+  }
+
+  @media #{$media-breakpoint-lg} {
+    grid-template-columns: repeat($cols-lg, 1fr);
+    grid-gap: $spacing-base * 2;
+  }
+}
+
+@mixin responsive-padding() {
+  padding: $padding-base * 4;
+
+  @media #{$medaia-breakpoint-mobile} {
+    padding: $padding-base * 4 $padding-base;
+  }
+}

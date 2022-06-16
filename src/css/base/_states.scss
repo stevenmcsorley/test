@@ -1,18 +1,19 @@
 @keyframes fadeOutFromOne {
-  0% {
+  from {
+    visibility: visible;
     opacity: 1;
   }
-
-  1% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0.2;
+  to {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
-.hidden {
+.hidden{
+  display: none !important;
+}
+
+.visualhidden {
   animation: fadeOutFromOne 0.5s ease-out;
   animation-fill-mode: forwards;
   @media #{$medaia-breakpoint-mobile} {

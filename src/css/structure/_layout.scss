@@ -1,0 +1,94 @@
+.theme-light {
+  @include bg($background-color-secondary);
+}
+
+.container {
+  @include container();
+}
+
+.header {
+  @include flex(row, flex-end, flex-end);
+  @include responsive-padding();
+  @media #{$medaia-breakpoint-mobile} {
+    @include flex(column, center, center);
+  }
+}
+
+.hero-unit {
+  @include bg-image("../images/ben-den-engelsen-UFwW97AP0LI-unsplash.jpg");
+  @include responsive-padding();
+  @include text-color($white);
+
+  .grid-2 {
+    @include responsive-grid(1, 2, 2);
+  }
+}
+
+.industry-section {
+  @include responsive-padding();
+}
+.industry {
+  margin-bottom: $padding-base * 2;
+}
+
+//civ-aviation-3-shutterstock_1189545343@2x
+
+.grid-3 {
+  @include responsive-grid(1, 2, 3);
+
+  [data-industry] {
+    @include bg-blend(overlay);
+    @include bg($bluezodiac);
+    @include text-color($white);
+    @include text-align(left);
+  }
+
+  [data-industry="manufacturing"] {
+    @include bg-image("../images/clayton-cardinalli-hkJNx0EDbjE-unsplash.jpg");
+  }
+
+  [data-industry="mining"] {
+    @include bg-image("../images/david-hellmann-fJHj17iXKTE-unsplash.jpg");
+  }
+
+  [data-industry="aviation"] {
+    @include bg-image(
+      "../images/civ-aviation-3-shutterstock_1189545343@2x.png"
+    );
+  }
+}
+
+.cta {
+  @include flex(column, center, center);
+  @include max-width(100%);
+  @include body-text();
+  @include responsive-padding();
+  @include bg($background-color-secondary);
+}
+
+.main-content {
+  @include max-width(100%);
+  @include body-text();
+  @include responsive-padding();
+}
+
+.video-wrapper {
+  @include responsive-padding();
+
+  video {
+    @include max-width(100%);
+    margin: 0px auto;
+    width: 100%;
+    display: block;
+    object-fit: fill;
+  }
+}
+
+.footer {
+  @include flex(column, center, center);
+  @include max-width(100%);
+  @include body-text();
+  @include responsive-padding();
+  @include bg($black-russian);
+  @include text-color($white);
+}
