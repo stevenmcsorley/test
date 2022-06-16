@@ -7,7 +7,7 @@
 
 @mixin card() {
   @include border-radius($border-radius-base);
-  @include flex(column, left, center);
+  @include flex(column, left, space-between);
   @include box-shadow(rgba(0, 0, 0, 0.1), 0, 0, 10px);
   @include padding($padding-base);
   @include max-hw(100%, 100%);

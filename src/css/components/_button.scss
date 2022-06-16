@@ -1,6 +1,6 @@
 .badge {
   display: inline-block;
-  padding: 0.25em 0.4em;
+  padding: 0.5rem 1.5em;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
@@ -8,8 +8,9 @@
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.25rem;
-  background-color: #000;
+  border-radius: $border-radius-base;
+  background-color: rgba($color: #640a0c, $alpha: 0.4);
+  border: 2px solid rgba($color: #640a0c, $alpha: 0.8);
 }
 
 .btn-primary {

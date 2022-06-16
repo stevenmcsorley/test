@@ -1,1 +1,37 @@
-!function(){"use strict";var e,t,d;e=document.querySelector("[js-data-select]"),t=document.querySelectorAll("[data-industry]"),d=function(){var d=e.value;t.forEach((function(e){e.dataset.industry===d||"all"===d?e.classList.remove("hidden","visualhidden"):(e.classList.add("visualhidden"),setTimeout((function(){e.classList.add("hidden")}),300))}))},e&&document.addEventListener("DOMContentLoaded",(function(){e.addEventListener("change",d,!1)}))}();
+/******/ (function() { // webpackBootstrap
+/******/ 	"use strict";
+var __webpack_exports__ = {};
+
+;// CONCATENATED MODULE: ./src/js/filter/filter.js
+var filter = function filter() {
+  var industrySelect = document.querySelector("[js-data-select]");
+  var cards = document.querySelectorAll("[data-industry]");
+  var delayInMilliseconds = 300;
+
+  var filterCards = function filterCards() {
+    var value = industrySelect.value;
+    cards.forEach(function (card) {
+      if (card.dataset.industry === value || value === "all") {
+        card.classList.remove("hidden", "visualhidden");
+      } else {
+        card.classList.add("visualhidden");
+        setTimeout(function () {
+          card.classList.add("hidden");
+        }, delayInMilliseconds);
+      }
+    });
+  };
+
+  if (industrySelect) {
+    document.addEventListener("DOMContentLoaded", function () {
+      industrySelect.addEventListener("change", filterCards, false);
+    });
+  }
+};
+;// CONCATENATED MODULE: ./src/js/index.js
+
+
+
+filter();
+/******/ })()
+;

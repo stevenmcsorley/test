@@ -9,3 +9,12 @@ select{
     border-radius: 5px;
     border: 1px solid;
 }
+
+a{
+  color: $white;
+  text-decoration: none;
+  transition: $transition-base;
+  &:hover{
+    color: $ronchi;
+  }
+}
