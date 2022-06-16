@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const ImageMinWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
+const WebpackAssetsManifest = require('webpack-assets-manifest');
 
 module.exports = {
   entry: {
@@ -89,6 +90,9 @@ module.exports = {
           }
       ],
       overrideExtension: true
+  }),
+  new WebpackAssetsManifest({
+    publicPath: true,
   })
   ],
   output: {
