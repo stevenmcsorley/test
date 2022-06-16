@@ -1,7 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
+const ImageMinWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -20,7 +21,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
         type: "asset/resource",
       },
     ],
@@ -29,24 +30,20 @@ module.exports = {
     minimizer: [
       new ImageMinimizerPlugin({
         minimizer: {
-          implementation: ImageMinimizerPlugin.squooshMinify,
+          implementation: ImageMinimizerPlugin.imageminMinify,
           options: {
-            encodeOptions: {
-              mozjpeg: {
-                // That setting might be close to lossless, but it’s not guaranteed
-                // https://github.com/GoogleChromeLabs/squoosh/issues/85
-                quality: 100,
-              },
-              webp: {
-                lossless: 1,
-              },
-              avif: {
-                // https://github.com/GoogleChromeLabs/squoosh/blob/dev/codecs/avif/enc/README.md
-                cqLevel: 0,
-              },
-            },
+            plugins: [['mozjpeg', { quality: 85 }]],
           },
         },
+        generator: [
+          {
+            preset: 'webp',
+            implementation: ImageMinimizerPlugin.imageminGenerate,
+            options: {
+              plugins: ['imagemin-webp'],
+            },
+          }
+        ]
       }),
     ],
     splitChunks: {
@@ -82,10 +79,23 @@ module.exports = {
       chunks: ["index"],
       filename: "index.html",
     }),
+    new ImageMinWebpWebpackPlugin({
+      config: [
+          {
+              test: /(images).*\.(jpe?g|png|webp)/,
+              options: {
+                  quality: 75
+              }
+          }
+      ],
+      overrideExtension: true
+  })
   ],
   output: {
-    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    assetModuleFilename: "src/assets/images/[name].[ext]",
+    filename: '[name].[hash:8].js',
+    sourceMapFilename: '[name].[hash:8].map',
+    chunkFilename: '[id].[hash:8].js',
+    assetModuleFilename: "src/assets/[name].[hash:8].[ext]",
   },
 };
