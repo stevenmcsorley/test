@@ -91,9 +91,7 @@ module.exports = {
       ],
       overrideExtension: true
   }),
-  new WebpackAssetsManifest({
-    publicPath: true,
-  })
+  new WebpackAssetsManifest({})
   ],
   output: {
     path: path.resolve(__dirname, "dist"),
