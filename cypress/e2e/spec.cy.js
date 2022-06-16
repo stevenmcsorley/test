@@ -27,17 +27,6 @@ describe("Test", () => {
     cy.get(".grid-2 > div").should("be.visible");
   });
 
-  it("should have 2 links in hero-unit", () => {
-    cy.get(".hero-unit a").should("have.length", 2);
-  });
-
-  it("should have defined link in hero-unit", () => {
-    cy.get(".hero-unit a.btn")
-      .first()
-      .should("have.class", "btn")
-      .and("have.attr", "href", "#");
-  });
-
   it("should have a filter", () => {
     cy.get("[js-data-select]").should("be.visible");
   });
