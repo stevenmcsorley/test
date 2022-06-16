@@ -2,3 +2,10 @@ body {
   @include body-text();
   background-color: $background-color-base;
 }
+
+select{
+  padding: 8px;
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid;
+}
