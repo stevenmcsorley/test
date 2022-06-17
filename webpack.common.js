@@ -99,6 +99,6 @@ module.exports = {
     filename: '[name].[hash:8].js',
     sourceMapFilename: '[name].[hash:8].map',
     chunkFilename: '[id].[hash:8].js',
-    assetModuleFilename: "src/assets/[name].[hash:8].[ext]",
+    assetModuleFilename: "src/assets/[name].[ext]",
   },
 };

@@ -19,4 +19,14 @@ describe("Filter Industry", () => {
     filter();
     expect(spyFunc).toHaveBeenCalled();
   });
+
+  test("should call query selector all", () => {
+    const spyFunc = jest.fn();
+    Object.defineProperty(global.document, "querySelectorAll", { value: spyFunc });
+    filter();
+    expect(spyFunc).toHaveBeenCalled();
+  }); 
+
+
+
 });
