@@ -65,15 +65,12 @@
 @mixin text-align($text-align) {
   text-align: $text-align;
 }
-  
 
 // Grid
 @mixin grid-item() {
   grid-column: span 1;
   grid-row: span 1;
 }
-
-
 
 // backgrounds
 @mixin bg($background-color) {
@@ -93,7 +90,6 @@
 @mixin bg-blend($mode) {
   background-blend-mode: $mode;
 }
-
 
 // Flex utils
 

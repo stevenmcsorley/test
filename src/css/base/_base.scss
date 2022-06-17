@@ -3,17 +3,17 @@ body {
   background-color: $background-color-base;
 }
 
-select{
+select {
   padding: 8px;
-    border-radius: 5px;
-    border: 1px solid;
+  border-radius: 5px;
+  border: 1px solid;
 }
 
-a{
+a {
   color: $white;
   text-decoration: none;
   transition: $transition-base;
-  &:hover{
+  &:hover {
     color: $ronchi;
   }
 }

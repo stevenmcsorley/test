@@ -24,7 +24,6 @@
     @media #{$medaia-breakpoint-mobile} {
       @include text-align(center);
     }
-   
   }
 }
 
@@ -56,9 +55,7 @@
   }
 
   [data-industry="aviation"] {
-    @include bg-image(
-      "../images/aviation.webp"
-    );
+    @include bg-image("../images/aviation.webp");
   }
 }
 
