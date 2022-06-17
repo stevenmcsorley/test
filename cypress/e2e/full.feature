@@ -3,6 +3,6 @@ Feature: Vist Page
 
   Scenario: Successfully view the Page
     Given I am on the home page
-    When I view the Page
+    When I view the page
     Then I should see the page
 
