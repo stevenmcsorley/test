@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655520436328" clover="3.2.0">
-  <project timestamp="1655520436328" name="All files">
+<coverage generated="1655520636181" clover="3.2.0">
+  <project timestamp="1655520636181" name="All files">
     <metrics statements="16" coveredstatements="9" conditionals="6" coveredconditionals="1" methods="5" coveredmethods="2" elements="27" coveredelements="12" complexity="0" loc="16" ncloc="16" packages="2" files="2" classes="2"/>
     <package name="js">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.js" path="C:\Users\steven.mcsorley\projects\test\src\js\index.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
       </file>
     </package>
     <package name="js.filter">
       <metrics statements="15" coveredstatements="8" conditionals="6" coveredconditionals="1" methods="5" coveredmethods="2"/>
       <file name="filter.js" path="C:\Users\steven.mcsorley\projects\test\src\js\filter\filter.js">
         <metrics statements="15" coveredstatements="8" conditionals="6" coveredconditionals="1" methods="5" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -25,9 +25,9 @@
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
       </file>
     </package>
   </project>

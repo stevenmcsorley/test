@@ -76,6 +76,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
+      favicon: "./src/asset/favicon.ico",
       template: "./src/index.html",
       inject: true,
       chunks: ["index"],
@@ -85,7 +86,7 @@ module.exports = {
     new ImageMinWebpWebpackPlugin({
       config: [
           {
-              test: /(images).*\.(jpe?g|png|webp)/,
+              test: /(images).*\.(jpe?g|png|webp|ico)/,
               options: {
                   quality: 75
               }
