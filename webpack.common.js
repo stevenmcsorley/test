@@ -76,7 +76,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      favicon: "./src/asset/favicon.ico",
+      favicon: "./src/favicon.ico",
       template: "./src/index.html",
       inject: true,
       chunks: ["index"],
