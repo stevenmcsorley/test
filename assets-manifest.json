@@ -1,9 +1,10 @@
 {
-  "index.css": "index.851209fb.css",
+  "index.css": "index.f8bc9c4f.css",
   "index.html": "index.html",
-  "index.js": "index.851209fb.js",
+  "index.js": "index.f8bc9c4f.js",
   "src/assets/aviation.webp": "src/assets/aviation..webp",
   "src/assets/forestroad.webp": "src/assets/forestroad..webp",
   "src/assets/manufactor.webp": "src/assets/manufactor..webp",
-  "src/assets/mining.webp": "src/assets/mining..webp"
+  "src/assets/mining.webp": "src/assets/mining..webp",
+  "vendor.css": "vendor.f8bc9c4f.css"
 }
