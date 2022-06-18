@@ -11,3 +11,5 @@ Then ("I should see only cards with the {string} attribute of {string}", (indust
     cy.get("div.industry-section > div > div.card").not('.visualhidden.hidden').should("have.length", 3);
 });
 
+
+

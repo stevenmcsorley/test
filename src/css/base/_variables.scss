@@ -31,12 +31,26 @@ $font-weight-medium: 500;
 
 // Text colors
 $text-color: $black-russian;
-$text-color-secondary: $white;
+$text-color-inverse: $white;
+$text-color-secondary: $solitude;
+$text-color-tertiary: $ronchi;
+$text-color-quaternary: $stormgrey;
+$text-color-quinary: $pohutukawa;
+$text-color-sextiary: $bluezodiac;
+$text-color-septiary: $solitude;
+$text-color-octiary: $ronchi;
 $text-color-disabled: $stormgrey;
 
 // Background colors
 $background-color-base: $white;
 $background-color-secondary: $solitude;
+$background-color-tertiary: $ronchi;
+$background-color-quaternary: $stormgrey;
+$background-color-quinary: $pohutukawa;
+$background-color-sextiary: $bluezodiac;
+
+$background-color-secondary: $solitude;
+$background-color-dark: $black-russian;
 $background-color-disabled: $stormgrey;
 
 // Border colors

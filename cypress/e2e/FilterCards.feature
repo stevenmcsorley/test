@@ -8,3 +8,7 @@ Feature: Filter Cards
         When I filter cards by "aviation"
         Then I should see only cards with the "data-industry" attribute of "aviation"
 
+        Given I have scrolled to the cards section
+        When I filter cards by "manufacturing"
+        Then I should see only cards with the "data-industry" attribute of "manufacturing"
+

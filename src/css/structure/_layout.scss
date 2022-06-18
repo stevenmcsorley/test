@@ -1,23 +1,18 @@
-.theme-light {
-  @include bg($background-color-secondary);
-}
-
 .container {
   @include container();
-}
-
-.header {
-  @include flex(row, flex-end, flex-end);
-  @include responsive-padding();
-  @media #{$medaia-breakpoint-mobile} {
-    @include flex(column, center, center);
-  }
 }
 
 .hero-unit {
   @include bg-image("../images/forestroad.webp");
   @include responsive-padding();
-  @include text-color($white);
+
+  .hero-header {
+    @include flex(row, flex-end, flex-end);
+    @include responsive-padding();
+    @media #{$medaia-breakpoint-mobile} {
+      @include flex(column, center, center);
+    }
+  }
 
   .grid-2 {
     @include responsive-grid(1, 2, 2);
@@ -27,69 +22,53 @@
   }
 }
 
-.industry-section {
+.grid-section {
   @include responsive-padding();
-}
-.industry {
-  margin-bottom: $padding-base * 2;
-}
-
-//civ-aviation-3-shutterstock_1189545343@2x
-
-.grid-3 {
-  @include responsive-grid(1, 2, 3);
-
-  [data-industry] {
-    @include bg-blend(overlay);
-    @include bg($bluezodiac);
-    @include text-color($white);
-    @include text-align(left);
+  select {
+    margin-bottom: $padding-base * 2;
   }
 
-  [data-industry="manufacturing"] {
-    @include bg-image("../images/manufactor.webp");
-  }
+  .grid-3 {
+    @include responsive-grid(1, 2, 3);
 
-  [data-industry="mining"] {
-    @include bg-image("../images/mining.webp");
-  }
+    [data-industry] {
+      @include bg-blend(overlay);
+      @include bg($background-color-sextiary);
+      @include text-align(left);
+    }
 
-  [data-industry="aviation"] {
-    @include bg-image("../images/aviation.webp");
+    [data-industry="manufacturing"] {
+      @include bg-image("../images/manufactor.webp");
+    }
+
+    [data-industry="mining"] {
+      @include bg-image("../images/mining.webp");
+    }
+
+    [data-industry="aviation"] {
+      @include bg-image("../images/aviation.webp");
+    }
   }
 }
 
-.cta {
+.cta-section {
   @include flex(column, center, center);
-  @include max-width(100%);
-  @include body-text();
-  @include responsive-padding();
-  @include bg($background-color-secondary);
+  @include section-default();
 }
 
-.main-content {
-  @include max-width(100%);
-  @include body-text();
-  @include responsive-padding();
+.main-section {
+  @include section-default();
 }
 
-.video-wrapper {
-  @include responsive-padding();
-  padding-top: 0;
+.video-section {
+  @include section-default();
   video {
-    @include max-width(100%);
     margin: 0px auto;
     width: 100%;
-    display: block;
-    object-fit: fill;
   }
 }
 
-.footer {
+.footer-section {
   @include flex(column, center, center);
-  @include max-width(100%);
-  @include body-text();
-  @include responsive-padding();
-  @include bg($black-russian);
-  @include text-color($white);
+  @include section-default();
 }

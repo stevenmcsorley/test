@@ -188,3 +188,12 @@
     padding: $padding-base * 4 $padding-base;
   }
 }
+
+
+// Common utils
+
+@mixin section-default() {
+  @include max-width(100%);
+  @include body-text();
+  @include responsive-padding();
+}
