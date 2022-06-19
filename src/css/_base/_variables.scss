@@ -90,6 +90,14 @@ $size-base: $baseUnit;
 
 // conainer width
 $container-width: 1200px;
+$container-max-width: $container-width;
+$container-min-width: $container-width;
+$container-width-sm: $container-width;
+$container-width-md: $container-width;
+$container-width-lg: $container-width;
+$container-width-xl: $container-width;
+$container-width-xxl: $container-width;
+$container-width-fluid: 100%;
 
 // Breakpoints
 $breakpoint-xs: 0;

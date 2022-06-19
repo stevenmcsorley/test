@@ -1,22 +1,29 @@
 .theme-light {
-    .hero-unit {
-      @include text-color($text-color-inverse);
-    }
-    .grid-section {
-      @include bg($background-color-secondary);
-      @include text-color($text-color-inverse);
-    }
-  
-    .cta-section {
-      @include bg($background-color-secondary);
-      @include text-color($text-color);
-    }
-    .main-section {
-      @include bg($background-color-base);
-      @include text-color($text-color);
-    }
-    .footer-section {
-      @include bg($background-color-dark);
+  .hero-unit {
+    @include text-color($text-color-inverse);
+  }
+  .grid-section {
+    @include bg($background-color-secondary);
+    @include text-color($text-color-inverse);
+  }
+
+  .cta-section {
+    @include bg($background-color-secondary);
+    @include text-color($text-color);
+  }
+  .main-section {
+    @include bg($background-color-base);
+    @include text-color($text-color);
+  }
+  .video-section {
+    @include bg($background-color-base);
+    @include text-color($text-color);
+  }
+  .footer-section {
+    @include bg($background-color-dark);
+    .title {
       @include text-color($text-color-octiary);
     }
+    @include text-color($text-color-inverse);
   }
+}

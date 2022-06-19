@@ -1,24 +1,29 @@
 .theme-dark {
-    @include bg(darken($background-color-dark, 20%));
-    .hero-unit {
-      @include text-color(darken($text-color-inverse, 20%));
-    }
-    .grid-section {
-      @include bg(darken($background-color-secondary, 70%));
-      @include text-color(darken($text-color-inverse, 20%));
-    }
-  
-    .cta-section {
-      @include bg(darken($background-color-secondary, 70%));
-      @include text-color(darken($text-color-inverse, 20%));
-    }
-    .main-section {
-      @include bg($background-color-dark);
-      @include text-color(darken($text-color-inverse, 20%));
-    }
-    .footer-section {
-      @include bg($background-color-dark);
+  @include bg(darken($background-color-dark, 20%));
+  .hero-unit {
+    @include text-color(darken($text-color-inverse, 20%));
+  }
+  .grid-section {
+    @include bg(darken($background-color-secondary, 70%));
+    @include text-color(darken($text-color-inverse, 20%));
+  }
+  .cta-section {
+    @include bg(darken($background-color-secondary, 70%));
+    @include text-color(darken($text-color-inverse, 20%));
+  }
+  .main-section {
+    @include bg($background-color-dark);
+    @include text-color(darken($text-color-inverse, 20%));
+  }
+  .video-section {
+    @include bg($background-color-dark);
+    @include text-color(darken($text-color-inverse, 20%));
+  }
+  .footer-section {
+    @include bg($background-color-dark);
+    .title {
       @include text-color(darken($text-color-octiary, 20%));
     }
+    @include text-color(darken($text-color-inverse, 20%));
   }
-  
+}

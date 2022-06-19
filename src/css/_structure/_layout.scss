@@ -8,7 +8,7 @@
 
   .hero-header {
     @include flex(row, flex-end, flex-end);
-    @include responsive-padding();
+    margin-bottom: $padding-base * 2;
     @media #{$medaia-breakpoint-mobile} {
       @include flex(column, center, center);
     }
@@ -54,6 +54,7 @@
 .cta-section {
   @include flex(column, center, center);
   @include section-default();
+  padding-top: 0;
 }
 
 .main-section {
@@ -69,6 +70,45 @@
 }
 
 .footer-section {
-  @include flex(column, center, center);
+  // @include flex(column, center, center);
   @include section-default();
+
+  .grid {
+    @include grid();
+
+    @media #{$medaia-breakpoint-mobile} {
+      @include grid(repeat(1, 1fr));
+    }
+
+    .grid-item-3 {
+      @include grid-item(3, 0);
+      @include text-align(left);
+      @media #{$medaia-breakpoint-mobile} {
+        @include grid-item(12, 0);
+      }
+    }
+
+    .grid-item-6 {
+      @include grid-item(6, 0);
+      @include text-align(left);
+
+      .flex {
+        @include flex(row, center, left);
+        flex-wrap: wrap;
+        .flex-item {
+          @include flex-item(1, 2, 0);
+          @include text-align(left);
+          margin-right: 16px;
+          @media #{$medaia-breakpoint-mobile} {
+            @include margin(16px, auto);
+          }
+        }
+        @media #{$medaia-breakpoint-mobile} {
+          .btn-primary {
+            @include margin(16px, auto);
+          }
+        }
+      }
+    }
+  }
 }

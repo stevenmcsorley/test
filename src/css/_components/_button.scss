@@ -17,7 +17,7 @@
   color: $white;
   background-color: $black-russian;
   text-decoration: none;
-  padding: $padding-base $padding-base * 2;
+  padding: calc($padding-base / 1.5) calc($padding-base * 2.5);
   border-radius: $border-radius-base * 2;
   transition: $transition-base;
 
