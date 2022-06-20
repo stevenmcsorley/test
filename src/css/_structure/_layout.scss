@@ -5,14 +5,14 @@
 .hero-unit {
   @include bg-image("../images/forestroad.webp");
   @include responsive-padding();
-
+  .title{
+    @include h1();
+  }
 
   .hero-header {
     @include flex(row, flex-end, flex-end);
     margin-bottom: $padding-base * 2;
-    .title{
-      @include h1();
-    }
+
     @media #{$media-breakpoint-mobile} {
       @include flex(column, center, center);
     }
