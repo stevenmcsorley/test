@@ -114,7 +114,7 @@
         }
         @media #{$media-breakpoint-mobile} {
           .btn-primary {
-            @include margin(16px, auto);
+            margin-left: 16px;
           }
         }
 

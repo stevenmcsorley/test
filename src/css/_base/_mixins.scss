@@ -299,6 +299,18 @@
   @media #{$media-breakpoint-mobile} {
     padding: $padding-base * 4 $padding-base;
   }
+
+  @media #{$media-breakpoint-sm} {
+    padding: $padding-base * 4 $padding-base;
+  }
+
+  @media #{$media-breakpoint-md} {
+    padding: $padding-base * 4 $padding-base;
+  }
+
+  @media #{$media-breakpoint-lg} {
+    padding: $padding-base * 4;
+  }
 }
 
 // Common utils
