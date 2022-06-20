@@ -20,7 +20,7 @@ Feature: Indusrty Structure
             | .grid-section > select          | font-size             | 16px                                                     |
             | .grid-section > .grid-3         | grid-gap              | 32px 32px                                                |
             | .grid-section > .grid-3         | grid-template-columns | 336px 336px 336px                                        |
-            | .grid-section > .grid-3 > .card | background-image      | url("http://localhost:8080/src/assets/manufactor..webp") |
+            | .grid-section > .grid-3 > .card | background-image      | url("http://localhost:8080/src/assets/manufactor.webp") |
             | .grid-section > .grid-3 > .card | background-color      | rgb(67, 71, 82)                                          |
             | .grid-section > .grid-3 > .card | background-size       | cover                                                    |
             | .grid-section > .grid-3 > .card | background-position   | 50% 50%                                                  |

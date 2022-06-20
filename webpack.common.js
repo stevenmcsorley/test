@@ -1,9 +1,9 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
+const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const ImageMinWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
-const WebpackAssetsManifest = require('webpack-assets-manifest');
+const WebpackAssetsManifest = require("webpack-assets-manifest");
 
 module.exports = {
   entry: {
@@ -25,6 +25,24 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
         type: "asset/resource",
       },
+      {
+        test: /\.(mov|mp4)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            attributes: {
+              list: [
+                {
+                  tag: "source",
+                  attribute: "src",
+                  type: "src",
+                },
+              ],
+            },
+            name: "src/assets/video/[name].[ext]",
+          },
+        },
+      },
     ],
   },
   optimization: {
@@ -33,18 +51,18 @@ module.exports = {
         minimizer: {
           implementation: ImageMinimizerPlugin.imageminMinify,
           options: {
-            plugins: [['mozjpeg', { quality: 85 }]],
+            plugins: [["mozjpeg", { quality: 85 }]],
           },
         },
         generator: [
           {
-            preset: 'webp',
+            preset: "webp",
             implementation: ImageMinimizerPlugin.imageminGenerate,
             options: {
-              plugins: ['imagemin-webp'],
+              plugins: ["imagemin-webp"],
             },
-          }
-        ]
+          },
+        ],
       }),
     ],
     splitChunks: {
@@ -81,26 +99,26 @@ module.exports = {
       inject: true,
       chunks: ["index"],
       filename: "index.html",
-      scriptLoading: 'defer'
+      scriptLoading: "defer",
     }),
     new ImageMinWebpWebpackPlugin({
       config: [
-          {
-              test: /(images).*\.(jpe?g|png|webp|ico)/,
-              options: {
-                  quality: 75
-              }
-          }
+        {
+          test: /(images).*\.(jpe?g|png|webp|ico)/,
+          options: {
+            quality: 75,
+          },
+        },
       ],
-      overrideExtension: true
-  }),
-  new WebpackAssetsManifest({})
+      overrideExtension: true,
+    }),
+    new WebpackAssetsManifest({}),
   ],
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: '[name].[hash:8].js',
-    sourceMapFilename: '[name].[hash:8].map',
-    chunkFilename: '[id].[hash:8].js',
-    assetModuleFilename: "src/assets/[name].[ext]",
+    filename: "[name].[hash:8].js",
+    sourceMapFilename: "[name].[hash:8].map",
+    chunkFilename: "[id].[hash:8].js",
+    assetModuleFilename: "src/assets/[name][ext]",
   },
 };
