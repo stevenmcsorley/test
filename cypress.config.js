@@ -10,7 +10,18 @@ module.exports = defineConfig({
     taskTimeout: 100000,
     specPattern : ['cypress/e2e/**/*.cy.js', 'cypress/e2e/**/*.feature'],
     setupNodeEvents(on, config) {
-
+      on('task', {
+        log(message) {
+          console.log(message)
+    
+          return null
+        },
+        table(message) {
+          console.table(message)
+    
+          return null
+        }
+      })
       const options = {
         // send in the options from your webpack.config.js, so it works the same
         // as your app's code

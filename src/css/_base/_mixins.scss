@@ -297,15 +297,15 @@
   padding: $padding-base * 4;
 
   @media #{$media-breakpoint-mobile} {
-    padding: $padding-base * 4 $padding-base;
+    padding: $padding-base * 4 $padding-base * 2;
   }
 
   @media #{$media-breakpoint-sm} {
-    padding: $padding-base * 4 $padding-base;
+    padding: $padding-base * 4 $padding-base * 2;
   }
 
   @media #{$media-breakpoint-md} {
-    padding: $padding-base * 4 $padding-base;
+    padding: $padding-base * 4 $padding-base * 2;
   }
 
   @media #{$media-breakpoint-lg} {

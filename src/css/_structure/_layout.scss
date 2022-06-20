@@ -5,7 +5,7 @@
 .hero-unit {
   @include bg-image("../images/forestroad.webp");
   @include responsive-padding();
-  .title{
+  .title {
     @include h1();
   }
 
@@ -59,14 +59,14 @@
   @include flex(column, center, center);
   @include section-default();
   padding-top: 0;
-  .title{
+  .title {
     @include h3();
   }
 }
 
 .main-section {
   @include section-default();
-  .title{
+  .title {
     @include h2();
   }
 }
@@ -82,10 +82,10 @@
 .footer-section {
   // @include flex(column, center, center);
   @include section-default();
-  .title{
+  .title {
     @include h5();
   }
-  .link{
+  .link {
     @include margin(16px, auto);
   }
 
@@ -120,6 +120,7 @@
 
         @media #{$media-breakpoint-mobile} {
           @include flex(column, center, left);
+          padding: 1rem;
         }
 
         @media #{$media-breakpoint-sm} {
@@ -129,7 +130,6 @@
         @media #{$media-breakpoint-md} {
           flex-wrap: no-wrap;
         }
-
 
         .flex-item {
           @include flex-item(1, 2, 0);
@@ -147,6 +147,13 @@
         @media #{$media-breakpoint-sm} {
           .btn-primary {
             @include margin(16px, auto);
+          }
+        }
+
+        .input-text {
+          @media #{$media-breakpoint-mobile} {
+            width: 100%;
+            margin: 0 0 1rem;
           }
         }
       }
