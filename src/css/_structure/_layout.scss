@@ -86,7 +86,7 @@
     @include h5();
   }
   .link {
-    @include margin(16px, auto);
+    @include margin(1rem, auto);
   }
 
   .grid {
@@ -136,17 +136,17 @@
           @include text-align(left);
           margin-right: $margin-base;
           @media #{$media-breakpoint-mobile} {
-            @include margin(16px, auto);
+            @include margin(1rem, auto);
           }
         }
         @media #{$media-breakpoint-mobile} {
           .btn-primary {
-            @include margin(16px, auto);
+            @include margin(1rem, auto);
           }
         }
         @media #{$media-breakpoint-sm} {
           .btn-primary {
-            @include margin(16px, auto);
+            @include margin(1rem, auto);
           }
         }
 
