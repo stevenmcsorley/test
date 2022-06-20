@@ -129,7 +129,7 @@
         .flex-item {
           @include flex-item(1, 2, 0);
           @include text-align(left);
-          margin-right: calc($margin-base / 2);
+          margin-right: $margin-base;
           @media #{$media-breakpoint-mobile} {
             @include margin(16px, auto);
           }
