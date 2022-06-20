@@ -119,13 +119,18 @@
         flex-wrap: no-wrap;
 
         @media #{$media-breakpoint-mobile} {
-          @include flex(column, center, center);
+          @include flex(column, center, left);
         }
 
-        @media #{$media-breakpoint-mobile} {
+        @media #{$media-breakpoint-sm} {
           flex-wrap: wrap;
-          @include margin(16px, auto);
         }
+
+        @media #{$media-breakpoint-md} {
+          flex-wrap: no-wrap;
+        }
+
+
         .flex-item {
           @include flex-item(1, 2, 0);
           @include text-align(left);
@@ -135,6 +140,11 @@
           }
         }
         @media #{$media-breakpoint-mobile} {
+          .btn-primary {
+            @include margin(16px, auto);
+          }
+        }
+        @media #{$media-breakpoint-sm} {
           .btn-primary {
             @include margin(16px, auto);
           }
