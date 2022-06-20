@@ -20,7 +20,7 @@
     @include text-color($text-color);
   }
   .footer-section {
-    @include bg($background-color-dark);
+    @include bg(black);
     .title {
       @include text-color($text-color-octiary);
     }

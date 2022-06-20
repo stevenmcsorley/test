@@ -9,7 +9,36 @@ select {
   border: 1px solid;
 }
 
-a {
+a{
+  color: $white;
+}
+
+// needed for accessabilty
+
+a:visited{
+  color: $white
+}
+a:link {
+  color: $white;
+}
+
+
+
+
+
+.sr-only{
+  border: 0;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; 
+}
+
+.link {
   color: $white;
   text-decoration: none;
   transition: $transition-base;

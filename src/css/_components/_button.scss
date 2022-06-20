@@ -23,12 +23,12 @@
 
   &:hover {
     color: $white;
-    background-color: lighten($black-russian, 10%);
+    background-color: lighten($black-russian, 5%);
     text-decoration: none;
   }
 
   &--outline {
-    background-color: transparent;
+    background-color: rgba(0,0,0,0);
     border: $border-width-base solid $white;
 
     &:hover {

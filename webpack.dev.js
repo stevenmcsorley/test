@@ -8,6 +8,12 @@ module.exports = merge(common,{
   devtool: "inline-source-map",
   devServer: {
     // contentBase deprecated in latest webpack v5
+    client: {
+      overlay: {
+        errors: true,
+        warnings: false,
+      },
+    },
     static: "dist",
     watchFiles: ["src/**/**/*"],
   },
