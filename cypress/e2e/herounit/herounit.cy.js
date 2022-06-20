@@ -28,9 +28,9 @@ describe("Hero Unit", () => {
     cy.visit("/");
   });
   When("I view the {string}", () => {
-    cy.get(".hero-unit > .header").should("be.visible");
+    cy.get(".hero-header").should("be.visible");
   });
   Then("I should see the {string} {string}", () => {
-    cy.get(".hero-unit >.header > a.btn-primary--outline").should("be.visible");
+    cy.get(".hero-header > a.btn-primary--outline").should("be.visible");
   });
 });

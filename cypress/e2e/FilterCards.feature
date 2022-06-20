@@ -7,8 +7,8 @@ Feature: Filter Cards
         Given I have scrolled to the cards section
         When I filter cards by "aviation"
         Then I should see only cards with the "data-industry" attribute of "aviation"
-
-        Given I have scrolled to the cards section
-        When I filter cards by "manufacturing"
+        When I then filter cards by "manufacturing"
         Then I should see only cards with the "data-industry" attribute of "manufacturing"
+        When I then filter cards again by "mining"
+        Then I should see only cards with the "data-industry" attribute of "mining"
 
