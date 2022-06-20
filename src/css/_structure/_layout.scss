@@ -99,6 +99,11 @@
           flex-wrap: wrap;
           @include margin(16px, auto);
         }
+
+        @media #{$media-breakpoint-sm} {
+          flex-wrap: wrap;
+          @include margin(16px, auto);
+        }
         .flex-item {
           @include flex-item(1, 2, 0);
           @include text-align(left);
@@ -108,6 +113,12 @@
           }
         }
         @media #{$media-breakpoint-mobile} {
+          .btn-primary {
+            @include margin(16px, auto);
+          }
+        }
+
+        @media #{$media-breakpoint-sm} {
           .btn-primary {
             @include margin(16px, auto);
           }
