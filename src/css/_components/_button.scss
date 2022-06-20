@@ -14,12 +14,11 @@
 }
 
 .btn-primary {
-  color: $white;
+  color: $white!important;
   background-color: $black-russian;
   text-decoration: none;
   padding: calc($padding-base / 1.3) calc($padding-base * 2.5);
   border-radius: $border-radius-base * 2;
-  transition: $transition-base;
 
   &:hover {
     color: $white;
@@ -28,7 +27,7 @@
   }
 
   &--outline {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border: $border-width-base solid $white;
 
     &:hover {

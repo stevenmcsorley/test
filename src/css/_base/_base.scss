@@ -9,24 +9,22 @@ select {
   border: 1px solid;
 }
 
-a{
-  color: $white;
+// needed to pass accessability checks
+a,
+a:link,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
-// needed for accessabilty
-
-a:visited{
-  color: $white
-}
-a:link {
-  color: $white;
+a:hover {
+  color: $ronchi;
 }
 
-
-
-
-
-.sr-only{
+.sr-only {
   border: 0;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
@@ -35,14 +33,5 @@ a:link {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px; 
-}
-
-.link {
-  color: $white;
-  text-decoration: none;
-  transition: $transition-base;
-  &:hover {
-    color: $ronchi;
-  }
+  width: 1px;
 }
