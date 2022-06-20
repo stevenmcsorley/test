@@ -83,7 +83,10 @@
   // @include flex(column, center, center);
   @include section-default();
   .title{
-    @include h4();
+    @include h5();
+  }
+  .link{
+    @include margin(16px, auto);
   }
 
   .grid {
@@ -98,6 +101,12 @@
       @include text-align(left);
       @media #{$media-breakpoint-mobile} {
         @include grid-item(12, 0);
+      }
+      .flex {
+        @include flex(column, flex-start, left);
+        .flex-item {
+          @include margin(calc($margin-base / 2), 0);
+        }
       }
     }
 
