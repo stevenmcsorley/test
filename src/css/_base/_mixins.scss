@@ -296,7 +296,7 @@
 @mixin responsive-padding() {
   padding: $padding-base * 4;
 
-  @media #{$medaia-breakpoint-mobile} {
+  @media #{$media-breakpoint-mobile} {
     padding: $padding-base * 4 $padding-base;
   }
 }

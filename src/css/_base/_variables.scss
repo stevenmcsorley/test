@@ -107,7 +107,7 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 // Media queries
-$medaia-breakpoint-mobile: "only screen and (max-width: #{$breakpoint-sm}) and (min-width: #{$breakpoint-xs})";
+$media-breakpoint-mobile: "only screen and (max-width: #{$breakpoint-sm}) and (min-width: #{$breakpoint-xs})";
 $media-breakpoint-xs: "(min-width: #{$breakpoint-xs})";
 $media-breakpoint-sm: "(min-width: #{$breakpoint-sm})";
 $media-breakpoint-md: "(min-width: #{$breakpoint-md})";

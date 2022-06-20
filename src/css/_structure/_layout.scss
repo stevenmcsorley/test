@@ -9,14 +9,14 @@
   .hero-header {
     @include flex(row, flex-end, flex-end);
     margin-bottom: $padding-base * 2;
-    @media #{$medaia-breakpoint-mobile} {
+    @media #{$media-breakpoint-mobile} {
       @include flex(column, center, center);
     }
   }
 
   .grid-2 {
     @include responsive-grid(1, 2, 2);
-    @media #{$medaia-breakpoint-mobile} {
+    @media #{$media-breakpoint-mobile} {
       @include text-align(center);
     }
   }
@@ -76,14 +76,14 @@
   .grid {
     @include grid();
 
-    @media #{$medaia-breakpoint-mobile} {
+    @media #{$media-breakpoint-mobile} {
       @include grid(repeat(1, 1fr));
     }
 
     .grid-item-3 {
       @include grid-item(3, 0);
       @include text-align(left);
-      @media #{$medaia-breakpoint-mobile} {
+      @media #{$media-breakpoint-mobile} {
         @include grid-item(12, 0);
       }
     }
@@ -94,16 +94,20 @@
 
       .flex {
         @include flex(row, center, left);
-        flex-wrap: wrap;
+        flex-wrap: no-wrap;
+        @media #{$media-breakpoint-mobile} {
+          flex-wrap: wrap;
+          @include margin(16px, auto);
+        }
         .flex-item {
           @include flex-item(1, 2, 0);
           @include text-align(left);
           margin-right: 16px;
-          @media #{$medaia-breakpoint-mobile} {
+          @media #{$media-breakpoint-mobile} {
             @include margin(16px, auto);
           }
         }
-        @media #{$medaia-breakpoint-mobile} {
+        @media #{$media-breakpoint-mobile} {
           .btn-primary {
             @include margin(16px, auto);
           }
