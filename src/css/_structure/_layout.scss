@@ -6,9 +6,13 @@
   @include bg-image("../images/forestroad.webp");
   @include responsive-padding();
 
+
   .hero-header {
     @include flex(row, flex-end, flex-end);
     margin-bottom: $padding-base * 2;
+    .title{
+      @include h1();
+    }
     @media #{$media-breakpoint-mobile} {
       @include flex(column, center, center);
     }
@@ -55,10 +59,16 @@
   @include flex(column, center, center);
   @include section-default();
   padding-top: 0;
+  .title{
+    @include h3();
+  }
 }
 
 .main-section {
   @include section-default();
+  .title{
+    @include h2();
+  }
 }
 
 .video-section {
@@ -72,6 +82,9 @@
 .footer-section {
   // @include flex(column, center, center);
   @include section-default();
+  .title{
+    @include h4();
+  }
 
   .grid {
     @include grid();

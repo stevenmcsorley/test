@@ -2,7 +2,8 @@
   .card-header {
     padding-top: 20%;
   }
-  h2 {
+ .title{
+    @include h4();
     padding: 16px 0;
     margin: 0;
   }
