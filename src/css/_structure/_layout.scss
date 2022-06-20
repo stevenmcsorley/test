@@ -95,12 +95,12 @@
       .flex {
         @include flex(row, center, left);
         flex-wrap: no-wrap;
+
         @media #{$media-breakpoint-mobile} {
-          flex-wrap: wrap;
-          @include margin(16px, auto);
+          @include flex(column, center, center);
         }
 
-        @media #{$media-breakpoint-sm} {
+        @media #{$media-breakpoint-mobile} {
           flex-wrap: wrap;
           @include margin(16px, auto);
         }
@@ -113,12 +113,6 @@
           }
         }
         @media #{$media-breakpoint-mobile} {
-          .btn-primary {
-            margin-left: 16px;
-          }
-        }
-
-        @media #{$media-breakpoint-sm} {
           .btn-primary {
             @include margin(16px, auto);
           }
