@@ -36,14 +36,14 @@ export const scroll = () => {
   let winY = window.innerHeight || document.documentElement.clientHeight;
 
   /// query selector all to an array of elements
-  const cards = Array.from(document.querySelectorAll("[data-industry]"));
+  const sections = Array.from(document.querySelectorAll(".js-view"));
 
   const toRemove = ["visualhidden", "animate__animated", "animate__fadeIn"];
   const industrySelect = document.querySelector("[js-data-select]");
   if (industrySelect) {
     industrySelect.addEventListener("click", () => {
-      /// remove class hidden from all cards
-      cards.forEach((card) => {
+      /// remove class hidden from all sections
+      sections.forEach((card) => {
         card.classList.remove(...toRemove);
       });
     });
@@ -77,13 +77,13 @@ export const scroll = () => {
   document.addEventListener(
     "DOMContentLoaded",
     () => {
-      hideElementsNotInView(cards, ["visualhidden"]);
+      hideElementsNotInView(sections, ["visualhidden"]);
     },
     false
   );
 
   // add class to a div when in viewport on scroll
   document.addEventListener("scroll", function (e) {
-    addClassToArrayElements(cards, ["animate__animated", "animate__fadeIn"]);
+    addClassToArrayElements(sections, ["animate__animated", "animate__fadeIn"]);
   });
 };

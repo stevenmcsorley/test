@@ -13,33 +13,6 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body class="theme-light">
-    <!-- <div class="scroll-progress" style="position:fixed;bottom: 0;background: rgba(0,0,0,0.5);z-index: 98;">
-      <p class="scroll-progress-info" style="z-index: 99; position: relative;top:0;margin: 0;padding: 0; color:white;">
-      </p>
-      <script type="text/javascript">
-        var scrollProgress = document.querySelector('.scroll-progress');
-        var scrollProgressBar = document.querySelector('.scroll-progress-info');
-        let lastKnownScrollPosition = 0;
-  let winY = 0;
-
-  document.addEventListener("scroll", function (e) {
-    lastKnownScrollPosition = window.scrollY;
-    const scrollP = document.querySelector(".scroll-progress");
-    winY = window.innerHeight || document.documentElement.clientHeight;
-    let docY = document.documentElement.offsetHeight;
-    let scrollY = window.scrollY || window.pageYOffset;
-    let scrollPercent = scrollY / (docY - winY);
-    let scrollPercentRounded = Math.round(scrollPercent * 100);
-    let scrollPercentRoundedInt = parseInt(scrollPercentRounded);
-    console.log(scrollPercentRounded);
-
-    scrollP.style.width = `${scrollPercentRoundedInt}%`;
-    scrollProgressBar.innerHTML = `Read ${scrollPercentRoundedInt}%`;
-    scrollProgressBar.style.left = `${scrollPercentRoundedInt -8}%`;
-  });
-      </script>
-
-    </div> -->
     <div class="container" role="main">
 
       <div class="hero-unit">
@@ -71,7 +44,7 @@
           </select>
         
         <div class="grid-3">
-          <div class="card" data-industry="manufacturing">
+          <div class="card js-view" data-industry="manufacturing">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -85,7 +58,7 @@
               <a class="link" href="#">Talk to us about this </a>
             </p>
           </div>
-          <div class="card" data-industry="mining">
+          <div class="card js-view" data-industry="mining">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -99,7 +72,7 @@
               <a class="link" href="#">Talk to us about this </a>
             </p>
           </div>
-          <div class="card" data-industry="aviation">
+          <div class="card js-view" data-industry="aviation">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -113,7 +86,7 @@
               <a class="link" href="#">Talk to us about this </a>
             </p>
           </div>
-          <div class="card" data-industry="manufacturing">
+          <div class="card js-view" data-industry="manufacturing">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -127,7 +100,7 @@
               <a class="link" href="#">Talk to us about this </a>
             </p>
           </div>
-          <div class="card" data-industry="mining">
+          <div class="card js-view" data-industry="mining">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -141,7 +114,7 @@
               <a class="link" href="#">Talk to us about this </a>
             </p>
           </div>
-          <div class="card" data-industry="aviation">
+          <div class="card js-view" data-industry="aviation">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -155,7 +128,7 @@
               <a class="link" href="#">Talk to us about this </a>
             </p>
           </div>
-          <div class="card" data-industry="manufacturing">
+          <div class="card js-view" data-industry="manufacturing">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -169,7 +142,7 @@
               <a class="link" href="#">Talk to us about this </a>
             </p>
           </div>
-          <div class="card" data-industry="mining">
+          <div class="card js-view" data-industry="mining">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -183,7 +156,7 @@
               <a class="link" href="#">Talk to us about this </a>
             </p>
           </div>
-          <div class="card" data-industry="aviation">
+          <div class="card js-view" data-industry="aviation">
             <div class="card-header">
               <span class="badge">hot</span>
             </div>
@@ -199,12 +172,12 @@
           </div>
         </div>
       </div>
-      <div class="cta-section">
+      <div class="cta-section js-view">
         <p class="title">Cant find what youre looking for? Let us help.</p>
         <a class="btn-primary" href="#">Book a meeting</a>
       </div>
 
-      <div class="main-section">
+      <div class="main-section js-view">
         <h3 class="title">Content title</h3>
         <p>
           Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
@@ -217,7 +190,7 @@
         </p>
       </div>
 
-      <div class="video-section">
+      <div class="video-section js-view">
         <video controls>
           <source
             src="src/assets/video/SatelliteDishHdr.mp4"
@@ -226,7 +199,7 @@
           Your browser does not support the video tag.
         </video>
       </div>
-      <div class="footer-section">
+      <div class="footer-section js-view">
         <div class="grid">
           <div class="grid-item-3">
             <h4 class="title">Company</h4>
