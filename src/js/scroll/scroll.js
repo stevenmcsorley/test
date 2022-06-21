@@ -37,7 +37,7 @@ export const scroll = () => {
     }
   };
 
-  motionQuery.addEventListener("DOMContentLoaded", handleReduceMotionChanged);
+  motionQuery.addEventListener("change", handleReduceMotionChanged);
   handleReduceMotionChanged();
 
   function debounce(fn, ms) {
