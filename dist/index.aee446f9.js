@@ -491,7 +491,7 @@ var filter = function filter() {
 ;// CONCATENATED MODULE: ./src/js/scroll/scroll.js
 function cov_2061ajg3s6() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\scroll\\scroll.js";
-  var hash = "f03e2b44dd69a9fc46da45ce19359b4e1c538b19";
+  var hash = "447dd4d7b78c3f2a7c7574395c75599e1fd05011";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -700,11 +700,11 @@ function cov_2061ajg3s6() {
       "20": {
         start: {
           line: 39,
-          column: 16
+          column: 19
         },
         end: {
           line: 39,
-          column: 72
+          column: 68
         }
       },
       "21": {
@@ -884,7 +884,7 @@ function cov_2061ajg3s6() {
         },
         end: {
           line: 80,
-          column: 53
+          column: 56
         }
       },
       "39": {
@@ -904,7 +904,7 @@ function cov_2061ajg3s6() {
         },
         end: {
           line: 87,
-          column: 77
+          column: 80
         }
       }
     },
@@ -1106,17 +1106,17 @@ function cov_2061ajg3s6() {
         decl: {
           start: {
             line: 46,
-            column: 20
+            column: 23
           },
           end: {
             line: 46,
-            column: 21
+            column: 24
           }
         },
         loc: {
           start: {
             line: 46,
-            column: 30
+            column: 33
           },
           end: {
             line: 48,
@@ -1539,7 +1539,7 @@ function cov_2061ajg3s6() {
       "5": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "f03e2b44dd69a9fc46da45ce19359b4e1c538b19"
+    hash: "447dd4d7b78c3f2a7c7574395c75599e1fd05011"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -1629,7 +1629,7 @@ var scroll_scroll = function scroll() {
 
   var winY = (cov_2061ajg3s6().s[19]++, (cov_2061ajg3s6().b[1][0]++, window.innerHeight) || (cov_2061ajg3s6().b[1][1]++, document.documentElement.clientHeight)); /// query selector all to an array of elements
 
-  var cards = (cov_2061ajg3s6().s[20]++, Array.from(document.querySelectorAll("[data-industry]")));
+  var sections = (cov_2061ajg3s6().s[20]++, Array.from(document.querySelectorAll(".js-view")));
   var toRemove = (cov_2061ajg3s6().s[21]++, ["visualhidden", "animate__animated", "animate__fadeIn"]);
   var industrySelect = (cov_2061ajg3s6().s[22]++, document.querySelector("[js-data-select]"));
   cov_2061ajg3s6().s[23]++;
@@ -1640,8 +1640,8 @@ var scroll_scroll = function scroll() {
     industrySelect.addEventListener("click", function () {
       cov_2061ajg3s6().f[7]++;
       cov_2061ajg3s6().s[25]++;
-      /// remove class hidden from all cards
-      cards.forEach(function (card) {
+      /// remove class hidden from all sections
+      sections.forEach(function (card) {
         var _card$classList;
 
         cov_2061ajg3s6().f[8]++;
@@ -1710,14 +1710,14 @@ var scroll_scroll = function scroll() {
   document.addEventListener("DOMContentLoaded", function () {
     cov_2061ajg3s6().f[13]++;
     cov_2061ajg3s6().s[38]++;
-    hideElementsNotInView(cards, ["visualhidden"]);
+    hideElementsNotInView(sections, ["visualhidden"]);
   }, false); // add class to a div when in viewport on scroll
 
   cov_2061ajg3s6().s[39]++;
   document.addEventListener("scroll", function (e) {
     cov_2061ajg3s6().f[14]++;
     cov_2061ajg3s6().s[40]++;
-    addClassToArrayElements(cards, ["animate__animated", "animate__fadeIn"]);
+    addClassToArrayElements(sections, ["animate__animated", "animate__fadeIn"]);
   });
 };
 ;// CONCATENATED MODULE: ./src/js/index.js

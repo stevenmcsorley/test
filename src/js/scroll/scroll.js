@@ -2,6 +2,44 @@
 // JUST IDEAS
 
 export const scroll = () => {
+
+  // Global
+  let winY = window.innerHeight || document.documentElement.clientHeight;
+
+  /// query selector all to an array of elements
+  const sections = Array.from(document.querySelectorAll(".js-view"));
+
+  let motionQuery = window.matchMedia("(prefers-reduced-motion)");
+
+  const handleReduceMotionChanged = () => {
+    if (!motionQuery.matches) {
+      //not reduced behaviour;
+      /// add class to a div when in viewport on dom load
+      document.addEventListener(
+        "DOMContentLoaded",
+        () => {
+          hideElementsNotInView(sections, ["visualhidden"]);
+        },
+        false
+      );
+
+      // add class to a div when in viewport on scroll
+      document.addEventListener("scroll", function (e) {
+        addClassToArrayElements(sections, [
+          "animate__animated",
+          "animate__fadeIn",
+        ]);
+      });
+    } else {
+      console.log("reduced motion", motionQuery);
+      document.removeEventListener("scroll", addClassToArrayElements);
+      document.removeEventListener("DOMContentLoaded", hideElementsNotInView);
+    }
+  };
+
+  motionQuery.addEventListener("DOMContentLoaded", handleReduceMotionChanged);
+  handleReduceMotionChanged();
+
   function debounce(fn, ms) {
     // https://remysharp.com/2010/07/21/throttling-function-calls
     var time = null;
@@ -30,13 +68,6 @@ export const scroll = () => {
       now >= last + ms ? exe() : (time = setTimeout(exe, ms));
     };
   }
-  const scrollP = document.querySelector(".scroll-progress");
-
-  // Global
-  let winY = window.innerHeight || document.documentElement.clientHeight;
-
-  /// query selector all to an array of elements
-  const sections = Array.from(document.querySelectorAll(".js-view"));
 
   const toRemove = ["visualhidden", "animate__animated", "animate__fadeIn"];
   const industrySelect = document.querySelector("[js-data-select]");
@@ -72,18 +103,4 @@ export const scroll = () => {
       }
     });
   };
-
-  /// add class to a div when in viewport on dom load
-  document.addEventListener(
-    "DOMContentLoaded",
-    () => {
-      hideElementsNotInView(sections, ["visualhidden"]);
-    },
-    false
-  );
-
-  // add class to a div when in viewport on scroll
-  document.addEventListener("scroll", function (e) {
-    addClassToArrayElements(sections, ["animate__animated", "animate__fadeIn"]);
-  });
 };
