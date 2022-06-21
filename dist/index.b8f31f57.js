@@ -491,7 +491,7 @@ var filter = function filter() {
 ;// CONCATENATED MODULE: ./src/js/index.js
 function cov_9erk2grnj() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\index.js";
-  var hash = "2dd751e0a1c69d8945caa020a2e810adda956d59";
+  var hash = "6e7e8820f780ab400a4240d8ff8de3b0ecce8bb2";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -499,11 +499,11 @@ function cov_9erk2grnj() {
     statementMap: {
       "0": {
         start: {
-          line: 7,
+          line: 8,
           column: 0
         },
         end: {
-          line: 7,
+          line: 8,
           column: 9
         }
       }
@@ -516,7 +516,7 @@ function cov_9erk2grnj() {
     f: {},
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "2dd751e0a1c69d8945caa020a2e810adda956d59"
+    hash: "6e7e8820f780ab400a4240d8ff8de3b0ecce8bb2"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -535,6 +535,7 @@ function cov_9erk2grnj() {
 }
 
 cov_9erk2grnj();
+
 
 
 

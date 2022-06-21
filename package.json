@@ -31,6 +31,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
     "cssnano": "^5.1.11",
     "cypress": "^10.1.0",
     "cypress-axe": "^1.0.0",
@@ -63,6 +64,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "cucumber": "^6.0.7",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "normalize.css": "^8.0.1",
