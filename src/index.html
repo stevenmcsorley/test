@@ -13,7 +13,32 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body class="theme-light">
-    <!-- <div class="scroll-progress" style="position:fixed;background: rgba(0,0,0,0.5);height: 20px;z-index: 9999;">
+    <!-- <div class="scroll-progress" style="position:fixed;bottom: 0;background: rgba(0,0,0,0.5);z-index: 98;">
+      <p class="scroll-progress-info" style="z-index: 99; position: relative;top:0;margin: 0;padding: 0; color:white;">
+      </p>
+      <script type="text/javascript">
+        var scrollProgress = document.querySelector('.scroll-progress');
+        var scrollProgressBar = document.querySelector('.scroll-progress-info');
+        let lastKnownScrollPosition = 0;
+  let winY = 0;
+
+  document.addEventListener("scroll", function (e) {
+    lastKnownScrollPosition = window.scrollY;
+    const scrollP = document.querySelector(".scroll-progress");
+    winY = window.innerHeight || document.documentElement.clientHeight;
+    let docY = document.documentElement.offsetHeight;
+    let scrollY = window.scrollY || window.pageYOffset;
+    let scrollPercent = scrollY / (docY - winY);
+    let scrollPercentRounded = Math.round(scrollPercent * 100);
+    let scrollPercentRoundedInt = parseInt(scrollPercentRounded);
+    console.log(scrollPercentRounded);
+
+    scrollP.style.width = `${scrollPercentRoundedInt}%`;
+    scrollProgressBar.innerHTML = `Read ${scrollPercentRoundedInt}%`;
+    scrollProgressBar.style.left = `${scrollPercentRoundedInt -8}%`;
+  });
+      </script>
+
     </div> -->
     <div class="container" role="main">
 

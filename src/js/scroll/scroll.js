@@ -118,7 +118,6 @@ export const scroll = () => {
     "visualhidden",
     "animate__animated",
     "animate__fadeIn",
-    "animate__delay-0.2s",
   ];
   const industrySelect = document.querySelector("[js-data-select]");
   if (industrySelect) {
@@ -176,7 +175,6 @@ export const scroll = () => {
         let animClass = [
           "animate__animated",
           "animate__fadeIn",
-          "animate__delay-1s",
         ];
         card.classList.add(...animClass);
       }
@@ -201,7 +199,7 @@ export const scroll = () => {
 
   document.addEventListener("scroll", function (e) {
     lastKnownScrollPosition = window.scrollY;
-    const scrollP = document.querySelector(".scroll-progress");
+    // const scrollP = document.querySelector(".scroll-progress");
     winY = window.innerHeight || document.documentElement.clientHeight;
     let docY = document.documentElement.offsetHeight;
     let scrollY = window.scrollY || window.pageYOffset;
@@ -210,6 +208,6 @@ export const scroll = () => {
     let scrollPercentRoundedInt = parseInt(scrollPercentRounded);
     console.log(scrollPercentRounded);
 
-    scrollP.style.width = `${scrollPercentRoundedInt}%`;
+    // scrollP.style.width = `${scrollPercentRoundedInt}%`;
   });
 };
