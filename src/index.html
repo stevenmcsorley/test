@@ -3,8 +3,34 @@
   <head>
     <title>My homepage</title>
     <meta charset="UTF-8" />
-    <!-- <meta http-equiv="cache-control" content="public" />
-    <meta http-equiv="pragma" content="no-cache" /> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RZXFMM8ZRL"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-RZXFMM8ZRL");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TNBLD29");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Put your description here." />
@@ -13,17 +39,32 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body class="theme-light">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TNBLD29"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="container" role="main">
-
       <div class="hero-unit">
-        <div class="hero-header animate__animated animate__fadeInDown animate__delay-2s">
+        <div
+          class="hero-header animate__animated animate__fadeInDown animate__delay-2s"
+        >
           <a href="index.html" class="btn-primary btn-primary--outline">
             Book a meeting
           </a>
         </div>
         <div class="grid-2">
           <div>
-            <h1 class="title animate__animated animate__fadeIn animate__delay-0.8s">Explore our sectors</h1>
+            <h1
+              class="title animate__animated animate__fadeIn animate__delay-0.8s"
+            >
+              Explore our sectors
+            </h1>
             <p class="animate__animated animate__fadeInUp animate__delay-1s">
               Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
               tellus ac cursus commodo, tortor mauris condimentum nibh, ut
@@ -33,16 +74,14 @@
         </div>
       </div>
       <div class="grid-section">
-        <label for="industry" class="sr-only">
-          Filter by industry
-        </label>
-          <select id="industry" class="industry select" js-data-select>
-            <option value="all">Show all</option>
-            <option value="manufacturing">Manufacturing</option>
-            <option value="mining">Mining</option>
-            <option value="aviation">Aviation</option>
-          </select>
-        
+        <label for="industry" class="sr-only"> Filter by industry </label>
+        <select id="industry" class="industry select" js-data-select>
+          <option value="all">Show all</option>
+          <option value="manufacturing">Manufacturing</option>
+          <option value="mining">Mining</option>
+          <option value="aviation">Aviation</option>
+        </select>
+
         <div class="grid-3">
           <div class="card js-view" data-industry="manufacturing">
             <div class="card-header">
