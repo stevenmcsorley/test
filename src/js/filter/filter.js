@@ -1,4 +1,5 @@
 export const filter = () => {
+
   const industrySelect = document.querySelector("[js-data-select]");
   const cards = document.querySelectorAll("[data-industry]");
   var delayInMilliseconds = 300;

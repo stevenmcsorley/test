@@ -4,6 +4,9 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const ImageMinWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 const WebpackAssetsManifest = require("webpack-assets-manifest");
+const dotenv = require('dotenv').config({ path: __dirname + '/.env' })
+var webpack = require('webpack');
+
 
 module.exports = {
   entry: {
@@ -81,6 +84,9 @@ module.exports = {
     hints: false,
   },
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env': JSON.stringify(dotenv.parsed)
+    }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       favicon: "./src/favicon.ico",
