@@ -16,6 +16,10 @@ export const filter = () => {
         }, delayInMilliseconds);
       }
     });
+    window.dataLayer.push({
+      event: 'selectionMade',
+      selectedElement: value
+    });
   };
 
   if (industrySelect) {
