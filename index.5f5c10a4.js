@@ -11,7 +11,7 @@
 ;// CONCATENATED MODULE: ./src/js/filter/filter.js
 function cov_9ug5meyh() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\filter\\filter.js";
-  var hash = "1155b061edfee0f8fb5de7baeebf29afa5a5ed8c";
+  var hash = "8d067d32aabdc01a82f20ac87273f8b942e25d06";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -23,7 +23,7 @@ function cov_9ug5meyh() {
           column: 22
         },
         end: {
-          line: 30,
+          line: 31,
           column: 1
         }
       },
@@ -63,7 +63,7 @@ function cov_9ug5meyh() {
           column: 22
         },
         end: {
-          line: 23,
+          line: 24,
           column: 3
         }
       },
@@ -149,31 +149,31 @@ function cov_9ug5meyh() {
       },
       "13": {
         start: {
-          line: 25,
+          line: 26,
           column: 2
         },
         end: {
-          line: 29,
+          line: 30,
           column: 3
         }
       },
       "14": {
         start: {
-          line: 26,
+          line: 27,
           column: 4
         },
         end: {
-          line: 28,
+          line: 29,
           column: 7
         }
       },
       "15": {
         start: {
-          line: 27,
+          line: 28,
           column: 6
         },
         end: {
-          line: 27,
+          line: 28,
           column: 68
         }
       }
@@ -197,7 +197,7 @@ function cov_9ug5meyh() {
             column: 28
           },
           end: {
-            line: 30,
+            line: 31,
             column: 1
           }
         },
@@ -221,7 +221,7 @@ function cov_9ug5meyh() {
             column: 28
           },
           end: {
-            line: 23,
+            line: 24,
             column: 3
           }
         },
@@ -279,25 +279,25 @@ function cov_9ug5meyh() {
         name: "(anonymous_4)",
         decl: {
           start: {
-            line: 26,
+            line: 27,
             column: 50
           },
           end: {
-            line: 26,
+            line: 27,
             column: 51
           }
         },
         loc: {
           start: {
-            line: 26,
+            line: 27,
             column: 62
           },
           end: {
-            line: 28,
+            line: 29,
             column: 5
           }
         },
-        line: 26
+        line: 27
       }
     },
     branchMap: {
@@ -370,22 +370,22 @@ function cov_9ug5meyh() {
       "2": {
         loc: {
           start: {
-            line: 25,
+            line: 26,
             column: 2
           },
           end: {
-            line: 29,
+            line: 30,
             column: 3
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 25,
+            line: 26,
             column: 2
           },
           end: {
-            line: 29,
+            line: 30,
             column: 3
           }
         }, {
@@ -398,7 +398,7 @@ function cov_9ug5meyh() {
             column: undefined
           }
         }],
-        line: 25
+        line: 26
       }
     },
     s: {
@@ -432,7 +432,7 @@ function cov_9ug5meyh() {
       "2": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "1155b061edfee0f8fb5de7baeebf29afa5a5ed8c"
+    hash: "8d067d32aabdc01a82f20ac87273f8b942e25d06"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
