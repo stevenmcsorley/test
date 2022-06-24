@@ -11,7 +11,7 @@
 ;// CONCATENATED MODULE: ./src/js/filter/filter.js
 function cov_9ug5meyh() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\filter\\filter.js";
-  var hash = "ccfae8357d333ae8b75dac74b9ebeb9160481e79";
+  var hash = "1155b061edfee0f8fb5de7baeebf29afa5a5ed8c";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -23,7 +23,7 @@ function cov_9ug5meyh() {
           column: 22
         },
         end: {
-          line: 26,
+          line: 30,
           column: 1
         }
       },
@@ -63,7 +63,7 @@ function cov_9ug5meyh() {
           column: 22
         },
         end: {
-          line: 19,
+          line: 23,
           column: 3
         }
       },
@@ -139,31 +139,41 @@ function cov_9ug5meyh() {
       },
       "12": {
         start: {
-          line: 21,
-          column: 2
+          line: 19,
+          column: 4
         },
         end: {
-          line: 25,
-          column: 3
+          line: 22,
+          column: 7
         }
       },
       "13": {
         start: {
-          line: 22,
-          column: 4
+          line: 25,
+          column: 2
         },
         end: {
-          line: 24,
-          column: 7
+          line: 29,
+          column: 3
         }
       },
       "14": {
         start: {
-          line: 23,
+          line: 26,
+          column: 4
+        },
+        end: {
+          line: 28,
+          column: 7
+        }
+      },
+      "15": {
+        start: {
+          line: 27,
           column: 6
         },
         end: {
-          line: 23,
+          line: 27,
           column: 68
         }
       }
@@ -187,7 +197,7 @@ function cov_9ug5meyh() {
             column: 28
           },
           end: {
-            line: 26,
+            line: 30,
             column: 1
           }
         },
@@ -211,7 +221,7 @@ function cov_9ug5meyh() {
             column: 28
           },
           end: {
-            line: 19,
+            line: 23,
             column: 3
           }
         },
@@ -269,25 +279,25 @@ function cov_9ug5meyh() {
         name: "(anonymous_4)",
         decl: {
           start: {
-            line: 22,
+            line: 26,
             column: 50
           },
           end: {
-            line: 22,
+            line: 26,
             column: 51
           }
         },
         loc: {
           start: {
-            line: 22,
+            line: 26,
             column: 62
           },
           end: {
-            line: 24,
+            line: 28,
             column: 5
           }
         },
-        line: 22
+        line: 26
       }
     },
     branchMap: {
@@ -360,22 +370,22 @@ function cov_9ug5meyh() {
       "2": {
         loc: {
           start: {
-            line: 21,
+            line: 25,
             column: 2
           },
           end: {
-            line: 25,
+            line: 29,
             column: 3
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 21,
+            line: 25,
             column: 2
           },
           end: {
-            line: 25,
+            line: 29,
             column: 3
           }
         }, {
@@ -388,7 +398,7 @@ function cov_9ug5meyh() {
             column: undefined
           }
         }],
-        line: 21
+        line: 25
       }
     },
     s: {
@@ -406,7 +416,8 @@ function cov_9ug5meyh() {
       "11": 0,
       "12": 0,
       "13": 0,
-      "14": 0
+      "14": 0,
+      "15": 0
     },
     f: {
       "0": 0,
@@ -421,7 +432,7 @@ function cov_9ug5meyh() {
       "2": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "ccfae8357d333ae8b75dac74b9ebeb9160481e79"
+    hash: "1155b061edfee0f8fb5de7baeebf29afa5a5ed8c"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -472,16 +483,21 @@ var filter = function filter() {
         }, delayInMilliseconds);
       }
     });
+    cov_9ug5meyh().s[12]++;
+    window.dataLayer.push({
+      event: 'selectionMade',
+      selectedElement: value
+    });
   };
 
-  cov_9ug5meyh().s[12]++;
+  cov_9ug5meyh().s[13]++;
 
   if (industrySelect) {
     cov_9ug5meyh().b[2][0]++;
-    cov_9ug5meyh().s[13]++;
+    cov_9ug5meyh().s[14]++;
     document.addEventListener("DOMContentLoaded", function () {
       cov_9ug5meyh().f[4]++;
-      cov_9ug5meyh().s[14]++;
+      cov_9ug5meyh().s[15]++;
       industrySelect.addEventListener("change", filterCards, false);
     });
   } else {

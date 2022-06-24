@@ -5,8 +5,8 @@ import "animate.css";
 
 import { filter } from "./filter/filter";
 import { scroll } from "./scroll/scroll";
-import { api } from "./api/api";
+// import { api } from "./api/api";
 
 filter();
 scroll();
-api();
+// api();
