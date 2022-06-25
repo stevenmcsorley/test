@@ -5702,8 +5702,8 @@ var calendar = function calendar() {
       window.dataLayer.push({
         // pageCategory: "Booking",
         event: "booking_date_click",
-        bookingDate: cell.dataset.bookingDate // bookingSession: sessionStorage.getItem("calendarId"),
-
+        bookingDate: cell.dataset.bookingDate,
+        bookingSession: sessionStorage.getItem("calendarId")
       });
       cov_18oei45ori().s[74]++;
       console.log(cell.dataset.bookingDate);
