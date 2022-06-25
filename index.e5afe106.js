@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "624f258e8d46e03fb294f469c12ab25e12bb026f";
+  var hash = "c59ecb78a0d41f6a3fcd2fd00fdd0abec8a7d25b";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3805,7 +3805,7 @@ function cov_18oei45ori() {
           column: 24
         },
         end: {
-          line: 177,
+          line: 178,
           column: 1
         }
       },
@@ -4485,7 +4485,7 @@ function cov_18oei45ori() {
           column: 2
         },
         end: {
-          line: 165,
+          line: 166,
           column: 5
         }
       },
@@ -4495,7 +4495,7 @@ function cov_18oei45ori() {
           column: 4
         },
         end: {
-          line: 164,
+          line: 165,
           column: 7
         }
       },
@@ -4531,81 +4531,91 @@ function cov_18oei45ori() {
       },
       "73": {
         start: {
-          line: 166,
-          column: 16
+          line: 164,
+          column: 6
         },
         end: {
-          line: 166,
-          column: 58
+          line: 164,
+          column: 44
         }
       },
       "74": {
         start: {
           line: 167,
-          column: 2
+          column: 16
         },
         end: {
-          line: 170,
-          column: 5
+          line: 167,
+          column: 58
         }
       },
       "75": {
         start: {
           line: 168,
-          column: 18
+          column: 2
         },
         end: {
-          line: 168,
-          column: 50
+          line: 171,
+          column: 5
         }
       },
       "76": {
         start: {
           line: 169,
-          column: 4
+          column: 18
         },
         end: {
           line: 169,
-          column: 41
+          column: 50
         }
       },
       "77": {
         start: {
-          line: 171,
-          column: 16
+          line: 170,
+          column: 4
         },
         end: {
-          line: 171,
-          column: 48
+          line: 170,
+          column: 41
         }
       },
       "78": {
         start: {
           line: 172,
-          column: 2
+          column: 16
         },
         end: {
-          line: 176,
-          column: 5
+          line: 172,
+          column: 48
         }
       },
       "79": {
         start: {
           line: 173,
-          column: 4
+          column: 2
         },
         end: {
-          line: 175,
+          line: 177,
           column: 5
         }
       },
       "80": {
         start: {
           line: 174,
+          column: 4
+        },
+        end: {
+          line: 176,
+          column: 5
+        }
+      },
+      "81": {
+        start: {
+          line: 175,
           column: 6
         },
         end: {
-          line: 174,
+          line: 175,
           column: 37
         }
       }
@@ -4629,7 +4639,7 @@ function cov_18oei45ori() {
             column: 30
           },
           end: {
-            line: 177,
+            line: 178,
             column: 1
           }
         },
@@ -4869,7 +4879,7 @@ function cov_18oei45ori() {
             column: 32
           },
           end: {
-            line: 165,
+            line: 166,
             column: 3
           }
         },
@@ -4893,7 +4903,7 @@ function cov_18oei45ori() {
             column: 47
           },
           end: {
-            line: 164,
+            line: 165,
             column: 5
           }
         },
@@ -4903,49 +4913,49 @@ function cov_18oei45ori() {
         name: "(anonymous_12)",
         decl: {
           start: {
-            line: 167,
+            line: 168,
             column: 34
           },
           end: {
-            line: 167,
+            line: 168,
             column: 35
           }
         },
         loc: {
           start: {
-            line: 167,
+            line: 168,
             column: 46
           },
           end: {
-            line: 170,
+            line: 171,
             column: 3
           }
         },
-        line: 167
+        line: 168
       },
       "13": {
         name: "(anonymous_13)",
         decl: {
           start: {
-            line: 172,
+            line: 173,
             column: 35
           },
           end: {
-            line: 172,
+            line: 173,
             column: 36
           }
         },
         loc: {
           start: {
-            line: 172,
+            line: 173,
             column: 52
           },
           end: {
-            line: 176,
+            line: 177,
             column: 3
           }
         },
-        line: 172
+        line: 173
       }
     },
     branchMap: {
@@ -5291,22 +5301,22 @@ function cov_18oei45ori() {
       "10": {
         loc: {
           start: {
-            line: 173,
+            line: 174,
             column: 4
           },
           end: {
-            line: 175,
+            line: 176,
             column: 5
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 173,
+            line: 174,
             column: 4
           },
           end: {
-            line: 175,
+            line: 176,
             column: 5
           }
         }, {
@@ -5319,7 +5329,7 @@ function cov_18oei45ori() {
             column: undefined
           }
         }],
-        line: 173
+        line: 174
       }
     },
     s: {
@@ -5403,7 +5413,8 @@ function cov_18oei45ori() {
       "77": 0,
       "78": 0,
       "79": 0,
-      "80": 0
+      "80": 0,
+      "81": 0
     },
     f: {
       "0": 0,
@@ -5435,7 +5446,7 @@ function cov_18oei45ori() {
       "10": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "624f258e8d46e03fb294f469c12ab25e12bb026f"
+    hash: "c59ecb78a0d41f6a3fcd2fd00fdd0abec8a7d25b"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -5669,25 +5680,27 @@ var calendar = function calendar() {
         bookingDate: cell.dataset.bookingDate,
         bookingSession: sessionStorage.getItem("calendarId")
       });
+      cov_18oei45ori().s[73]++;
+      console.log(cell.dataset.bookingDate);
     });
   });
-  var close = (cov_18oei45ori().s[73]++, document.querySelector("[js-modal-close]"));
-  cov_18oei45ori().s[74]++;
+  var close = (cov_18oei45ori().s[74]++, document.querySelector("[js-modal-close]"));
+  cov_18oei45ori().s[75]++;
   close.addEventListener("click", function () {
     cov_18oei45ori().f[12]++;
-    var modal = (cov_18oei45ori().s[75]++, document.querySelector(".modal"));
-    cov_18oei45ori().s[76]++;
+    var modal = (cov_18oei45ori().s[76]++, document.querySelector(".modal"));
+    cov_18oei45ori().s[77]++;
     modal.classList.remove("show-modal");
   });
-  var modal = (cov_18oei45ori().s[77]++, document.querySelector(".modal"));
-  cov_18oei45ori().s[78]++;
+  var modal = (cov_18oei45ori().s[78]++, document.querySelector(".modal"));
+  cov_18oei45ori().s[79]++;
   window.addEventListener("click", function (event) {
     cov_18oei45ori().f[13]++;
-    cov_18oei45ori().s[79]++;
+    cov_18oei45ori().s[80]++;
 
     if (event.target == modal) {
       cov_18oei45ori().b[10][0]++;
-      cov_18oei45ori().s[80]++;
+      cov_18oei45ori().s[81]++;
       modal.classList.remove("show");
     } else {
       cov_18oei45ori().b[10][1]++;
@@ -5697,7 +5710,7 @@ var calendar = function calendar() {
 ;// CONCATENATED MODULE: ./src/js/analytics/analytics.js
 function cov_1dem8e6ysh() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\analytics\\analytics.js";
-  var hash = "bde429728e81e9e0e3386657a1cb0543e94982f9";
+  var hash = "e3b4be77a5cead85138f25eea4a40b090d4919b0";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -5715,46 +5728,6 @@ function cov_1dem8e6ysh() {
       },
       "1": {
         start: {
-          line: 5,
-          column: 4
-        },
-        end: {
-          line: 10,
-          column: 17
-        }
-      },
-      "2": {
-        start: {
-          line: 6,
-          column: 8
-        },
-        end: {
-          line: 9,
-          column: 11
-        }
-      },
-      "3": {
-        start: {
-          line: 13,
-          column: 4
-        },
-        end: {
-          line: 19,
-          column: 13
-        }
-      },
-      "4": {
-        start: {
-          line: 14,
-          column: 8
-        },
-        end: {
-          line: 17,
-          column: 11
-        }
-      },
-      "5": {
-        start: {
           line: 22,
           column: 4
         },
@@ -5763,7 +5736,7 @@ function cov_1dem8e6ysh() {
           column: 13
         }
       },
-      "6": {
+      "2": {
         start: {
           line: 23,
           column: 8
@@ -5773,7 +5746,7 @@ function cov_1dem8e6ysh() {
           column: 11
         }
       },
-      "7": {
+      "3": {
         start: {
           line: 31,
           column: 4
@@ -5783,7 +5756,7 @@ function cov_1dem8e6ysh() {
           column: 13
         }
       },
-      "8": {
+      "4": {
         start: {
           line: 32,
           column: 8
@@ -5793,7 +5766,7 @@ function cov_1dem8e6ysh() {
           column: 11
         }
       },
-      "9": {
+      "5": {
         start: {
           line: 159,
           column: 4
@@ -5803,7 +5776,7 @@ function cov_1dem8e6ysh() {
           column: 17
         }
       },
-      "10": {
+      "6": {
         start: {
           line: 160,
           column: 8
@@ -5843,54 +5816,6 @@ function cov_1dem8e6ysh() {
         name: "(anonymous_1)",
         decl: {
           start: {
-            line: 5,
-            column: 38
-          },
-          end: {
-            line: 5,
-            column: 39
-          }
-        },
-        loc: {
-          start: {
-            line: 5,
-            column: 51
-          },
-          end: {
-            line: 10,
-            column: 5
-          }
-        },
-        line: 5
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 13,
-            column: 39
-          },
-          end: {
-            line: 13,
-            column: 40
-          }
-        },
-        loc: {
-          start: {
-            line: 13,
-            column: 52
-          },
-          end: {
-            line: 18,
-            column: 5
-          }
-        },
-        line: 13
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
             line: 22,
             column: 40
           },
@@ -5911,8 +5836,8 @@ function cov_1dem8e6ysh() {
         },
         line: 22
       },
-      "4": {
-        name: "(anonymous_4)",
+      "2": {
+        name: "(anonymous_2)",
         decl: {
           start: {
             line: 31,
@@ -5935,8 +5860,8 @@ function cov_1dem8e6ysh() {
         },
         line: 31
       },
-      "5": {
-        name: "(anonymous_5)",
+      "3": {
+        name: "(anonymous_3)",
         decl: {
           start: {
             line: 159,
@@ -5968,23 +5893,17 @@ function cov_1dem8e6ysh() {
       "3": 0,
       "4": 0,
       "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0
+      "6": 0
     },
     f: {
       "0": 0,
       "1": 0,
       "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
+      "3": 0
     },
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "bde429728e81e9e0e3386657a1cb0543e94982f9"
+    hash: "e3b4be77a5cead85138f25eea4a40b090d4919b0"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6007,40 +5926,35 @@ cov_1dem8e6ysh().s[0]++;
 var analytics = function analytics() {
   cov_1dem8e6ysh().f[0]++;
   cov_1dem8e6ysh().s[1]++;
-  // scroll tracking
-  window.addEventListener("scroll", function (e) {
+  // // scroll tracking
+  // window.addEventListener("scroll", function (e) {
+  //     gtag('event', 'scroll', {
+  //         event_category: 'scroll',
+  //         event_label: window.pageYOffset
+  //     });
+  // }   , false);
+  // // click tracking
+  // document.addEventListener("click", function (e) {
+  //     gtag('event', 'click', {
+  //         event_category: 'click',
+  //         event_label: e.target.value
+  //     });
+  // }
+  // , false);
+  // form tracking
+  document.addEventListener("submit", function (e) {
     cov_1dem8e6ysh().f[1]++;
     cov_1dem8e6ysh().s[2]++;
-    gtag('event', 'scroll', {
-      event_category: 'scroll',
-      event_label: window.pageYOffset
-    });
-  }, false); // click tracking
-
-  cov_1dem8e6ysh().s[3]++;
-  document.addEventListener("click", function (e) {
-    cov_1dem8e6ysh().f[2]++;
-    cov_1dem8e6ysh().s[4]++;
-    gtag('event', 'click', {
-      event_category: 'click',
-      event_label: e.target.value
-    });
-  }, false); // form tracking
-
-  cov_1dem8e6ysh().s[5]++;
-  document.addEventListener("submit", function (e) {
-    cov_1dem8e6ysh().f[3]++;
-    cov_1dem8e6ysh().s[6]++;
     gtag('event', 'submit', {
       event_category: 'submit',
       event_label: e.target.value
     });
   }, false); // form tracking
 
-  cov_1dem8e6ysh().s[7]++;
+  cov_1dem8e6ysh().s[3]++;
   document.addEventListener("change", function (e) {
-    cov_1dem8e6ysh().f[4]++;
-    cov_1dem8e6ysh().s[8]++;
+    cov_1dem8e6ysh().f[2]++;
+    cov_1dem8e6ysh().s[4]++;
     gtag('event', 'change', {
       event_category: 'change',
       event_label: e.target.value
@@ -6148,10 +6062,10 @@ var analytics = function analytics() {
   // }   , false);
   // form tracking
 
-  cov_1dem8e6ysh().s[9]++;
+  cov_1dem8e6ysh().s[5]++;
   document.addEventListener("resize", function (e) {
-    cov_1dem8e6ysh().f[5]++;
-    cov_1dem8e6ysh().s[10]++;
+    cov_1dem8e6ysh().f[3]++;
+    cov_1dem8e6ysh().s[6]++;
     gtag('event', 'resize', {
       event_category: 'resize',
       event_label: e.target.id
