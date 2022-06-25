@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "17aca00e1ead3f7a75b271f197a623ffdead0c2f";
+  var hash = "a31153e70d31f48a8b718ddcd0c16753d8a8e39e";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3805,7 +3805,7 @@ function cov_18oei45ori() {
           column: 24
         },
         end: {
-          line: 129,
+          line: 132,
           column: 1
         }
       },
@@ -4175,7 +4175,7 @@ function cov_18oei45ori() {
           column: 4
         },
         end: {
-          line: 122,
+          line: 125,
           column: 5
         }
       },
@@ -4196,57 +4196,57 @@ function cov_18oei45ori() {
         },
         end: {
           line: 94,
-          column: 44
+          column: 45
         }
       },
       "40": {
         start: {
-          line: 97,
+          line: 95,
           column: 6
         },
         end: {
-          line: 119,
-          column: 7
+          line: 95,
+          column: 31
         }
       },
       "41": {
         start: {
-          line: 97,
-          column: 19
+          line: 98,
+          column: 6
         },
         end: {
-          line: 97,
-          column: 20
+          line: 122,
+          column: 7
         }
       },
       "42": {
         start: {
           line: 98,
-          column: 8
+          column: 19
         },
         end: {
-          line: 118,
-          column: 9
+          line: 98,
+          column: 20
         }
       },
       "43": {
         start: {
           line: 99,
-          column: 21
+          column: 8
         },
         end: {
-          line: 99,
-          column: 49
+          line: 121,
+          column: 9
         }
       },
       "44": {
         start: {
           line: 100,
-          column: 25
+          column: 21
         },
         end: {
           line: 100,
-          column: 52
+          column: 50
         }
       },
       "45": {
@@ -4256,27 +4256,27 @@ function cov_18oei45ori() {
         },
         end: {
           line: 101,
-          column: 37
+          column: 42
         }
       },
       "46": {
         start: {
           line: 102,
-          column: 10
+          column: 25
         },
         end: {
           line: 102,
-          column: 32
+          column: 52
         }
       },
       "47": {
         start: {
           line: 103,
-          column: 15
+          column: 10
         },
         end: {
-          line: 118,
-          column: 9
+          line: 103,
+          column: 37
         }
       },
       "48": {
@@ -4286,96 +4286,126 @@ function cov_18oei45ori() {
         },
         end: {
           line: 104,
-          column: 16
+          column: 32
         }
       },
       "49": {
         start: {
-          line: 106,
-          column: 21
+          line: 105,
+          column: 15
         },
         end: {
-          line: 106,
-          column: 49
+          line: 121,
+          column: 9
         }
       },
       "50": {
         start: {
-          line: 107,
-          column: 25
+          line: 106,
+          column: 10
         },
         end: {
-          line: 107,
-          column: 54
+          line: 106,
+          column: 16
         }
       },
       "51": {
         start: {
           line: 108,
-          column: 10
+          column: 21
         },
         end: {
-          line: 114,
-          column: 11
+          line: 108,
+          column: 50
         }
       },
       "52": {
         start: {
-          line: 113,
-          column: 12
+          line: 109,
+          column: 10
         },
         end: {
-          line: 113,
-          column: 40
+          line: 109,
+          column: 37
         }
       },
       "53": {
         start: {
-          line: 115,
-          column: 10
+          line: 110,
+          column: 25
         },
         end: {
-          line: 115,
-          column: 37
+          line: 110,
+          column: 54
         }
       },
       "54": {
         start: {
-          line: 116,
+          line: 111,
           column: 10
         },
         end: {
-          line: 116,
-          column: 32
+          line: 117,
+          column: 11
         }
       },
       "55": {
         start: {
-          line: 117,
-          column: 10
+          line: 116,
+          column: 12
         },
         end: {
-          line: 117,
-          column: 17
+          line: 116,
+          column: 40
         }
       },
       "56": {
         start: {
-          line: 121,
-          column: 6
+          line: 118,
+          column: 10
         },
         end: {
-          line: 121,
-          column: 27
+          line: 118,
+          column: 37
         }
       },
       "57": {
         start: {
-          line: 127,
+          line: 119,
+          column: 10
+        },
+        end: {
+          line: 119,
+          column: 32
+        }
+      },
+      "58": {
+        start: {
+          line: 120,
+          column: 10
+        },
+        end: {
+          line: 120,
+          column: 17
+        }
+      },
+      "59": {
+        start: {
+          line: 124,
+          column: 6
+        },
+        end: {
+          line: 124,
+          column: 27
+        }
+      },
+      "60": {
+        start: {
+          line: 130,
           column: 4
         },
         end: {
-          line: 127,
+          line: 130,
           column: 54
         }
       }
@@ -4399,7 +4429,7 @@ function cov_18oei45ori() {
             column: 30
           },
           end: {
-            line: 129,
+            line: 132,
             column: 1
           }
         },
@@ -4543,7 +4573,7 @@ function cov_18oei45ori() {
             column: 37
           },
           end: {
-            line: 123,
+            line: 126,
             column: 3
           }
         },
@@ -4553,25 +4583,25 @@ function cov_18oei45ori() {
         name: "daysInMonth",
         decl: {
           start: {
-            line: 126,
+            line: 129,
             column: 11
           },
           end: {
-            line: 126,
+            line: 129,
             column: 22
           }
         },
         loc: {
           start: {
-            line: 126,
+            line: 129,
             column: 38
           },
           end: {
-            line: 128,
+            line: 131,
             column: 3
           }
         },
-        line: 126
+        line: 129
       }
     },
     branchMap: {
@@ -4710,88 +4740,22 @@ function cov_18oei45ori() {
       "4": {
         loc: {
           start: {
-            line: 98,
+            line: 99,
             column: 8
           },
           end: {
-            line: 118,
+            line: 121,
             column: 9
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 98,
+            line: 99,
             column: 8
           },
           end: {
-            line: 118,
-            column: 9
-          }
-        }, {
-          start: {
-            line: 103,
-            column: 15
-          },
-          end: {
-            line: 118,
-            column: 9
-          }
-        }],
-        line: 98
-      },
-      "5": {
-        loc: {
-          start: {
-            line: 98,
-            column: 12
-          },
-          end: {
-            line: 98,
-            column: 35
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 98,
-            column: 12
-          },
-          end: {
-            line: 98,
-            column: 19
-          }
-        }, {
-          start: {
-            line: 98,
-            column: 23
-          },
-          end: {
-            line: 98,
-            column: 35
-          }
-        }],
-        line: 98
-      },
-      "6": {
-        loc: {
-          start: {
-            line: 103,
-            column: 15
-          },
-          end: {
-            line: 118,
-            column: 9
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 103,
-            column: 15
-          },
-          end: {
-            line: 118,
+            line: 121,
             column: 9
           }
         }, {
@@ -4800,31 +4764,97 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 118,
+            line: 121,
             column: 9
           }
         }],
-        line: 103
+        line: 99
+      },
+      "5": {
+        loc: {
+          start: {
+            line: 99,
+            column: 12
+          },
+          end: {
+            line: 99,
+            column: 35
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 99,
+            column: 12
+          },
+          end: {
+            line: 99,
+            column: 19
+          }
+        }, {
+          start: {
+            line: 99,
+            column: 23
+          },
+          end: {
+            line: 99,
+            column: 35
+          }
+        }],
+        line: 99
+      },
+      "6": {
+        loc: {
+          start: {
+            line: 105,
+            column: 15
+          },
+          end: {
+            line: 121,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 105,
+            column: 15
+          },
+          end: {
+            line: 121,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 107,
+            column: 15
+          },
+          end: {
+            line: 121,
+            column: 9
+          }
+        }],
+        line: 105
       },
       "7": {
         loc: {
           start: {
-            line: 108,
+            line: 111,
             column: 10
           },
           end: {
-            line: 114,
+            line: 117,
             column: 11
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 108,
+            line: 111,
             column: 10
           },
           end: {
-            line: 114,
+            line: 117,
             column: 11
           }
         }, {
@@ -4837,49 +4867,49 @@ function cov_18oei45ori() {
             column: undefined
           }
         }],
-        line: 108
+        line: 111
       },
       "8": {
         loc: {
           start: {
-            line: 109,
+            line: 112,
             column: 12
           },
           end: {
-            line: 111,
+            line: 114,
             column: 38
           }
         },
         type: "binary-expr",
         locations: [{
           start: {
-            line: 109,
+            line: 112,
             column: 12
           },
           end: {
-            line: 109,
+            line: 112,
             column: 36
           }
         }, {
           start: {
-            line: 110,
+            line: 113,
             column: 12
           },
           end: {
-            line: 110,
+            line: 113,
             column: 40
           }
         }, {
           start: {
-            line: 111,
+            line: 114,
             column: 12
           },
           end: {
-            line: 111,
+            line: 114,
             column: 38
           }
         }],
-        line: 109
+        line: 112
       }
     },
     s: {
@@ -4940,7 +4970,10 @@ function cov_18oei45ori() {
       "54": 0,
       "55": 0,
       "56": 0,
-      "57": 0
+      "57": 0,
+      "58": 0,
+      "59": 0,
+      "60": 0
     },
     f: {
       "0": 0,
@@ -4964,7 +4997,7 @@ function cov_18oei45ori() {
       "8": [0, 0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "17aca00e1ead3f7a75b271f197a623ffdead0c2f"
+    hash: "a31153e70d31f48a8b718ddcd0c16753d8a8e39e"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -5073,41 +5106,52 @@ var calendar = function calendar() {
 
     for (var i = (cov_18oei45ori().s[38]++, 0); i < 6; i++) {
       // creates a table row
-      var row = (cov_18oei45ori().s[39]++, document.createElement("tr")); //creating individual cells, filing them up with data.
+      var row = (cov_18oei45ori().s[39]++, document.createElement("div")); //tr
 
       cov_18oei45ori().s[40]++;
+      row.classList.add("row"); //creating individual cells, filing them up with data.
 
-      for (var j = (cov_18oei45ori().s[41]++, 0); j < 7; j++) {
-        cov_18oei45ori().s[42]++;
+      cov_18oei45ori().s[41]++;
+
+      for (var j = (cov_18oei45ori().s[42]++, 0); j < 7; j++) {
+        cov_18oei45ori().s[43]++;
 
         if ((cov_18oei45ori().b[5][0]++, i === 0) && (cov_18oei45ori().b[5][1]++, j < firstDay)) {
           cov_18oei45ori().b[4][0]++;
-          var cell = (cov_18oei45ori().s[43]++, document.createElement("td"));
-          var cellText = (cov_18oei45ori().s[44]++, document.createTextNode(""));
+          var cell = (cov_18oei45ori().s[44]++, document.createElement("div")); // td
+
           cov_18oei45ori().s[45]++;
+          cell.classList.add("cell-null");
+          var cellText = (cov_18oei45ori().s[46]++, document.createTextNode(""));
+          cov_18oei45ori().s[47]++;
           cell.appendChild(cellText);
-          cov_18oei45ori().s[46]++;
+          cov_18oei45ori().s[48]++;
           row.appendChild(cell);
         } else {
           cov_18oei45ori().b[4][1]++;
-          cov_18oei45ori().s[47]++;
+          cov_18oei45ori().s[49]++;
 
           if (date > daysInMonth(month, year)) {
             cov_18oei45ori().b[6][0]++;
-            cov_18oei45ori().s[48]++;
+            cov_18oei45ori().s[50]++;
             break;
           } else {
             cov_18oei45ori().b[6][1]++;
 
-            var _cell = (cov_18oei45ori().s[49]++, document.createElement("td"));
+            var _cell = (cov_18oei45ori().s[51]++, document.createElement("div")); // td
 
-            var _cellText = (cov_18oei45ori().s[50]++, document.createTextNode(date));
 
-            cov_18oei45ori().s[51]++;
+            cov_18oei45ori().s[52]++;
+
+            _cell.classList.add("cell");
+
+            var _cellText = (cov_18oei45ori().s[53]++, document.createTextNode(date));
+
+            cov_18oei45ori().s[54]++;
 
             if ((cov_18oei45ori().b[8][0]++, date === today.getDate()) && (cov_18oei45ori().b[8][1]++, year === today.getFullYear()) && (cov_18oei45ori().b[8][2]++, month === today.getMonth())) {
               cov_18oei45ori().b[7][0]++;
-              cov_18oei45ori().s[52]++;
+              cov_18oei45ori().s[55]++;
 
               _cell.classList.add("today");
             } else {
@@ -5115,19 +5159,19 @@ var calendar = function calendar() {
             } // color today's date
 
 
-            cov_18oei45ori().s[53]++;
+            cov_18oei45ori().s[56]++;
 
             _cell.appendChild(_cellText);
 
-            cov_18oei45ori().s[54]++;
+            cov_18oei45ori().s[57]++;
             row.appendChild(_cell);
-            cov_18oei45ori().s[55]++;
+            cov_18oei45ori().s[58]++;
             date++;
           }
         }
       }
 
-      cov_18oei45ori().s[56]++;
+      cov_18oei45ori().s[59]++;
       tbl.appendChild(row); // appending each row into calendar body.
     }
   } // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
@@ -5135,7 +5179,7 @@ var calendar = function calendar() {
 
   function daysInMonth(iMonth, iYear) {
     cov_18oei45ori().f[7]++;
-    cov_18oei45ori().s[57]++;
+    cov_18oei45ori().s[60]++;
     return 32 - new Date(iYear, iMonth, 32).getDate();
   }
 };
