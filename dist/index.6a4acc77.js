@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 830:
+/***/ 592:
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 
@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "ce64352dbf6945fa33253034b62c83530d795c41";
+  var hash = "17aca00e1ead3f7a75b271f197a623ffdead0c2f";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3805,557 +3805,577 @@ function cov_18oei45ori() {
           column: 24
         },
         end: {
-          line: 105,
+          line: 129,
           column: 1
         }
       },
       "1": {
         start: {
-          line: 3,
+          line: 2,
           column: 12
         },
         end: {
-          line: 3,
-          column: 22
+          line: 2,
+          column: 52
         }
       },
       "2": {
         start: {
-          line: 4,
-          column: 19
+          line: 3,
+          column: 2
         },
         end: {
-          line: 4,
-          column: 35
+          line: 5,
+          column: 3
         }
       },
       "3": {
         start: {
-          line: 5,
-          column: 18
+          line: 4,
+          column: 4
         },
         end: {
-          line: 5,
-          column: 37
+          line: 4,
+          column: 17
         }
       },
       "4": {
         start: {
           line: 6,
-          column: 17
+          column: 14
         },
         end: {
           line: 6,
-          column: 48
+          column: 24
         }
       },
       "5": {
         start: {
           line: 7,
-          column: 18
+          column: 21
         },
         end: {
           line: 7,
-          column: 50
+          column: 37
         }
       },
       "6": {
         start: {
-          line: 9,
-          column: 13
+          line: 8,
+          column: 20
         },
         end: {
-          line: 9,
-          column: 97
+          line: 8,
+          column: 39
         }
       },
       "7": {
         start: {
-          line: 11,
+          line: 9,
           column: 19
         },
         end: {
-          line: 11,
-          column: 58
+          line: 9,
+          column: 50
         }
       },
       "8": {
         start: {
-          line: 12,
-          column: 0
+          line: 10,
+          column: 20
         },
         end: {
-          line: 12,
-          column: 40
+          line: 10,
+          column: 52
         }
       },
       "9": {
         start: {
-          line: 14,
-          column: 13
+          line: 12,
+          column: 15
         },
         end: {
-          line: 14,
-          column: 44
+          line: 25,
+          column: 3
         }
       },
       "10": {
         start: {
-          line: 15,
-          column: 13
+          line: 27,
+          column: 21
         },
         end: {
-          line: 15,
-          column: 44
+          line: 27,
+          column: 60
         }
       },
       "11": {
         start: {
-          line: 18,
-          column: 4
+          line: 28,
+          column: 2
         },
         end: {
-          line: 22,
-          column: 17
+          line: 28,
+          column: 42
         }
       },
       "12": {
         start: {
-          line: 19,
-          column: 8
+          line: 30,
+          column: 15
         },
         end: {
-          line: 19,
-          column: 76
+          line: 30,
+          column: 46
         }
       },
       "13": {
         start: {
-          line: 20,
-          column: 8
+          line: 31,
+          column: 15
         },
         end: {
-          line: 20,
-          column: 47
+          line: 31,
+          column: 46
         }
       },
       "14": {
         start: {
-          line: 21,
-          column: 8
+          line: 33,
+          column: 2
         },
         end: {
-          line: 21,
-          column: 48
+          line: 41,
+          column: 4
         }
       },
       "15": {
         start: {
-          line: 24,
-          column: 4
+          line: 36,
+          column: 6
         },
         end: {
-          line: 28,
-          column: 17
+          line: 36,
+          column: 72
         }
       },
       "16": {
         start: {
-          line: 25,
-          column: 8
+          line: 37,
+          column: 6
         },
         end: {
-          line: 25,
-          column: 75
+          line: 37,
+          column: 45
         }
       },
       "17": {
         start: {
-          line: 26,
-          column: 8
+          line: 38,
+          column: 6
         },
         end: {
-          line: 26,
-          column: 68
+          line: 38,
+          column: 46
         }
       },
       "18": {
         start: {
-          line: 27,
-          column: 8
+          line: 43,
+          column: 2
         },
         end: {
-          line: 27,
-          column: 48
+          line: 51,
+          column: 4
         }
       },
       "19": {
         start: {
-          line: 30,
-          column: 4
+          line: 46,
+          column: 6
         },
         end: {
-          line: 42,
-          column: 17
+          line: 46,
+          column: 71
         }
       },
       "20": {
         start: {
-          line: 31,
-          column: 8
+          line: 47,
+          column: 6
         },
         end: {
-          line: 35,
-          column: 21
+          line: 47,
+          column: 64
         }
       },
       "21": {
         start: {
-          line: 32,
-          column: 12
+          line: 48,
+          column: 6
         },
         end: {
-          line: 32,
-          column: 53
+          line: 48,
+          column: 46
         }
       },
       "22": {
         start: {
-          line: 33,
-          column: 12
+          line: 53,
+          column: 2
         },
         end: {
-          line: 33,
-          column: 55
+          line: 77,
+          column: 4
         }
       },
       "23": {
         start: {
-          line: 34,
-          column: 12
+          line: 56,
+          column: 6
         },
         end: {
-          line: 34,
-          column: 52
+          line: 64,
+          column: 8
         }
       },
       "24": {
         start: {
-          line: 37,
-          column: 8
+          line: 59,
+          column: 10
         },
         end: {
-          line: 41,
-          column: 21
+          line: 59,
+          column: 51
         }
       },
       "25": {
         start: {
-          line: 38,
-          column: 12
+          line: 60,
+          column: 10
         },
         end: {
-          line: 38,
+          line: 60,
           column: 53
         }
       },
       "26": {
         start: {
-          line: 39,
-          column: 12
+          line: 61,
+          column: 10
         },
         end: {
-          line: 39,
-          column: 55
+          line: 61,
+          column: 50
         }
       },
       "27": {
         start: {
-          line: 40,
-          column: 12
+          line: 66,
+          column: 6
         },
         end: {
-          line: 40,
-          column: 52
+          line: 74,
+          column: 8
         }
       },
       "28": {
         start: {
-          line: 48,
-          column: 19
+          line: 69,
+          column: 10
         },
         end: {
-          line: 48,
+          line: 69,
           column: 51
         }
       },
       "29": {
         start: {
-          line: 50,
-          column: 14
+          line: 70,
+          column: 10
         },
         end: {
-          line: 50,
-          column: 54
+          line: 70,
+          column: 53
         }
       },
       "30": {
         start: {
-          line: 54,
-          column: 4
+          line: 71,
+          column: 10
         },
         end: {
-          line: 54,
-          column: 23
+          line: 71,
+          column: 50
         }
       },
       "31": {
         start: {
-          line: 57,
-          column: 4
+          line: 80,
+          column: 19
         },
         end: {
-          line: 57,
-          column: 56
+          line: 80,
+          column: 49
         }
       },
       "32": {
         start: {
-          line: 58,
+          line: 83,
           column: 4
         },
         end: {
-          line: 58,
-          column: 28
+          line: 83,
+          column: 23
         }
       },
       "33": {
         start: {
-          line: 59,
+          line: 86,
           column: 4
         },
         end: {
-          line: 59,
-          column: 30
+          line: 86,
+          column: 56
         }
       },
       "34": {
         start: {
-          line: 62,
-          column: 15
+          line: 87,
+          column: 4
         },
         end: {
-          line: 62,
-          column: 16
+          line: 87,
+          column: 28
         }
       },
       "35": {
         start: {
-          line: 63,
+          line: 88,
           column: 4
         },
         end: {
-          line: 94,
-          column: 5
+          line: 88,
+          column: 30
         }
       },
       "36": {
         start: {
-          line: 63,
-          column: 17
+          line: 91,
+          column: 15
         },
         end: {
-          line: 63,
-          column: 18
+          line: 91,
+          column: 16
         }
       },
       "37": {
         start: {
-          line: 65,
-          column: 18
+          line: 92,
+          column: 4
         },
         end: {
-          line: 65,
-          column: 46
+          line: 122,
+          column: 5
         }
       },
       "38": {
         start: {
-          line: 68,
-          column: 8
+          line: 92,
+          column: 17
         },
         end: {
-          line: 91,
-          column: 9
+          line: 92,
+          column: 18
         }
       },
       "39": {
         start: {
-          line: 68,
-          column: 21
+          line: 94,
+          column: 16
         },
         end: {
-          line: 68,
-          column: 22
+          line: 94,
+          column: 44
         }
       },
       "40": {
         start: {
-          line: 69,
-          column: 12
+          line: 97,
+          column: 6
         },
         end: {
-          line: 88,
-          column: 13
+          line: 119,
+          column: 7
         }
       },
       "41": {
         start: {
-          line: 70,
-          column: 27
+          line: 97,
+          column: 19
         },
         end: {
-          line: 70,
-          column: 55
+          line: 97,
+          column: 20
         }
       },
       "42": {
         start: {
-          line: 71,
-          column: 31
+          line: 98,
+          column: 8
         },
         end: {
-          line: 71,
-          column: 58
+          line: 118,
+          column: 9
         }
       },
       "43": {
         start: {
-          line: 72,
-          column: 16
+          line: 99,
+          column: 21
         },
         end: {
-          line: 72,
-          column: 43
+          line: 99,
+          column: 49
         }
       },
       "44": {
         start: {
-          line: 73,
-          column: 16
+          line: 100,
+          column: 25
         },
         end: {
-          line: 73,
-          column: 38
+          line: 100,
+          column: 52
         }
       },
       "45": {
         start: {
-          line: 75,
-          column: 17
+          line: 101,
+          column: 10
         },
         end: {
-          line: 88,
-          column: 13
+          line: 101,
+          column: 37
         }
       },
       "46": {
         start: {
-          line: 76,
-          column: 16
+          line: 102,
+          column: 10
         },
         end: {
-          line: 76,
-          column: 22
+          line: 102,
+          column: 32
         }
       },
       "47": {
         start: {
-          line: 80,
-          column: 26
+          line: 103,
+          column: 15
         },
         end: {
-          line: 80,
-          column: 54
+          line: 118,
+          column: 9
         }
       },
       "48": {
         start: {
-          line: 81,
-          column: 31
+          line: 104,
+          column: 10
         },
         end: {
-          line: 81,
-          column: 60
+          line: 104,
+          column: 16
         }
       },
       "49": {
         start: {
-          line: 82,
-          column: 16
+          line: 106,
+          column: 21
         },
         end: {
-          line: 84,
-          column: 17
+          line: 106,
+          column: 49
         }
       },
       "50": {
         start: {
-          line: 83,
-          column: 20
+          line: 107,
+          column: 25
         },
         end: {
-          line: 83,
-          column: 48
+          line: 107,
+          column: 54
         }
       },
       "51": {
         start: {
-          line: 85,
-          column: 16
+          line: 108,
+          column: 10
         },
         end: {
-          line: 85,
-          column: 43
+          line: 114,
+          column: 11
         }
       },
       "52": {
         start: {
-          line: 86,
-          column: 16
+          line: 113,
+          column: 12
         },
         end: {
-          line: 86,
-          column: 38
+          line: 113,
+          column: 40
         }
       },
       "53": {
         start: {
-          line: 87,
-          column: 16
+          line: 115,
+          column: 10
         },
         end: {
-          line: 87,
-          column: 23
+          line: 115,
+          column: 37
         }
       },
       "54": {
         start: {
-          line: 93,
-          column: 8
+          line: 116,
+          column: 10
         },
         end: {
-          line: 93,
-          column: 29
+          line: 116,
+          column: 32
         }
       },
       "55": {
         start: {
-          line: 101,
+          line: 117,
+          column: 10
+        },
+        end: {
+          line: 117,
+          column: 17
+        }
+      },
+      "56": {
+        start: {
+          line: 121,
+          column: 6
+        },
+        end: {
+          line: 121,
+          column: 27
+        }
+      },
+      "57": {
+        start: {
+          line: 127,
           column: 4
         },
         end: {
-          line: 101,
+          line: 127,
           column: 54
         }
       }
@@ -4379,7 +4399,7 @@ function cov_18oei45ori() {
             column: 30
           },
           end: {
-            line: 105,
+            line: 129,
             column: 1
           }
         },
@@ -4389,444 +4409,477 @@ function cov_18oei45ori() {
         name: "(anonymous_1)",
         decl: {
           start: {
-            line: 18,
-            column: 35
+            line: 35,
+            column: 4
           },
           end: {
-            line: 18,
-            column: 36
+            line: 35,
+            column: 5
           }
         },
         loc: {
           start: {
-            line: 18,
-            column: 47
+            line: 35,
+            column: 16
           },
           end: {
-            line: 22,
+            line: 39,
             column: 5
           }
         },
-        line: 18
+        line: 35
       },
       "2": {
         name: "(anonymous_2)",
         decl: {
           start: {
-            line: 24,
-            column: 35
+            line: 45,
+            column: 4
           },
           end: {
-            line: 24,
-            column: 36
+            line: 45,
+            column: 5
           }
         },
         loc: {
           start: {
-            line: 24,
-            column: 47
+            line: 45,
+            column: 16
           },
           end: {
-            line: 28,
+            line: 49,
             column: 5
           }
         },
-        line: 24
+        line: 45
       },
       "3": {
         name: "(anonymous_3)",
         decl: {
           start: {
-            line: 30,
-            column: 50
+            line: 55,
+            column: 4
           },
           end: {
-            line: 30,
-            column: 51
+            line: 55,
+            column: 5
           }
         },
         loc: {
           start: {
-            line: 30,
-            column: 62
+            line: 55,
+            column: 16
           },
           end: {
-            line: 42,
+            line: 75,
             column: 5
           }
         },
-        line: 30
+        line: 55
       },
       "4": {
         name: "(anonymous_4)",
         decl: {
           start: {
-            line: 31,
-            column: 46
+            line: 58,
+            column: 8
           },
           end: {
-            line: 31,
-            column: 47
+            line: 58,
+            column: 9
           }
         },
         loc: {
           start: {
-            line: 31,
-            column: 58
+            line: 58,
+            column: 20
           },
           end: {
-            line: 35,
+            line: 62,
             column: 9
           }
         },
-        line: 31
+        line: 58
       },
       "5": {
         name: "(anonymous_5)",
         decl: {
           start: {
-            line: 37,
-            column: 47
+            line: 68,
+            column: 8
           },
           end: {
-            line: 37,
-            column: 48
+            line: 68,
+            column: 9
           }
         },
         loc: {
           start: {
-            line: 37,
-            column: 59
+            line: 68,
+            column: 20
           },
           end: {
-            line: 41,
+            line: 72,
             column: 9
           }
         },
-        line: 37
+        line: 68
       },
       "6": {
         name: "showCalendar",
         decl: {
           start: {
-            line: 46,
-            column: 9
+            line: 79,
+            column: 11
           },
           end: {
-            line: 46,
-            column: 21
+            line: 79,
+            column: 23
           }
         },
         loc: {
           start: {
-            line: 46,
-            column: 35
+            line: 79,
+            column: 37
           },
           end: {
-            line: 96,
-            column: 1
+            line: 123,
+            column: 3
           }
         },
-        line: 46
+        line: 79
       },
       "7": {
         name: "daysInMonth",
         decl: {
           start: {
-            line: 100,
-            column: 9
+            line: 126,
+            column: 11
           },
           end: {
-            line: 100,
-            column: 20
+            line: 126,
+            column: 22
           }
         },
         loc: {
           start: {
-            line: 100,
-            column: 36
+            line: 126,
+            column: 38
           },
           end: {
-            line: 102,
-            column: 1
+            line: 128,
+            column: 3
           }
         },
-        line: 100
+        line: 126
       }
     },
     branchMap: {
       "0": {
         loc: {
           start: {
-            line: 19,
-            column: 22
+            line: 3,
+            column: 2
           },
           end: {
-            line: 19,
-            column: 75
+            line: 5,
+            column: 3
           }
         },
-        type: "cond-expr",
+        type: "if",
         locations: [{
           start: {
-            line: 19,
-            column: 46
+            line: 3,
+            column: 2
           },
           end: {
-            line: 19,
-            column: 61
+            line: 5,
+            column: 3
           }
         }, {
           start: {
-            line: 19,
-            column: 64
+            line: undefined,
+            column: undefined
           },
           end: {
-            line: 19,
-            column: 75
+            line: undefined,
+            column: undefined
           }
         }],
-        line: 19
+        line: 3
       },
       "1": {
         loc: {
           start: {
-            line: 25,
-            column: 22
+            line: 36,
+            column: 20
           },
           end: {
-            line: 25,
-            column: 74
+            line: 36,
+            column: 71
           }
         },
         type: "cond-expr",
         locations: [{
           start: {
-            line: 25,
-            column: 45
+            line: 36,
+            column: 42
           },
           end: {
-            line: 25,
-            column: 60
+            line: 36,
+            column: 57
           }
         }, {
           start: {
-            line: 25,
-            column: 63
+            line: 36,
+            column: 60
           },
           end: {
-            line: 25,
-            column: 74
+            line: 36,
+            column: 71
           }
         }],
-        line: 25
+        line: 36
       },
       "2": {
         loc: {
           start: {
-            line: 26,
-            column: 23
+            line: 46,
+            column: 20
           },
           end: {
-            line: 26,
-            column: 67
+            line: 46,
+            column: 70
           }
         },
         type: "cond-expr",
         locations: [{
           start: {
-            line: 26,
-            column: 46
+            line: 46,
+            column: 41
           },
           end: {
-            line: 26,
-            column: 48
+            line: 46,
+            column: 56
           }
         }, {
           start: {
-            line: 26,
-            column: 51
+            line: 46,
+            column: 59
           },
           end: {
-            line: 26,
-            column: 67
+            line: 46,
+            column: 70
           }
         }],
-        line: 26
+        line: 46
       },
       "3": {
         loc: {
           start: {
-            line: 69,
-            column: 12
+            line: 47,
+            column: 21
           },
           end: {
-            line: 88,
-            column: 13
+            line: 47,
+            column: 63
           }
         },
-        type: "if",
+        type: "cond-expr",
         locations: [{
           start: {
-            line: 69,
-            column: 12
+            line: 47,
+            column: 42
           },
           end: {
-            line: 88,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 75,
-            column: 17
-          },
-          end: {
-            line: 88,
-            column: 13
-          }
-        }],
-        line: 69
-      },
-      "4": {
-        loc: {
-          start: {
-            line: 69,
-            column: 16
-          },
-          end: {
-            line: 69,
-            column: 39
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 69,
-            column: 16
-          },
-          end: {
-            line: 69,
-            column: 23
-          }
-        }, {
-          start: {
-            line: 69,
-            column: 27
-          },
-          end: {
-            line: 69,
-            column: 39
-          }
-        }],
-        line: 69
-      },
-      "5": {
-        loc: {
-          start: {
-            line: 75,
-            column: 17
-          },
-          end: {
-            line: 88,
-            column: 13
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 75,
-            column: 17
-          },
-          end: {
-            line: 88,
-            column: 13
-          }
-        }, {
-          start: {
-            line: 79,
-            column: 17
-          },
-          end: {
-            line: 88,
-            column: 13
-          }
-        }],
-        line: 75
-      },
-      "6": {
-        loc: {
-          start: {
-            line: 82,
-            column: 16
-          },
-          end: {
-            line: 84,
-            column: 17
-          }
-        },
-        type: "if",
-        locations: [{
-          start: {
-            line: 82,
-            column: 16
-          },
-          end: {
-            line: 84,
-            column: 17
-          }
-        }, {
-          start: {
-            line: undefined,
-            column: undefined
-          },
-          end: {
-            line: undefined,
-            column: undefined
-          }
-        }],
-        line: 82
-      },
-      "7": {
-        loc: {
-          start: {
-            line: 82,
-            column: 20
-          },
-          end: {
-            line: 82,
-            column: 106
-          }
-        },
-        type: "binary-expr",
-        locations: [{
-          start: {
-            line: 82,
-            column: 20
-          },
-          end: {
-            line: 82,
+            line: 47,
             column: 44
           }
         }, {
           start: {
-            line: 82,
-            column: 48
+            line: 47,
+            column: 47
           },
           end: {
-            line: 82,
-            column: 76
+            line: 47,
+            column: 63
+          }
+        }],
+        line: 47
+      },
+      "4": {
+        loc: {
+          start: {
+            line: 98,
+            column: 8
+          },
+          end: {
+            line: 118,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 98,
+            column: 8
+          },
+          end: {
+            line: 118,
+            column: 9
           }
         }, {
           start: {
-            line: 82,
-            column: 80
+            line: 103,
+            column: 15
           },
           end: {
-            line: 82,
-            column: 106
+            line: 118,
+            column: 9
           }
         }],
-        line: 82
+        line: 98
+      },
+      "5": {
+        loc: {
+          start: {
+            line: 98,
+            column: 12
+          },
+          end: {
+            line: 98,
+            column: 35
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 98,
+            column: 12
+          },
+          end: {
+            line: 98,
+            column: 19
+          }
+        }, {
+          start: {
+            line: 98,
+            column: 23
+          },
+          end: {
+            line: 98,
+            column: 35
+          }
+        }],
+        line: 98
+      },
+      "6": {
+        loc: {
+          start: {
+            line: 103,
+            column: 15
+          },
+          end: {
+            line: 118,
+            column: 9
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 103,
+            column: 15
+          },
+          end: {
+            line: 118,
+            column: 9
+          }
+        }, {
+          start: {
+            line: 105,
+            column: 15
+          },
+          end: {
+            line: 118,
+            column: 9
+          }
+        }],
+        line: 103
+      },
+      "7": {
+        loc: {
+          start: {
+            line: 108,
+            column: 10
+          },
+          end: {
+            line: 114,
+            column: 11
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 108,
+            column: 10
+          },
+          end: {
+            line: 114,
+            column: 11
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 108
+      },
+      "8": {
+        loc: {
+          start: {
+            line: 109,
+            column: 12
+          },
+          end: {
+            line: 111,
+            column: 38
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 109,
+            column: 12
+          },
+          end: {
+            line: 109,
+            column: 36
+          }
+        }, {
+          start: {
+            line: 110,
+            column: 12
+          },
+          end: {
+            line: 110,
+            column: 40
+          }
+        }, {
+          start: {
+            line: 111,
+            column: 12
+          },
+          end: {
+            line: 111,
+            column: 38
+          }
+        }],
+        line: 109
       }
     },
     s: {
@@ -4885,7 +4938,9 @@ function cov_18oei45ori() {
       "52": 0,
       "53": 0,
       "54": 0,
-      "55": 0
+      "55": 0,
+      "56": 0,
+      "57": 0
     },
     f: {
       "0": 0,
@@ -4905,10 +4960,11 @@ function cov_18oei45ori() {
       "4": [0, 0],
       "5": [0, 0],
       "6": [0, 0],
-      "7": [0, 0, 0]
+      "7": [0, 0],
+      "8": [0, 0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "ce64352dbf6945fa33253034b62c83530d795c41"
+    hash: "17aca00e1ead3f7a75b271f197a623ffdead0c2f"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -4930,138 +4986,148 @@ cov_18oei45ori();
 cov_18oei45ori().s[0]++;
 var calendar = function calendar() {
   cov_18oei45ori().f[0]++;
-  var today = (cov_18oei45ori().s[1]++, new Date());
-  var currentMonth = (cov_18oei45ori().s[2]++, today.getMonth());
-  var currentYear = (cov_18oei45ori().s[3]++, today.getFullYear());
-  var selectYear = (cov_18oei45ori().s[4]++, document.getElementById("year"));
-  var selectMonth = (cov_18oei45ori().s[5]++, document.getElementById("month"));
-  var months = (cov_18oei45ori().s[6]++, ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]);
-  var monthAndYear = (cov_18oei45ori().s[7]++, document.getElementById("monthAndYear"));
-  cov_18oei45ori().s[8]++;
-  showCalendar(currentMonth, currentYear);
-  var next = (cov_18oei45ori().s[9]++, document.getElementById("next"));
-  var prev = (cov_18oei45ori().s[10]++, document.getElementById("prev"));
+  var tbl = (cov_18oei45ori().s[1]++, document.getElementById("calendar-body")); // body of the calendar
+
+  cov_18oei45ori().s[2]++;
+
+  if (!tbl) {
+    cov_18oei45ori().b[0][0]++;
+    cov_18oei45ori().s[3]++;
+    return false;
+  } else {
+    cov_18oei45ori().b[0][1]++;
+  }
+
+  var today = (cov_18oei45ori().s[4]++, new Date());
+  var currentMonth = (cov_18oei45ori().s[5]++, today.getMonth());
+  var currentYear = (cov_18oei45ori().s[6]++, today.getFullYear());
+  var selectYear = (cov_18oei45ori().s[7]++, document.getElementById("year"));
+  var selectMonth = (cov_18oei45ori().s[8]++, document.getElementById("month"));
+  var months = (cov_18oei45ori().s[9]++, ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]);
+  var monthAndYear = (cov_18oei45ori().s[10]++, document.getElementById("monthAndYear"));
   cov_18oei45ori().s[11]++;
+  showCalendar(currentMonth, currentYear);
+  var next = (cov_18oei45ori().s[12]++, document.getElementById("next"));
+  var prev = (cov_18oei45ori().s[13]++, document.getElementById("prev"));
+  cov_18oei45ori().s[14]++;
   next.addEventListener("click", function () {
     cov_18oei45ori().f[1]++;
-    cov_18oei45ori().s[12]++;
-    currentYear = currentMonth === 11 ? (cov_18oei45ori().b[0][0]++, currentYear + 1) : (cov_18oei45ori().b[0][1]++, currentYear);
-    cov_18oei45ori().s[13]++;
+    cov_18oei45ori().s[15]++;
+    currentYear = currentMonth === 11 ? (cov_18oei45ori().b[1][0]++, currentYear + 1) : (cov_18oei45ori().b[1][1]++, currentYear);
+    cov_18oei45ori().s[16]++;
     currentMonth = (currentMonth + 1) % 12;
-    cov_18oei45ori().s[14]++;
+    cov_18oei45ori().s[17]++;
     showCalendar(currentMonth, currentYear);
   }, false);
-  cov_18oei45ori().s[15]++;
+  cov_18oei45ori().s[18]++;
   prev.addEventListener("click", function () {
     cov_18oei45ori().f[2]++;
-    cov_18oei45ori().s[16]++;
-    currentYear = currentMonth === 0 ? (cov_18oei45ori().b[1][0]++, currentYear - 1) : (cov_18oei45ori().b[1][1]++, currentYear);
-    cov_18oei45ori().s[17]++;
-    currentMonth = currentMonth === 0 ? (cov_18oei45ori().b[2][0]++, 11) : (cov_18oei45ori().b[2][1]++, currentMonth - 1);
-    cov_18oei45ori().s[18]++;
+    cov_18oei45ori().s[19]++;
+    currentYear = currentMonth === 0 ? (cov_18oei45ori().b[2][0]++, currentYear - 1) : (cov_18oei45ori().b[2][1]++, currentYear);
+    cov_18oei45ori().s[20]++;
+    currentMonth = currentMonth === 0 ? (cov_18oei45ori().b[3][0]++, 11) : (cov_18oei45ori().b[3][1]++, currentMonth - 1);
+    cov_18oei45ori().s[21]++;
     showCalendar(currentMonth, currentYear);
   }, false);
-  cov_18oei45ori().s[19]++;
+  cov_18oei45ori().s[22]++;
   document.addEventListener("DOMContentLoaded", function () {
     cov_18oei45ori().f[3]++;
-    cov_18oei45ori().s[20]++;
+    cov_18oei45ori().s[23]++;
     selectYear.addEventListener("change", function () {
       cov_18oei45ori().f[4]++;
-      cov_18oei45ori().s[21]++;
+      cov_18oei45ori().s[24]++;
       currentYear = parseInt(selectYear.value);
-      cov_18oei45ori().s[22]++;
+      cov_18oei45ori().s[25]++;
       currentMonth = parseInt(selectMonth.value);
-      cov_18oei45ori().s[23]++;
+      cov_18oei45ori().s[26]++;
       showCalendar(currentMonth, currentYear);
     }, false);
-    cov_18oei45ori().s[24]++;
+    cov_18oei45ori().s[27]++;
     selectMonth.addEventListener("change", function () {
       cov_18oei45ori().f[5]++;
-      cov_18oei45ori().s[25]++;
+      cov_18oei45ori().s[28]++;
       currentYear = parseInt(selectYear.value);
-      cov_18oei45ori().s[26]++;
+      cov_18oei45ori().s[29]++;
       currentMonth = parseInt(selectMonth.value);
-      cov_18oei45ori().s[27]++;
+      cov_18oei45ori().s[30]++;
       showCalendar(currentMonth, currentYear);
     }, false);
   }, false);
 
   function showCalendar(month, year) {
     cov_18oei45ori().f[6]++;
-    var firstDay = (cov_18oei45ori().s[28]++, new Date(year, month).getDay());
-    var tbl = (cov_18oei45ori().s[29]++, document.getElementById("calendar-body")); // body of the calendar
-    // clearing all previous cells
+    var firstDay = (cov_18oei45ori().s[31]++, new Date(year, month).getDay()); // clearing all previous cells
 
-    cov_18oei45ori().s[30]++;
+    cov_18oei45ori().s[32]++;
     tbl.innerHTML = ""; // filing data about month and in the page via DOM.
 
-    cov_18oei45ori().s[31]++;
-    monthAndYear.innerHTML = months[month] + " " + year;
-    cov_18oei45ori().s[32]++;
-    selectYear.value = year;
     cov_18oei45ori().s[33]++;
+    monthAndYear.innerHTML = months[month] + " " + year;
+    cov_18oei45ori().s[34]++;
+    selectYear.value = year;
+    cov_18oei45ori().s[35]++;
     selectMonth.value = month; // creating all cells
 
-    var date = (cov_18oei45ori().s[34]++, 1);
-    cov_18oei45ori().s[35]++;
+    var date = (cov_18oei45ori().s[36]++, 1);
+    cov_18oei45ori().s[37]++;
 
-    for (var i = (cov_18oei45ori().s[36]++, 0); i < 6; i++) {
+    for (var i = (cov_18oei45ori().s[38]++, 0); i < 6; i++) {
       // creates a table row
-      var row = (cov_18oei45ori().s[37]++, document.createElement("tr")); //creating individual cells, filing them up with data.
+      var row = (cov_18oei45ori().s[39]++, document.createElement("tr")); //creating individual cells, filing them up with data.
 
-      cov_18oei45ori().s[38]++;
+      cov_18oei45ori().s[40]++;
 
-      for (var j = (cov_18oei45ori().s[39]++, 0); j < 7; j++) {
-        cov_18oei45ori().s[40]++;
+      for (var j = (cov_18oei45ori().s[41]++, 0); j < 7; j++) {
+        cov_18oei45ori().s[42]++;
 
-        if ((cov_18oei45ori().b[4][0]++, i === 0) && (cov_18oei45ori().b[4][1]++, j < firstDay)) {
-          cov_18oei45ori().b[3][0]++;
-          var cell = (cov_18oei45ori().s[41]++, document.createElement("td"));
-          var cellText = (cov_18oei45ori().s[42]++, document.createTextNode(""));
-          cov_18oei45ori().s[43]++;
+        if ((cov_18oei45ori().b[5][0]++, i === 0) && (cov_18oei45ori().b[5][1]++, j < firstDay)) {
+          cov_18oei45ori().b[4][0]++;
+          var cell = (cov_18oei45ori().s[43]++, document.createElement("td"));
+          var cellText = (cov_18oei45ori().s[44]++, document.createTextNode(""));
+          cov_18oei45ori().s[45]++;
           cell.appendChild(cellText);
-          cov_18oei45ori().s[44]++;
+          cov_18oei45ori().s[46]++;
           row.appendChild(cell);
         } else {
-          cov_18oei45ori().b[3][1]++;
-          cov_18oei45ori().s[45]++;
+          cov_18oei45ori().b[4][1]++;
+          cov_18oei45ori().s[47]++;
 
           if (date > daysInMonth(month, year)) {
-            cov_18oei45ori().b[5][0]++;
-            cov_18oei45ori().s[46]++;
+            cov_18oei45ori().b[6][0]++;
+            cov_18oei45ori().s[48]++;
             break;
           } else {
-            cov_18oei45ori().b[5][1]++;
+            cov_18oei45ori().b[6][1]++;
 
-            var _cell = (cov_18oei45ori().s[47]++, document.createElement("td"));
+            var _cell = (cov_18oei45ori().s[49]++, document.createElement("td"));
 
-            var _cellText = (cov_18oei45ori().s[48]++, document.createTextNode(date));
-
-            cov_18oei45ori().s[49]++;
-
-            if ((cov_18oei45ori().b[7][0]++, date === today.getDate()) && (cov_18oei45ori().b[7][1]++, year === today.getFullYear()) && (cov_18oei45ori().b[7][2]++, month === today.getMonth())) {
-              cov_18oei45ori().b[6][0]++;
-              cov_18oei45ori().s[50]++;
-
-              _cell.classList.add("today");
-            } else {
-              cov_18oei45ori().b[6][1]++;
-            } // color today's date
-
+            var _cellText = (cov_18oei45ori().s[50]++, document.createTextNode(date));
 
             cov_18oei45ori().s[51]++;
 
+            if ((cov_18oei45ori().b[8][0]++, date === today.getDate()) && (cov_18oei45ori().b[8][1]++, year === today.getFullYear()) && (cov_18oei45ori().b[8][2]++, month === today.getMonth())) {
+              cov_18oei45ori().b[7][0]++;
+              cov_18oei45ori().s[52]++;
+
+              _cell.classList.add("today");
+            } else {
+              cov_18oei45ori().b[7][1]++;
+            } // color today's date
+
+
+            cov_18oei45ori().s[53]++;
+
             _cell.appendChild(_cellText);
 
-            cov_18oei45ori().s[52]++;
+            cov_18oei45ori().s[54]++;
             row.appendChild(_cell);
-            cov_18oei45ori().s[53]++;
+            cov_18oei45ori().s[55]++;
             date++;
           }
         }
       }
 
-      cov_18oei45ori().s[54]++;
+      cov_18oei45ori().s[56]++;
       tbl.appendChild(row); // appending each row into calendar body.
     }
   } // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
@@ -5069,14 +5135,661 @@ var calendar = function calendar() {
 
   function daysInMonth(iMonth, iYear) {
     cov_18oei45ori().f[7]++;
-    cov_18oei45ori().s[55]++;
+    cov_18oei45ori().s[57]++;
     return 32 - new Date(iYear, iMonth, 32).getDate();
   }
+};
+;// CONCATENATED MODULE: ./src/js/analytics/analytics.js
+function cov_1dem8e6ysh() {
+  var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\analytics\\analytics.js";
+  var hash = "bde429728e81e9e0e3386657a1cb0543e94982f9";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\analytics\\analytics.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 25
+        },
+        end: {
+          line: 382,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 5,
+          column: 4
+        },
+        end: {
+          line: 10,
+          column: 17
+        }
+      },
+      "2": {
+        start: {
+          line: 6,
+          column: 8
+        },
+        end: {
+          line: 9,
+          column: 11
+        }
+      },
+      "3": {
+        start: {
+          line: 13,
+          column: 4
+        },
+        end: {
+          line: 19,
+          column: 13
+        }
+      },
+      "4": {
+        start: {
+          line: 14,
+          column: 8
+        },
+        end: {
+          line: 17,
+          column: 11
+        }
+      },
+      "5": {
+        start: {
+          line: 22,
+          column: 4
+        },
+        end: {
+          line: 28,
+          column: 13
+        }
+      },
+      "6": {
+        start: {
+          line: 23,
+          column: 8
+        },
+        end: {
+          line: 26,
+          column: 11
+        }
+      },
+      "7": {
+        start: {
+          line: 31,
+          column: 4
+        },
+        end: {
+          line: 38,
+          column: 13
+        }
+      },
+      "8": {
+        start: {
+          line: 32,
+          column: 8
+        },
+        end: {
+          line: 35,
+          column: 11
+        }
+      },
+      "9": {
+        start: {
+          line: 159,
+          column: 4
+        },
+        end: {
+          line: 164,
+          column: 17
+        }
+      },
+      "10": {
+        start: {
+          line: 160,
+          column: 8
+        },
+        end: {
+          line: 163,
+          column: 11
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 1,
+            column: 25
+          },
+          end: {
+            line: 1,
+            column: 26
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 31
+          },
+          end: {
+            line: 382,
+            column: 1
+          }
+        },
+        line: 1
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 5,
+            column: 38
+          },
+          end: {
+            line: 5,
+            column: 39
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 51
+          },
+          end: {
+            line: 10,
+            column: 5
+          }
+        },
+        line: 5
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 13,
+            column: 39
+          },
+          end: {
+            line: 13,
+            column: 40
+          }
+        },
+        loc: {
+          start: {
+            line: 13,
+            column: 52
+          },
+          end: {
+            line: 18,
+            column: 5
+          }
+        },
+        line: 13
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 22,
+            column: 40
+          },
+          end: {
+            line: 22,
+            column: 41
+          }
+        },
+        loc: {
+          start: {
+            line: 22,
+            column: 53
+          },
+          end: {
+            line: 27,
+            column: 5
+          }
+        },
+        line: 22
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 31,
+            column: 40
+          },
+          end: {
+            line: 31,
+            column: 41
+          }
+        },
+        loc: {
+          start: {
+            line: 31,
+            column: 53
+          },
+          end: {
+            line: 36,
+            column: 5
+          }
+        },
+        line: 31
+      },
+      "5": {
+        name: "(anonymous_5)",
+        decl: {
+          start: {
+            line: 159,
+            column: 40
+          },
+          end: {
+            line: 159,
+            column: 41
+          }
+        },
+        loc: {
+          start: {
+            line: 159,
+            column: 53
+          },
+          end: {
+            line: 164,
+            column: 5
+          }
+        },
+        line: 159
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "bde429728e81e9e0e3386657a1cb0543e94982f9"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1dem8e6ysh = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+
+cov_1dem8e6ysh();
+cov_1dem8e6ysh().s[0]++;
+var analytics = function analytics() {
+  cov_1dem8e6ysh().f[0]++;
+  cov_1dem8e6ysh().s[1]++;
+  // scroll tracking
+  window.addEventListener("scroll", function (e) {
+    cov_1dem8e6ysh().f[1]++;
+    cov_1dem8e6ysh().s[2]++;
+    gtag('event', 'scroll', {
+      event_category: 'scroll',
+      event_label: window.pageYOffset
+    });
+  }, false); // click tracking
+
+  cov_1dem8e6ysh().s[3]++;
+  document.addEventListener("click", function (e) {
+    cov_1dem8e6ysh().f[2]++;
+    cov_1dem8e6ysh().s[4]++;
+    gtag('event', 'click', {
+      event_category: 'click',
+      event_label: e.target.value
+    });
+  }, false); // form tracking
+
+  cov_1dem8e6ysh().s[5]++;
+  document.addEventListener("submit", function (e) {
+    cov_1dem8e6ysh().f[3]++;
+    cov_1dem8e6ysh().s[6]++;
+    gtag('event', 'submit', {
+      event_category: 'submit',
+      event_label: e.target.value
+    });
+  }, false); // form tracking
+
+  cov_1dem8e6ysh().s[7]++;
+  document.addEventListener("change", function (e) {
+    cov_1dem8e6ysh().f[4]++;
+    cov_1dem8e6ysh().s[8]++;
+    gtag('event', 'change', {
+      event_category: 'change',
+      event_label: e.target.value
+    });
+  }, false); // // form tracking
+  // document.addEventListener("focus", function (e) {
+  //     gtag('event', 'focus', {
+  //         event_category: 'focus',
+  //         event_label: e.target.id
+  //     });
+  // }
+  // , false);
+  // // form tracking
+  // document.addEventListener("blur", function (e) {
+  //     gtag('event', 'blur', {
+  //         event_category: 'blur',
+  //         event_label: e.target.id
+  //     });
+  // } 
+  // , false);
+  // // form tracking
+  // document.addEventListener("keydown", function (e) {
+  //     gtag('event', 'keydown', {
+  //         event_category: 'keydown',
+  //         event_label: e.target.id
+  //     });
+  // }   , false);
+  // // form tracking
+  // document.addEventListener("keyup", function (e) {
+  //     gtag('event', 'keyup', {
+  //         event_category: 'keyup',
+  //         event_label: e.target.id
+  //     });
+  // }   
+  // , false);
+  // // form tracking
+  // document.addEventListener("keypress", function (e) {
+  //     gtag('event', 'keypress', {
+  //         event_category: 'keypress',
+  //         event_label: e.target.id
+  //     });
+  // }   , false);
+  // // form tracking
+  // document.addEventListener("mouseover", function (e) {
+  //     gtag('event', 'mouseover', {
+  //         event_category: 'mouseover',
+  //         event_label: e.target.id
+  //     });
+  // }   , false);
+  // // // form tracking
+  // // document.addEventListener("mouseout", function (e) {
+  // //     gtag('event', 'mouseout', {
+  // //         event_category: 'mouseout',
+  // //         event_label: e.target.id
+  // //     });
+  // // }   , false);
+  // // // form tracking
+  // // document.addEventListener("mousedown", function (e) {
+  // //     gtag('event', 'mousedown', {
+  // //         event_category: 'mousedown',
+  // //         event_label: e.target.id
+  // //     });
+  // // }   , false);
+  // // // form tracking
+  // // document.addEventListener("mouseup", function (e) {
+  // //     gtag('event', 'mouseup', {
+  // //         event_category: 'mouseup',
+  // //         event_label: e.target.id
+  // //     });
+  // // }   , false);
+  // // // form tracking
+  // // document.addEventListener("mousemove", function (e) {
+  // //     gtag('event', 'mousemove', {
+  // //         event_category: 'mousemove',
+  // //         event_label: e.target.id
+  // //     });
+  // // }   , false);
+  // // form tracking
+  // // document.addEventListener("DOMContentLoaded", function (e) {
+  // //     gtag('event', 'DOMContentLoaded', {
+  // //         event_category: 'DOMContentLoaded',
+  // //         event_label: e.target.id
+  // //     });
+  // // }   , false);
+  // // form tracking
+  // document.addEventListener("load", function (e) {
+  //     gtag('event', 'load', {
+  //         event_category: 'load',
+  //         event_label: e.target.id
+  //     });
+  // }   , false);
+  // // form tracking
+  // document.addEventListener("unload", function (e) {
+  //     gtag('event', 'unload', {
+  //         event_category: 'unload',
+  //         event_label: e.target.id
+  //     });
+  // }   , false);
+  // // form tracking
+  // document.addEventListener("beforeunload", function (e) {
+  //     gtag('event', 'beforeunload', {
+  //         event_category: 'beforeunload',
+  //         event_label: e.target.id
+  //     });
+  // }   , false);
+  // form tracking
+
+  cov_1dem8e6ysh().s[9]++;
+  document.addEventListener("resize", function (e) {
+    cov_1dem8e6ysh().f[5]++;
+    cov_1dem8e6ysh().s[10]++;
+    gtag('event', 'resize', {
+      event_category: 'resize',
+      event_label: e.target.id
+    });
+  }, false); //     // form tracking
+  //     document.addEventListener("scroll", function (e) {
+  //         gtag('event', 'scroll', {
+  //             event_category: 'scroll',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("wheel", function (e) {
+  //         gtag('event', 'wheel', {
+  //             event_category: 'wheel',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("mousewheel", function (e) {
+  //         gtag('event', 'mousewheel', {
+  //             event_category: 'mousewheel',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("DOMMouseScroll", function (e) {
+  //         gtag('event', 'DOMMouseScroll', {
+  //             event_category: 'DOMMouseScroll',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("contextmenu", function (e) {
+  //         gtag('event', 'contextmenu', {
+  //             event_category: 'contextmenu',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("drag", function (e) {
+  //         gtag('event', 'drag', {
+  //             event_category: 'drag',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("dragstart", function (e) {
+  //         gtag('event', 'dragstart', {
+  //             event_category: 'dragstart',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("dragend", function (e) {
+  //         gtag('event', 'dragend', {
+  //             event_category: 'dragend',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("dragenter", function (e) {
+  //         gtag('event', 'dragenter', {
+  //             event_category: 'dragenter',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("dragover", function (e) {
+  //         gtag('event', 'dragover', {
+  //             event_category: 'dragover',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("dragleave", function (e) {
+  //         gtag('event', 'dragleave', {
+  //             event_category: 'dragleave',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("drop", function (e) {
+  //         gtag('event', 'drop', {
+  //             event_category: 'drop',
+  //             event_label: e.target.id
+  //         });
+  //     }
+  //     , false);
+  //     // form tracking
+  //     document.addEventListener("copy", function (e) {
+  //         gtag('event', 'copy', {
+  //             event_category: 'copy',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("cut", function (e) {
+  //         gtag('event', 'cut', {
+  //             event_category: 'cut',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("paste", function (e) {
+  //         gtag('event', 'paste', {
+  //             event_category: 'paste',
+  //             event_label: e.target.id
+  //         });
+  //     }
+  //     , false);
+  //     // form tracking
+  //     document.addEventListener("change", function (e) {
+  //         gtag('event', 'change', {
+  //             event_category: 'change',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // form tracking
+  //     document.addEventListener("select", function (e) {
+  //         gtag('event', 'select', {
+  //             event_category: 'select',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  // // track all clicks on the page
+  //     document.addEventListener("click", function (e) {
+  //         gtag('event', 'click', {
+  //             event_category: 'click',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  // // track everything that is a submit button
+  //     document.addEventListener("submit", function (e) {
+  //         gtag('event', 'submit', {
+  //             event_category: 'submit',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  // // track everthing that is a touch event
+  //     document.addEventListener("touchstart", function (e) {
+  //         gtag('event', 'touchstart', {
+  //             event_category: 'touchstart',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // track everything that is a video event
+  //     document.addEventListener("play", function (e) {
+  //         gtag('event', 'play', {
+  //             event_category: 'play',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // track everything that is a network event
+  //     document.addEventListener("network", function (e) {
+  //         gtag('event', 'network', {
+  //             event_category: 'network',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // track time on page
+  //     document.addEventListener("timeupdate", function (e) {
+  //         gtag('event', 'timeupdate', {
+  //             event_category: 'timeupdate',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     //conversion tracking
+  //     document.addEventListener("conversion", function (e) {
+  //         gtag('event', 'conversion', {
+  //             event_category: 'conversion',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // track mouse coordinates
+  //     document.addEventListener("mousemove", function (e) {
+  //         gtag('event', 'mousemove', {
+  //             event_category: 'mousemove',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
+  //     // track select event
+  //     document.addEventListener("select", function (e) {
+  //         gtag('event', 'select', {
+  //             event_category: 'select',
+  //             event_label: e.target.id
+  //         });
+  //     }   , false);
 };
 ;// CONCATENATED MODULE: ./src/js/index.js
 function cov_9erk2grnj() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\index.js";
-  var hash = "818a871d492bdcdf13cf3ced3597dd598e156eb3";
+  var hash = "a10e827aa5dd5df0edecf16f79d68b6849eb129a";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -5084,42 +5797,52 @@ function cov_9erk2grnj() {
     statementMap: {
       "0": {
         start: {
-          line: 12,
+          line: 13,
           column: 0
         },
         end: {
-          line: 12,
+          line: 13,
           column: 9
         }
       },
       "1": {
         start: {
-          line: 13,
+          line: 14,
           column: 0
         },
         end: {
-          line: 13,
+          line: 14,
           column: 9
         }
       },
       "2": {
         start: {
-          line: 15,
+          line: 16,
           column: 0
         },
         end: {
-          line: 15,
+          line: 16,
           column: 7
         }
       },
       "3": {
         start: {
-          line: 16,
+          line: 17,
           column: 0
         },
         end: {
-          line: 16,
+          line: 17,
           column: 11
+        }
+      },
+      "4": {
+        start: {
+          line: 18,
+          column: 0
+        },
+        end: {
+          line: 18,
+          column: 12
         }
       }
     },
@@ -5129,12 +5852,13 @@ function cov_9erk2grnj() {
       "0": 0,
       "1": 0,
       "2": 0,
-      "3": 0
+      "3": 0,
+      "4": 0
     },
     f: {},
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "818a871d492bdcdf13cf3ced3597dd598e156eb3"
+    hash: "a10e827aa5dd5df0edecf16f79d68b6849eb129a"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -5160,6 +5884,7 @@ cov_9erk2grnj();
 
 
 
+
  // import { api } from "./api/api";
 
 cov_9erk2grnj().s[0]++;
@@ -5171,6 +5896,8 @@ cov_9erk2grnj().s[2]++;
 menu();
 cov_9erk2grnj().s[3]++;
 calendar();
+cov_9erk2grnj().s[4]++;
+analytics();
 
 /***/ })
 
@@ -5336,7 +6063,7 @@ calendar();
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], function() { return __webpack_require__(830); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], function() { return __webpack_require__(592); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

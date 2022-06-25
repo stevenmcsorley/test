@@ -171,3 +171,29 @@
     }
   }
 }
+
+
+.calendar-header{
+  @include grid(repeat(7, 1fr), 25px auto);
+  text-align: center;
+}
+
+.calendar-body .row{
+  @include grid(repeat(7, 1fr), 100px auto, 1rem);
+
+}
+
+.calendar-body .row .cell-null{
+  border: 1px dashed rgb(216, 216, 216);
+}
+
+.calendar-body .row .cell{
+border:1px dashed grey;
+padding: 4px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+  &:hover{
+    background: green;
+    color:white;
+  }
+}
