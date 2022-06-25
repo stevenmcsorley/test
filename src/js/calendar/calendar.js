@@ -1,4 +1,21 @@
 export const calendar = () => {
+
+    function uuidv4() {
+        return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
+          (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+        );
+      }
+      
+      console.log(uuidv4());
+
+    // create a session storage id for the calendar
+    // if it doesn't exist, create it
+    if (!sessionStorage.getItem("calendarId")) {
+        sessionStorage.setItem("calendarId", uuidv4());
+    }
+
+
+
   let tbl = document.getElementById("calendar-body"); // body of the calendar
   if (!tbl) {
     return false;
@@ -136,20 +153,20 @@ export const calendar = () => {
   cells.forEach(function (cell) {
     cell.addEventListener("click", function () {
       const modal = document.querySelector(".modal");
-      modal.classList.add("show");
+      modal.classList.add("show-modal");
       /// call datalayer
       /// anaytics capture date click
       window.dataLayer.push({
         pageCategory: "Booking",
         bookingDate: cell.dataset.bookingDate,
-        bookingSession: "",
+        bookingSession: sessionStorage.getItem("calendarId"),
       });
     });
   });
-  const close = document.querySelector(".close");
+  const close = document.querySelector("[js-modal-close]");
   close.addEventListener("click", function () {
     const modal = document.querySelector(".modal");
-    modal.classList.remove("show");
+    modal.classList.remove("show-modal");
   });
   const modal = document.querySelector(".modal");
   window.addEventListener("click", function (event) {

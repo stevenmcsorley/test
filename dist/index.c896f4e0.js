@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "a31153e70d31f48a8b718ddcd0c16753d8a8e39e";
+  var hash = "a21c3020f6d7e6093246087e4bce913a8d05cedb";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3805,7 +3805,7 @@ function cov_18oei45ori() {
           column: 24
         },
         end: {
-          line: 132,
+          line: 160,
           column: 1
         }
       },
@@ -4175,7 +4175,7 @@ function cov_18oei45ori() {
           column: 4
         },
         end: {
-          line: 125,
+          line: 126,
           column: 5
         }
       },
@@ -4215,7 +4215,7 @@ function cov_18oei45ori() {
           column: 6
         },
         end: {
-          line: 122,
+          line: 123,
           column: 7
         }
       },
@@ -4235,7 +4235,7 @@ function cov_18oei45ori() {
           column: 8
         },
         end: {
-          line: 121,
+          line: 122,
           column: 9
         }
       },
@@ -4295,7 +4295,7 @@ function cov_18oei45ori() {
           column: 15
         },
         end: {
-          line: 121,
+          line: 122,
           column: 9
         }
       },
@@ -4376,7 +4376,7 @@ function cov_18oei45ori() {
         },
         end: {
           line: 119,
-          column: 32
+          column: 77
         }
       },
       "58": {
@@ -4386,27 +4386,177 @@ function cov_18oei45ori() {
         },
         end: {
           line: 120,
-          column: 17
+          column: 32
         }
       },
       "59": {
         start: {
-          line: 124,
-          column: 6
+          line: 121,
+          column: 10
         },
         end: {
-          line: 124,
-          column: 27
+          line: 121,
+          column: 17
         }
       },
       "60": {
         start: {
-          line: 130,
+          line: 125,
+          column: 6
+        },
+        end: {
+          line: 125,
+          column: 27
+        }
+      },
+      "61": {
+        start: {
+          line: 131,
           column: 4
         },
         end: {
-          line: 130,
+          line: 131,
           column: 54
+        }
+      },
+      "62": {
+        start: {
+          line: 135,
+          column: 16
+        },
+        end: {
+          line: 135,
+          column: 50
+        }
+      },
+      "63": {
+        start: {
+          line: 136,
+          column: 2
+        },
+        end: {
+          line: 148,
+          column: 5
+        }
+      },
+      "64": {
+        start: {
+          line: 137,
+          column: 4
+        },
+        end: {
+          line: 147,
+          column: 7
+        }
+      },
+      "65": {
+        start: {
+          line: 138,
+          column: 20
+        },
+        end: {
+          line: 138,
+          column: 52
+        }
+      },
+      "66": {
+        start: {
+          line: 139,
+          column: 6
+        },
+        end: {
+          line: 139,
+          column: 34
+        }
+      },
+      "67": {
+        start: {
+          line: 142,
+          column: 6
+        },
+        end: {
+          line: 146,
+          column: 9
+        }
+      },
+      "68": {
+        start: {
+          line: 149,
+          column: 16
+        },
+        end: {
+          line: 149,
+          column: 48
+        }
+      },
+      "69": {
+        start: {
+          line: 150,
+          column: 2
+        },
+        end: {
+          line: 153,
+          column: 5
+        }
+      },
+      "70": {
+        start: {
+          line: 151,
+          column: 18
+        },
+        end: {
+          line: 151,
+          column: 50
+        }
+      },
+      "71": {
+        start: {
+          line: 152,
+          column: 4
+        },
+        end: {
+          line: 152,
+          column: 35
+        }
+      },
+      "72": {
+        start: {
+          line: 154,
+          column: 16
+        },
+        end: {
+          line: 154,
+          column: 48
+        }
+      },
+      "73": {
+        start: {
+          line: 155,
+          column: 2
+        },
+        end: {
+          line: 159,
+          column: 5
+        }
+      },
+      "74": {
+        start: {
+          line: 156,
+          column: 4
+        },
+        end: {
+          line: 158,
+          column: 5
+        }
+      },
+      "75": {
+        start: {
+          line: 157,
+          column: 6
+        },
+        end: {
+          line: 157,
+          column: 37
         }
       }
     },
@@ -4429,7 +4579,7 @@ function cov_18oei45ori() {
             column: 30
           },
           end: {
-            line: 132,
+            line: 160,
             column: 1
           }
         },
@@ -4573,7 +4723,7 @@ function cov_18oei45ori() {
             column: 37
           },
           end: {
-            line: 126,
+            line: 127,
             column: 3
           }
         },
@@ -4583,25 +4733,121 @@ function cov_18oei45ori() {
         name: "daysInMonth",
         decl: {
           start: {
-            line: 129,
+            line: 130,
             column: 11
           },
           end: {
-            line: 129,
+            line: 130,
             column: 22
           }
         },
         loc: {
           start: {
-            line: 129,
+            line: 130,
             column: 38
           },
           end: {
-            line: 131,
+            line: 132,
             column: 3
           }
         },
-        line: 129
+        line: 130
+      },
+      "8": {
+        name: "(anonymous_8)",
+        decl: {
+          start: {
+            line: 136,
+            column: 16
+          },
+          end: {
+            line: 136,
+            column: 17
+          }
+        },
+        loc: {
+          start: {
+            line: 136,
+            column: 32
+          },
+          end: {
+            line: 148,
+            column: 3
+          }
+        },
+        line: 136
+      },
+      "9": {
+        name: "(anonymous_9)",
+        decl: {
+          start: {
+            line: 137,
+            column: 35
+          },
+          end: {
+            line: 137,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 137,
+            column: 47
+          },
+          end: {
+            line: 147,
+            column: 5
+          }
+        },
+        line: 137
+      },
+      "10": {
+        name: "(anonymous_10)",
+        decl: {
+          start: {
+            line: 150,
+            column: 34
+          },
+          end: {
+            line: 150,
+            column: 35
+          }
+        },
+        loc: {
+          start: {
+            line: 150,
+            column: 46
+          },
+          end: {
+            line: 153,
+            column: 3
+          }
+        },
+        line: 150
+      },
+      "11": {
+        name: "(anonymous_11)",
+        decl: {
+          start: {
+            line: 155,
+            column: 35
+          },
+          end: {
+            line: 155,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 155,
+            column: 52
+          },
+          end: {
+            line: 159,
+            column: 3
+          }
+        },
+        line: 155
       }
     },
     branchMap: {
@@ -4744,7 +4990,7 @@ function cov_18oei45ori() {
             column: 8
           },
           end: {
-            line: 121,
+            line: 122,
             column: 9
           }
         },
@@ -4755,7 +5001,7 @@ function cov_18oei45ori() {
             column: 8
           },
           end: {
-            line: 121,
+            line: 122,
             column: 9
           }
         }, {
@@ -4764,7 +5010,7 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 121,
+            line: 122,
             column: 9
           }
         }],
@@ -4810,7 +5056,7 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 121,
+            line: 122,
             column: 9
           }
         },
@@ -4821,7 +5067,7 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 121,
+            line: 122,
             column: 9
           }
         }, {
@@ -4830,7 +5076,7 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 121,
+            line: 122,
             column: 9
           }
         }],
@@ -4910,6 +5156,39 @@ function cov_18oei45ori() {
           }
         }],
         line: 112
+      },
+      "9": {
+        loc: {
+          start: {
+            line: 156,
+            column: 4
+          },
+          end: {
+            line: 158,
+            column: 5
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 156,
+            column: 4
+          },
+          end: {
+            line: 158,
+            column: 5
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 156
       }
     },
     s: {
@@ -4973,7 +5252,22 @@ function cov_18oei45ori() {
       "57": 0,
       "58": 0,
       "59": 0,
-      "60": 0
+      "60": 0,
+      "61": 0,
+      "62": 0,
+      "63": 0,
+      "64": 0,
+      "65": 0,
+      "66": 0,
+      "67": 0,
+      "68": 0,
+      "69": 0,
+      "70": 0,
+      "71": 0,
+      "72": 0,
+      "73": 0,
+      "74": 0,
+      "75": 0
     },
     f: {
       "0": 0,
@@ -4983,7 +5277,11 @@ function cov_18oei45ori() {
       "4": 0,
       "5": 0,
       "6": 0,
-      "7": 0
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
     },
     b: {
       "0": [0, 0],
@@ -4994,10 +5292,11 @@ function cov_18oei45ori() {
       "5": [0, 0],
       "6": [0, 0],
       "7": [0, 0],
-      "8": [0, 0, 0]
+      "8": [0, 0, 0],
+      "9": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "a31153e70d31f48a8b718ddcd0c16753d8a8e39e"
+    hash: "a21c3020f6d7e6093246087e4bce913a8d05cedb"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -5164,14 +5463,18 @@ var calendar = function calendar() {
             _cell.appendChild(_cellText);
 
             cov_18oei45ori().s[57]++;
-            row.appendChild(_cell);
+
+            _cell.setAttribute("data-booking-date", "".concat(date, "-").concat(month, "-").concat(year));
+
             cov_18oei45ori().s[58]++;
+            row.appendChild(_cell);
+            cov_18oei45ori().s[59]++;
             date++;
           }
         }
       }
 
-      cov_18oei45ori().s[59]++;
+      cov_18oei45ori().s[60]++;
       tbl.appendChild(row); // appending each row into calendar body.
     }
   } // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
@@ -5179,9 +5482,53 @@ var calendar = function calendar() {
 
   function daysInMonth(iMonth, iYear) {
     cov_18oei45ori().f[7]++;
-    cov_18oei45ori().s[60]++;
+    cov_18oei45ori().s[61]++;
     return 32 - new Date(iYear, iMonth, 32).getDate();
-  }
+  } /// on click cell show modal
+
+
+  var cells = (cov_18oei45ori().s[62]++, document.querySelectorAll(".cell"));
+  cov_18oei45ori().s[63]++;
+  cells.forEach(function (cell) {
+    cov_18oei45ori().f[8]++;
+    cov_18oei45ori().s[64]++;
+    cell.addEventListener("click", function () {
+      cov_18oei45ori().f[9]++;
+      var modal = (cov_18oei45ori().s[65]++, document.querySelector(".modal"));
+      cov_18oei45ori().s[66]++;
+      modal.classList.add("show"); /// call datalayer
+      /// anaytics capture date click
+
+      cov_18oei45ori().s[67]++;
+      window.dataLayer.push({
+        pageCategory: "Booking",
+        bookingDate: cell.dataset.bookingDate,
+        bookingSession: ""
+      });
+    });
+  });
+  var close = (cov_18oei45ori().s[68]++, document.querySelector(".close"));
+  cov_18oei45ori().s[69]++;
+  close.addEventListener("click", function () {
+    cov_18oei45ori().f[10]++;
+    var modal = (cov_18oei45ori().s[70]++, document.querySelector(".modal"));
+    cov_18oei45ori().s[71]++;
+    modal.classList.remove("show");
+  });
+  var modal = (cov_18oei45ori().s[72]++, document.querySelector(".modal"));
+  cov_18oei45ori().s[73]++;
+  window.addEventListener("click", function (event) {
+    cov_18oei45ori().f[11]++;
+    cov_18oei45ori().s[74]++;
+
+    if (event.target == modal) {
+      cov_18oei45ori().b[9][0]++;
+      cov_18oei45ori().s[75]++;
+      modal.classList.remove("show");
+    } else {
+      cov_18oei45ori().b[9][1]++;
+    }
+  });
 };
 ;// CONCATENATED MODULE: ./src/js/analytics/analytics.js
 function cov_1dem8e6ysh() {
