@@ -5676,9 +5676,9 @@ var calendar = function calendar() {
 
       cov_18oei45ori().s[72]++;
       window.dataLayer.push({
-        pageCategory: "Booking",
-        bookingDate: cell.dataset.bookingDate,
-        bookingSession: sessionStorage.getItem("calendarId")
+        // pageCategory: "Booking",
+        bookingDate: cell.dataset.bookingDate // bookingSession: sessionStorage.getItem("calendarId"),
+
       });
       cov_18oei45ori().s[73]++;
       console.log(cell.dataset.bookingDate);
