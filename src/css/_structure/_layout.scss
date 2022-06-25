@@ -180,7 +180,9 @@
 
 .calendar-body .row{
   @include grid(repeat(7, 1fr), 100px auto, 1rem);
-
+  @media #{$media-breakpoint-mobile} {
+    @include grid(repeat(7, 1fr), 40px auto, 1rem);
+  }
 }
 
 .calendar-body .row .cell-null{
@@ -192,6 +194,13 @@ border:1px dashed grey;
 padding: 4px;
 cursor: pointer;
 transition: all 0.3s ease-in-out;
+@media #{$media-breakpoint-mobile} {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
   &:hover{
     background: green;
     color:white;
