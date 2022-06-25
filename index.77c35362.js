@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 262:
+/***/ 830:
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 
@@ -3790,10 +3790,1293 @@ var menu = function menu() {
     cov_2nz1uu3xb9().b[9][1]++;
   }
 };
+;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
+function cov_18oei45ori() {
+  var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
+  var hash = "ce64352dbf6945fa33253034b62c83530d795c41";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 1,
+          column: 24
+        },
+        end: {
+          line: 105,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 12
+        },
+        end: {
+          line: 3,
+          column: 22
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 19
+        },
+        end: {
+          line: 4,
+          column: 35
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 18
+        },
+        end: {
+          line: 5,
+          column: 37
+        }
+      },
+      "4": {
+        start: {
+          line: 6,
+          column: 17
+        },
+        end: {
+          line: 6,
+          column: 48
+        }
+      },
+      "5": {
+        start: {
+          line: 7,
+          column: 18
+        },
+        end: {
+          line: 7,
+          column: 50
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 13
+        },
+        end: {
+          line: 9,
+          column: 97
+        }
+      },
+      "7": {
+        start: {
+          line: 11,
+          column: 19
+        },
+        end: {
+          line: 11,
+          column: 58
+        }
+      },
+      "8": {
+        start: {
+          line: 12,
+          column: 0
+        },
+        end: {
+          line: 12,
+          column: 40
+        }
+      },
+      "9": {
+        start: {
+          line: 14,
+          column: 13
+        },
+        end: {
+          line: 14,
+          column: 44
+        }
+      },
+      "10": {
+        start: {
+          line: 15,
+          column: 13
+        },
+        end: {
+          line: 15,
+          column: 44
+        }
+      },
+      "11": {
+        start: {
+          line: 18,
+          column: 4
+        },
+        end: {
+          line: 22,
+          column: 17
+        }
+      },
+      "12": {
+        start: {
+          line: 19,
+          column: 8
+        },
+        end: {
+          line: 19,
+          column: 76
+        }
+      },
+      "13": {
+        start: {
+          line: 20,
+          column: 8
+        },
+        end: {
+          line: 20,
+          column: 47
+        }
+      },
+      "14": {
+        start: {
+          line: 21,
+          column: 8
+        },
+        end: {
+          line: 21,
+          column: 48
+        }
+      },
+      "15": {
+        start: {
+          line: 24,
+          column: 4
+        },
+        end: {
+          line: 28,
+          column: 17
+        }
+      },
+      "16": {
+        start: {
+          line: 25,
+          column: 8
+        },
+        end: {
+          line: 25,
+          column: 75
+        }
+      },
+      "17": {
+        start: {
+          line: 26,
+          column: 8
+        },
+        end: {
+          line: 26,
+          column: 68
+        }
+      },
+      "18": {
+        start: {
+          line: 27,
+          column: 8
+        },
+        end: {
+          line: 27,
+          column: 48
+        }
+      },
+      "19": {
+        start: {
+          line: 30,
+          column: 4
+        },
+        end: {
+          line: 42,
+          column: 17
+        }
+      },
+      "20": {
+        start: {
+          line: 31,
+          column: 8
+        },
+        end: {
+          line: 35,
+          column: 21
+        }
+      },
+      "21": {
+        start: {
+          line: 32,
+          column: 12
+        },
+        end: {
+          line: 32,
+          column: 53
+        }
+      },
+      "22": {
+        start: {
+          line: 33,
+          column: 12
+        },
+        end: {
+          line: 33,
+          column: 55
+        }
+      },
+      "23": {
+        start: {
+          line: 34,
+          column: 12
+        },
+        end: {
+          line: 34,
+          column: 52
+        }
+      },
+      "24": {
+        start: {
+          line: 37,
+          column: 8
+        },
+        end: {
+          line: 41,
+          column: 21
+        }
+      },
+      "25": {
+        start: {
+          line: 38,
+          column: 12
+        },
+        end: {
+          line: 38,
+          column: 53
+        }
+      },
+      "26": {
+        start: {
+          line: 39,
+          column: 12
+        },
+        end: {
+          line: 39,
+          column: 55
+        }
+      },
+      "27": {
+        start: {
+          line: 40,
+          column: 12
+        },
+        end: {
+          line: 40,
+          column: 52
+        }
+      },
+      "28": {
+        start: {
+          line: 48,
+          column: 19
+        },
+        end: {
+          line: 48,
+          column: 51
+        }
+      },
+      "29": {
+        start: {
+          line: 50,
+          column: 14
+        },
+        end: {
+          line: 50,
+          column: 54
+        }
+      },
+      "30": {
+        start: {
+          line: 54,
+          column: 4
+        },
+        end: {
+          line: 54,
+          column: 23
+        }
+      },
+      "31": {
+        start: {
+          line: 57,
+          column: 4
+        },
+        end: {
+          line: 57,
+          column: 56
+        }
+      },
+      "32": {
+        start: {
+          line: 58,
+          column: 4
+        },
+        end: {
+          line: 58,
+          column: 28
+        }
+      },
+      "33": {
+        start: {
+          line: 59,
+          column: 4
+        },
+        end: {
+          line: 59,
+          column: 30
+        }
+      },
+      "34": {
+        start: {
+          line: 62,
+          column: 15
+        },
+        end: {
+          line: 62,
+          column: 16
+        }
+      },
+      "35": {
+        start: {
+          line: 63,
+          column: 4
+        },
+        end: {
+          line: 94,
+          column: 5
+        }
+      },
+      "36": {
+        start: {
+          line: 63,
+          column: 17
+        },
+        end: {
+          line: 63,
+          column: 18
+        }
+      },
+      "37": {
+        start: {
+          line: 65,
+          column: 18
+        },
+        end: {
+          line: 65,
+          column: 46
+        }
+      },
+      "38": {
+        start: {
+          line: 68,
+          column: 8
+        },
+        end: {
+          line: 91,
+          column: 9
+        }
+      },
+      "39": {
+        start: {
+          line: 68,
+          column: 21
+        },
+        end: {
+          line: 68,
+          column: 22
+        }
+      },
+      "40": {
+        start: {
+          line: 69,
+          column: 12
+        },
+        end: {
+          line: 88,
+          column: 13
+        }
+      },
+      "41": {
+        start: {
+          line: 70,
+          column: 27
+        },
+        end: {
+          line: 70,
+          column: 55
+        }
+      },
+      "42": {
+        start: {
+          line: 71,
+          column: 31
+        },
+        end: {
+          line: 71,
+          column: 58
+        }
+      },
+      "43": {
+        start: {
+          line: 72,
+          column: 16
+        },
+        end: {
+          line: 72,
+          column: 43
+        }
+      },
+      "44": {
+        start: {
+          line: 73,
+          column: 16
+        },
+        end: {
+          line: 73,
+          column: 38
+        }
+      },
+      "45": {
+        start: {
+          line: 75,
+          column: 17
+        },
+        end: {
+          line: 88,
+          column: 13
+        }
+      },
+      "46": {
+        start: {
+          line: 76,
+          column: 16
+        },
+        end: {
+          line: 76,
+          column: 22
+        }
+      },
+      "47": {
+        start: {
+          line: 80,
+          column: 26
+        },
+        end: {
+          line: 80,
+          column: 54
+        }
+      },
+      "48": {
+        start: {
+          line: 81,
+          column: 31
+        },
+        end: {
+          line: 81,
+          column: 60
+        }
+      },
+      "49": {
+        start: {
+          line: 82,
+          column: 16
+        },
+        end: {
+          line: 84,
+          column: 17
+        }
+      },
+      "50": {
+        start: {
+          line: 83,
+          column: 20
+        },
+        end: {
+          line: 83,
+          column: 48
+        }
+      },
+      "51": {
+        start: {
+          line: 85,
+          column: 16
+        },
+        end: {
+          line: 85,
+          column: 43
+        }
+      },
+      "52": {
+        start: {
+          line: 86,
+          column: 16
+        },
+        end: {
+          line: 86,
+          column: 38
+        }
+      },
+      "53": {
+        start: {
+          line: 87,
+          column: 16
+        },
+        end: {
+          line: 87,
+          column: 23
+        }
+      },
+      "54": {
+        start: {
+          line: 93,
+          column: 8
+        },
+        end: {
+          line: 93,
+          column: 29
+        }
+      },
+      "55": {
+        start: {
+          line: 101,
+          column: 4
+        },
+        end: {
+          line: 101,
+          column: 54
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 1,
+            column: 24
+          },
+          end: {
+            line: 1,
+            column: 25
+          }
+        },
+        loc: {
+          start: {
+            line: 1,
+            column: 30
+          },
+          end: {
+            line: 105,
+            column: 1
+          }
+        },
+        line: 1
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 18,
+            column: 35
+          },
+          end: {
+            line: 18,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 18,
+            column: 47
+          },
+          end: {
+            line: 22,
+            column: 5
+          }
+        },
+        line: 18
+      },
+      "2": {
+        name: "(anonymous_2)",
+        decl: {
+          start: {
+            line: 24,
+            column: 35
+          },
+          end: {
+            line: 24,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 47
+          },
+          end: {
+            line: 28,
+            column: 5
+          }
+        },
+        line: 24
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 30,
+            column: 50
+          },
+          end: {
+            line: 30,
+            column: 51
+          }
+        },
+        loc: {
+          start: {
+            line: 30,
+            column: 62
+          },
+          end: {
+            line: 42,
+            column: 5
+          }
+        },
+        line: 30
+      },
+      "4": {
+        name: "(anonymous_4)",
+        decl: {
+          start: {
+            line: 31,
+            column: 46
+          },
+          end: {
+            line: 31,
+            column: 47
+          }
+        },
+        loc: {
+          start: {
+            line: 31,
+            column: 58
+          },
+          end: {
+            line: 35,
+            column: 9
+          }
+        },
+        line: 31
+      },
+      "5": {
+        name: "(anonymous_5)",
+        decl: {
+          start: {
+            line: 37,
+            column: 47
+          },
+          end: {
+            line: 37,
+            column: 48
+          }
+        },
+        loc: {
+          start: {
+            line: 37,
+            column: 59
+          },
+          end: {
+            line: 41,
+            column: 9
+          }
+        },
+        line: 37
+      },
+      "6": {
+        name: "showCalendar",
+        decl: {
+          start: {
+            line: 46,
+            column: 9
+          },
+          end: {
+            line: 46,
+            column: 21
+          }
+        },
+        loc: {
+          start: {
+            line: 46,
+            column: 35
+          },
+          end: {
+            line: 96,
+            column: 1
+          }
+        },
+        line: 46
+      },
+      "7": {
+        name: "daysInMonth",
+        decl: {
+          start: {
+            line: 100,
+            column: 9
+          },
+          end: {
+            line: 100,
+            column: 20
+          }
+        },
+        loc: {
+          start: {
+            line: 100,
+            column: 36
+          },
+          end: {
+            line: 102,
+            column: 1
+          }
+        },
+        line: 100
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 19,
+            column: 22
+          },
+          end: {
+            line: 19,
+            column: 75
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 19,
+            column: 46
+          },
+          end: {
+            line: 19,
+            column: 61
+          }
+        }, {
+          start: {
+            line: 19,
+            column: 64
+          },
+          end: {
+            line: 19,
+            column: 75
+          }
+        }],
+        line: 19
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 25,
+            column: 22
+          },
+          end: {
+            line: 25,
+            column: 74
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 25,
+            column: 45
+          },
+          end: {
+            line: 25,
+            column: 60
+          }
+        }, {
+          start: {
+            line: 25,
+            column: 63
+          },
+          end: {
+            line: 25,
+            column: 74
+          }
+        }],
+        line: 25
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 26,
+            column: 23
+          },
+          end: {
+            line: 26,
+            column: 67
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 26,
+            column: 46
+          },
+          end: {
+            line: 26,
+            column: 48
+          }
+        }, {
+          start: {
+            line: 26,
+            column: 51
+          },
+          end: {
+            line: 26,
+            column: 67
+          }
+        }],
+        line: 26
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 69,
+            column: 12
+          },
+          end: {
+            line: 88,
+            column: 13
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 69,
+            column: 12
+          },
+          end: {
+            line: 88,
+            column: 13
+          }
+        }, {
+          start: {
+            line: 75,
+            column: 17
+          },
+          end: {
+            line: 88,
+            column: 13
+          }
+        }],
+        line: 69
+      },
+      "4": {
+        loc: {
+          start: {
+            line: 69,
+            column: 16
+          },
+          end: {
+            line: 69,
+            column: 39
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 69,
+            column: 16
+          },
+          end: {
+            line: 69,
+            column: 23
+          }
+        }, {
+          start: {
+            line: 69,
+            column: 27
+          },
+          end: {
+            line: 69,
+            column: 39
+          }
+        }],
+        line: 69
+      },
+      "5": {
+        loc: {
+          start: {
+            line: 75,
+            column: 17
+          },
+          end: {
+            line: 88,
+            column: 13
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 75,
+            column: 17
+          },
+          end: {
+            line: 88,
+            column: 13
+          }
+        }, {
+          start: {
+            line: 79,
+            column: 17
+          },
+          end: {
+            line: 88,
+            column: 13
+          }
+        }],
+        line: 75
+      },
+      "6": {
+        loc: {
+          start: {
+            line: 82,
+            column: 16
+          },
+          end: {
+            line: 84,
+            column: 17
+          }
+        },
+        type: "if",
+        locations: [{
+          start: {
+            line: 82,
+            column: 16
+          },
+          end: {
+            line: 84,
+            column: 17
+          }
+        }, {
+          start: {
+            line: undefined,
+            column: undefined
+          },
+          end: {
+            line: undefined,
+            column: undefined
+          }
+        }],
+        line: 82
+      },
+      "7": {
+        loc: {
+          start: {
+            line: 82,
+            column: 20
+          },
+          end: {
+            line: 82,
+            column: 106
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 82,
+            column: 20
+          },
+          end: {
+            line: 82,
+            column: 44
+          }
+        }, {
+          start: {
+            line: 82,
+            column: 48
+          },
+          end: {
+            line: 82,
+            column: 76
+          }
+        }, {
+          start: {
+            line: 82,
+            column: 80
+          },
+          end: {
+            line: 82,
+            column: 106
+          }
+        }],
+        line: 82
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 0,
+      "49": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    b: {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0],
+      "3": [0, 0],
+      "4": [0, 0],
+      "5": [0, 0],
+      "6": [0, 0],
+      "7": [0, 0, 0]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "ce64352dbf6945fa33253034b62c83530d795c41"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_18oei45ori = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+
+cov_18oei45ori();
+cov_18oei45ori().s[0]++;
+var calendar = function calendar() {
+  cov_18oei45ori().f[0]++;
+  var today = (cov_18oei45ori().s[1]++, new Date());
+  var currentMonth = (cov_18oei45ori().s[2]++, today.getMonth());
+  var currentYear = (cov_18oei45ori().s[3]++, today.getFullYear());
+  var selectYear = (cov_18oei45ori().s[4]++, document.getElementById("year"));
+  var selectMonth = (cov_18oei45ori().s[5]++, document.getElementById("month"));
+  var months = (cov_18oei45ori().s[6]++, ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]);
+  var monthAndYear = (cov_18oei45ori().s[7]++, document.getElementById("monthAndYear"));
+  cov_18oei45ori().s[8]++;
+  showCalendar(currentMonth, currentYear);
+  var next = (cov_18oei45ori().s[9]++, document.getElementById("next"));
+  var prev = (cov_18oei45ori().s[10]++, document.getElementById("prev"));
+  cov_18oei45ori().s[11]++;
+  next.addEventListener("click", function () {
+    cov_18oei45ori().f[1]++;
+    cov_18oei45ori().s[12]++;
+    currentYear = currentMonth === 11 ? (cov_18oei45ori().b[0][0]++, currentYear + 1) : (cov_18oei45ori().b[0][1]++, currentYear);
+    cov_18oei45ori().s[13]++;
+    currentMonth = (currentMonth + 1) % 12;
+    cov_18oei45ori().s[14]++;
+    showCalendar(currentMonth, currentYear);
+  }, false);
+  cov_18oei45ori().s[15]++;
+  prev.addEventListener("click", function () {
+    cov_18oei45ori().f[2]++;
+    cov_18oei45ori().s[16]++;
+    currentYear = currentMonth === 0 ? (cov_18oei45ori().b[1][0]++, currentYear - 1) : (cov_18oei45ori().b[1][1]++, currentYear);
+    cov_18oei45ori().s[17]++;
+    currentMonth = currentMonth === 0 ? (cov_18oei45ori().b[2][0]++, 11) : (cov_18oei45ori().b[2][1]++, currentMonth - 1);
+    cov_18oei45ori().s[18]++;
+    showCalendar(currentMonth, currentYear);
+  }, false);
+  cov_18oei45ori().s[19]++;
+  document.addEventListener("DOMContentLoaded", function () {
+    cov_18oei45ori().f[3]++;
+    cov_18oei45ori().s[20]++;
+    selectYear.addEventListener("change", function () {
+      cov_18oei45ori().f[4]++;
+      cov_18oei45ori().s[21]++;
+      currentYear = parseInt(selectYear.value);
+      cov_18oei45ori().s[22]++;
+      currentMonth = parseInt(selectMonth.value);
+      cov_18oei45ori().s[23]++;
+      showCalendar(currentMonth, currentYear);
+    }, false);
+    cov_18oei45ori().s[24]++;
+    selectMonth.addEventListener("change", function () {
+      cov_18oei45ori().f[5]++;
+      cov_18oei45ori().s[25]++;
+      currentYear = parseInt(selectYear.value);
+      cov_18oei45ori().s[26]++;
+      currentMonth = parseInt(selectMonth.value);
+      cov_18oei45ori().s[27]++;
+      showCalendar(currentMonth, currentYear);
+    }, false);
+  }, false);
+
+  function showCalendar(month, year) {
+    cov_18oei45ori().f[6]++;
+    var firstDay = (cov_18oei45ori().s[28]++, new Date(year, month).getDay());
+    var tbl = (cov_18oei45ori().s[29]++, document.getElementById("calendar-body")); // body of the calendar
+    // clearing all previous cells
+
+    cov_18oei45ori().s[30]++;
+    tbl.innerHTML = ""; // filing data about month and in the page via DOM.
+
+    cov_18oei45ori().s[31]++;
+    monthAndYear.innerHTML = months[month] + " " + year;
+    cov_18oei45ori().s[32]++;
+    selectYear.value = year;
+    cov_18oei45ori().s[33]++;
+    selectMonth.value = month; // creating all cells
+
+    var date = (cov_18oei45ori().s[34]++, 1);
+    cov_18oei45ori().s[35]++;
+
+    for (var i = (cov_18oei45ori().s[36]++, 0); i < 6; i++) {
+      // creates a table row
+      var row = (cov_18oei45ori().s[37]++, document.createElement("tr")); //creating individual cells, filing them up with data.
+
+      cov_18oei45ori().s[38]++;
+
+      for (var j = (cov_18oei45ori().s[39]++, 0); j < 7; j++) {
+        cov_18oei45ori().s[40]++;
+
+        if ((cov_18oei45ori().b[4][0]++, i === 0) && (cov_18oei45ori().b[4][1]++, j < firstDay)) {
+          cov_18oei45ori().b[3][0]++;
+          var cell = (cov_18oei45ori().s[41]++, document.createElement("td"));
+          var cellText = (cov_18oei45ori().s[42]++, document.createTextNode(""));
+          cov_18oei45ori().s[43]++;
+          cell.appendChild(cellText);
+          cov_18oei45ori().s[44]++;
+          row.appendChild(cell);
+        } else {
+          cov_18oei45ori().b[3][1]++;
+          cov_18oei45ori().s[45]++;
+
+          if (date > daysInMonth(month, year)) {
+            cov_18oei45ori().b[5][0]++;
+            cov_18oei45ori().s[46]++;
+            break;
+          } else {
+            cov_18oei45ori().b[5][1]++;
+
+            var _cell = (cov_18oei45ori().s[47]++, document.createElement("td"));
+
+            var _cellText = (cov_18oei45ori().s[48]++, document.createTextNode(date));
+
+            cov_18oei45ori().s[49]++;
+
+            if ((cov_18oei45ori().b[7][0]++, date === today.getDate()) && (cov_18oei45ori().b[7][1]++, year === today.getFullYear()) && (cov_18oei45ori().b[7][2]++, month === today.getMonth())) {
+              cov_18oei45ori().b[6][0]++;
+              cov_18oei45ori().s[50]++;
+
+              _cell.classList.add("today");
+            } else {
+              cov_18oei45ori().b[6][1]++;
+            } // color today's date
+
+
+            cov_18oei45ori().s[51]++;
+
+            _cell.appendChild(_cellText);
+
+            cov_18oei45ori().s[52]++;
+            row.appendChild(_cell);
+            cov_18oei45ori().s[53]++;
+            date++;
+          }
+        }
+      }
+
+      cov_18oei45ori().s[54]++;
+      tbl.appendChild(row); // appending each row into calendar body.
+    }
+  } // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
+
+
+  function daysInMonth(iMonth, iYear) {
+    cov_18oei45ori().f[7]++;
+    cov_18oei45ori().s[55]++;
+    return 32 - new Date(iYear, iMonth, 32).getDate();
+  }
+};
 ;// CONCATENATED MODULE: ./src/js/index.js
 function cov_9erk2grnj() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\index.js";
-  var hash = "3ef777d8356f4abbdc3be909b9c14dac49f7c735";
+  var hash = "818a871d492bdcdf13cf3ced3597dd598e156eb3";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3801,32 +5084,42 @@ function cov_9erk2grnj() {
     statementMap: {
       "0": {
         start: {
-          line: 11,
+          line: 12,
           column: 0
         },
         end: {
-          line: 11,
+          line: 12,
           column: 9
         }
       },
       "1": {
         start: {
-          line: 12,
+          line: 13,
           column: 0
         },
         end: {
-          line: 12,
+          line: 13,
           column: 9
         }
       },
       "2": {
         start: {
-          line: 14,
+          line: 15,
           column: 0
         },
         end: {
-          line: 14,
+          line: 15,
           column: 7
+        }
+      },
+      "3": {
+        start: {
+          line: 16,
+          column: 0
+        },
+        end: {
+          line: 16,
+          column: 11
         }
       }
     },
@@ -3835,12 +5128,13 @@ function cov_9erk2grnj() {
     s: {
       "0": 0,
       "1": 0,
-      "2": 0
+      "2": 0,
+      "3": 0
     },
     f: {},
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "3ef777d8356f4abbdc3be909b9c14dac49f7c735"
+    hash: "818a871d492bdcdf13cf3ced3597dd598e156eb3"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -3865,6 +5159,7 @@ cov_9erk2grnj();
 
 
 
+
  // import { api } from "./api/api";
 
 cov_9erk2grnj().s[0]++;
@@ -3874,6 +5169,8 @@ scroll_scroll(); // api();
 
 cov_9erk2grnj().s[2]++;
 menu();
+cov_9erk2grnj().s[3]++;
+calendar();
 
 /***/ })
 
@@ -4039,7 +5336,7 @@ menu();
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], function() { return __webpack_require__(262); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [736], function() { return __webpack_require__(830); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
