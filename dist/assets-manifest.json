@@ -1,12 +1,17 @@
 {
+  "about.html": "about.html",
+  "booking.html": "booking.html",
+  "contact.html": "contact.html",
   "favicon.ico": "favicon.ico",
-  "index.css": "index.1b476a62.css",
+  "index.css": "index.77c35362.css",
   "index.html": "index.html",
-  "index.js": "index.1b476a62.js",
+  "index.js": "index.77c35362.js",
+  "services.html": "services.html",
   "src/assets/aviation.webp": "src/assets/aviation.webp",
   "src/assets/forestroad.webp": "src/assets/forestroad.webp",
   "src/assets/manufactor.webp": "src/assets/manufactor.webp",
   "src/assets/mining.webp": "src/assets/mining.webp",
   "src/assets/video/SatelliteDishHdr.mp4": "src/assets/video/SatelliteDishHdr.mp4",
-  "vendor.css": "vendor.1b476a62.css"
+  "thankyou.html": "thankyou.html",
+  "vendor.css": "vendor.77c35362.css"
 }

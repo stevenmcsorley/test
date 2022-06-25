@@ -20,6 +20,7 @@ export const filter = () => {
       event: 'selectionMade',
       selectedElement: value
     });
+    
   };
 
   if (industrySelect) {

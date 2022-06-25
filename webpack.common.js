@@ -7,7 +7,6 @@ const WebpackAssetsManifest = require("webpack-assets-manifest");
 const dotenv = require('dotenv').config({ path: __dirname + '/.env' })
 const webpack = require('webpack');
 
-
 module.exports = {
   entry: {
     index: "./src/js/index.js",
@@ -88,12 +87,53 @@ module.exports = {
       'process.env': JSON.stringify(dotenv.parsed)
     }),
     new CleanWebpackPlugin(),
+
     new HtmlWebpackPlugin({
       favicon: "./src/favicon.ico",
       template: "./src/index.html",
       inject: true,
       chunks: ["index"],
       filename: "index.html",
+      scriptLoading: "defer",
+    }),
+    new HtmlWebpackPlugin({
+      favicon: "./src/favicon.ico",
+      template: "./src/about.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "about.html",
+      scriptLoading: "defer",
+    }),
+    new HtmlWebpackPlugin({
+      favicon: "./src/favicon.ico",
+      template: "./src/booking.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "booking.html",
+      scriptLoading: "defer",
+    }),
+    new HtmlWebpackPlugin({
+      favicon: "./src/favicon.ico",
+      template: "./src/contact.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "contact.html",
+      scriptLoading: "defer",
+    }),
+    new HtmlWebpackPlugin({
+      favicon: "./src/favicon.ico",
+      template: "./src/services.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "services.html",
+      scriptLoading: "defer",
+    }),
+    new HtmlWebpackPlugin({
+      favicon: "./src/favicon.ico",
+      template: "./src/thankyou.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "thankyou.html",
       scriptLoading: "defer",
     }),
     new ImageMinWebpWebpackPlugin({

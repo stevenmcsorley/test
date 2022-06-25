@@ -1,0 +1,81 @@
+.mobile-menu-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @include container();
+}
+
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.burger-icon {
+  margin-left: 2rem;
+  display: inline-block;
+  width: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background: transparent;
+  @media #{$media-breakpoint-mobile} {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+  }
+}
+
+.burger-icon-line {
+  display: block;
+  width: 2rem;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: $text-color-tertiary;
+  z-index: 1;
+}
+
+.mobile-menu-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: $black-russian;
+  z-index: 100;
+  @include container();
+}
+
+.mobile-menu-content.active {
+  display: block;
+}
+
+.mobile-menu-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu-content ul li {
+  padding: 10px;
+  border-bottom: 1px solid $background-color-base;
+  &:last-child {
+    border-bottom: none;
+  }
+  &:hover {
+    background-color: $background-color-secondary;
+    a {
+      color: $black-russian;
+    }
+  }
+  a {
+    display: block;
+    color: $white;
+    &:hover {
+      color: $black-russian;
+    }
+  }
+}
