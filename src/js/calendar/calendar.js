@@ -116,6 +116,7 @@ export const calendar = () => {
             cell.classList.add("today");
           } // color today's date
           cell.appendChild(cellText);
+          cell.setAttribute("data-booking-date", `${date}-${month}-${year}`);
           row.appendChild(cell);
           date++;
         }
@@ -129,4 +130,31 @@ export const calendar = () => {
   function daysInMonth(iMonth, iYear) {
     return 32 - new Date(iYear, iMonth, 32).getDate();
   }
+
+  /// on click cell show modal
+  const cells = document.querySelectorAll(".cell");
+  cells.forEach(function (cell) {
+    cell.addEventListener("click", function () {
+      const modal = document.querySelector(".modal");
+      modal.classList.add("show");
+      /// call datalayer
+      /// anaytics capture date click
+      window.dataLayer.push({
+        pageCategory: "Booking",
+        bookingDate: cell.dataset.bookingDate,
+        bookingSession: "",
+      });
+    });
+  });
+  const close = document.querySelector(".close");
+  close.addEventListener("click", function () {
+    const modal = document.querySelector(".modal");
+    modal.classList.remove("show");
+  });
+  const modal = document.querySelector(".modal");
+  window.addEventListener("click", function (event) {
+    if (event.target == modal) {
+      modal.classList.remove("show");
+    }
+  });
 };
