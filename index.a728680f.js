@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "580207f12a4962b9c15a91ea7e6d5220ecf4a114";
+  var hash = "26ee921548e497199dbb47f72d19d2aa422359af";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3811,52 +3811,52 @@ function cov_18oei45ori() {
       },
       "1": {
         start: {
-          line: 4,
-          column: 8
+          line: 3,
+          column: 4
         },
         end: {
-          line: 6,
-          column: 10
+          line: 8,
+          column: 6
         }
       },
       "2": {
         start: {
-          line: 5,
-          column: 10
+          line: 4,
+          column: 6
         },
         end: {
-          line: 5,
-          column: 87
+          line: 7,
+          column: 20
         }
       },
       "3": {
         start: {
-          line: 9,
-          column: 6
+          line: 11,
+          column: 2
         },
         end: {
-          line: 9,
-          column: 28
+          line: 11,
+          column: 24
         }
       },
       "4": {
         start: {
-          line: 13,
-          column: 4
+          line: 15,
+          column: 2
         },
         end: {
-          line: 15,
-          column: 5
+          line: 17,
+          column: 3
         }
       },
       "5": {
         start: {
-          line: 14,
-          column: 8
+          line: 16,
+          column: 4
         },
         end: {
-          line: 14,
-          column: 55
+          line: 16,
+          column: 51
         }
       },
       "6": {
@@ -4669,49 +4669,49 @@ function cov_18oei45ori() {
         name: "uuidv4",
         decl: {
           start: {
-            line: 3,
-            column: 13
+            line: 2,
+            column: 11
           },
           end: {
-            line: 3,
-            column: 19
+            line: 2,
+            column: 17
           }
         },
         loc: {
           start: {
-            line: 3,
-            column: 22
+            line: 2,
+            column: 20
           },
           end: {
-            line: 7,
-            column: 7
+            line: 9,
+            column: 3
           }
         },
-        line: 3
+        line: 2
       },
       "2": {
         name: "(anonymous_2)",
         decl: {
           start: {
-            line: 4,
-            column: 62
+            line: 3,
+            column: 66
           },
           end: {
-            line: 4,
-            column: 63
+            line: 3,
+            column: 67
           }
         },
         loc: {
           start: {
-            line: 5,
-            column: 10
+            line: 4,
+            column: 6
           },
           end: {
-            line: 5,
-            column: 87
+            line: 7,
+            column: 20
           }
         },
-        line: 5
+        line: 4
       },
       "3": {
         name: "(anonymous_3)",
@@ -4982,23 +4982,23 @@ function cov_18oei45ori() {
       "0": {
         loc: {
           start: {
-            line: 13,
-            column: 4
+            line: 15,
+            column: 2
           },
           end: {
-            line: 15,
-            column: 5
+            line: 17,
+            column: 3
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 13,
-            column: 4
+            line: 15,
+            column: 2
           },
           end: {
-            line: 15,
-            column: 5
+            line: 17,
+            column: 3
           }
         }, {
           start: {
@@ -5010,7 +5010,7 @@ function cov_18oei45ori() {
             column: undefined
           }
         }],
-        line: 13
+        line: 15
       },
       "1": {
         loc: {
@@ -5468,7 +5468,7 @@ function cov_18oei45ori() {
       "10": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "580207f12a4962b9c15a91ea7e6d5220ecf4a114"
+    hash: "26ee921548e497199dbb47f72d19d2aa422359af"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
