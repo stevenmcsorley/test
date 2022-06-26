@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "0e9111ff3dd80e60e5a96f60eb6229409f2472de";
+  var hash = "ed8720798a675f1bcc4bcbfcb5bb8c43f19b06ec";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -4196,7 +4196,7 @@ function cov_18oei45ori() {
         },
         end: {
           line: 80,
-          column: 72
+          column: 94
         }
       },
       "40": {
@@ -6455,7 +6455,7 @@ function cov_18oei45ori() {
       "17": [0, 0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "0e9111ff3dd80e60e5a96f60eb6229409f2472de"
+    hash: "ed8720798a675f1bcc4bcbfcb5bb8c43f19b06ec"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6579,7 +6579,7 @@ var calendar = function calendar() {
         cov_18oei45ori().s[38]++;
         submitFormButton.setAttribute("data-label", 'booking_date_submit');
         cov_18oei45ori().s[39]++;
-        submitFormButton.setAttribute("data-value", formDataString); // send to google - the messy way
+        submitFormButton.setAttribute("data-value", sessionStorage.getItem("calendarId")); // send to google - the messy way
         //   window.dataLayer.push({
         //     Action: "Booking",
         //     event: "bookingSubmission",
