@@ -18,24 +18,24 @@ export const analytics = () => {
     // }
     // , false);
 
-    // form tracking
-    document.addEventListener("submit", function (e) {
-        gtag('event', 'submit', {
-            event_category: 'submit',
-            event_label: e.target.value
-        });
-    }
-    , false);
+    // // form tracking
+    // document.addEventListener("submit", function (e) {
+    //     gtag('event', 'submit', {
+    //         event_category: 'submit',
+    //         event_label: e.target.value
+    //     });
+    // }
+    // , false);
 
-    // form tracking
-    document.addEventListener("change", function (e) {
-        gtag('event', 'change', {
-            event_category: 'change',
-            event_label: e.target.value
-        });
-    }   
+    // // form tracking
+    // document.addEventListener("change", function (e) {
+    //     gtag('event', 'change', {
+    //         event_category: 'change',
+    //         event_label: e.target.value
+    //     });
+    // }   
 
-    , false);
+    // , false);
 
     // // form tracking
     // document.addEventListener("focus", function (e) {
@@ -156,12 +156,12 @@ export const analytics = () => {
     // }   , false);
 
     // form tracking
-    document.addEventListener("resize", function (e) {
-        gtag('event', 'resize', {
-            event_category: 'resize',
-            event_label: e.target.id
-        });
-    }   , false);
+    // document.addEventListener("resize", function (e) {
+    //     gtag('event', 'resize', {
+    //         event_category: 'resize',
+    //         event_label: e.target.id
+    //     });
+    // }   , false);
 
 //     // form tracking
 

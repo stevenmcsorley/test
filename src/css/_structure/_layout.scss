@@ -193,8 +193,6 @@
 .calendar-body .row .cell{
 border:1px dashed grey;
 padding: 4px;
-cursor: pointer;
-transition: all 0.3s ease-in-out;
 @media #{$media-breakpoint-mobile} {
   display: flex;
   flex-direction: column;
@@ -202,6 +200,12 @@ transition: all 0.3s ease-in-out;
   justify-content: center;
   align-content: center;
 }
+
+}
+
+.calendar-body .row .cell:not(.cell-disabled){
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
   &:hover{
     background: green;
     color:white;

@@ -72,8 +72,10 @@ export const calendar = () => {
           }
           // send to google
           window.dataLayer.push({
-            event: "formSubmitted",
-            formData: formDataString,
+            Action: "Booking",
+            event: "bookingSubmission",
+            bookingUser: formDataString,
+            bookingTransactionId: sessionStorage.getItem("calendarId"),
           });
 
           console.log(formDataString);
@@ -182,8 +184,69 @@ export const calendar = () => {
     },
     false
   );
+  /////////////////////////////////////////////////////SHOW MODAL/////////////////////////////////////////
+  function showModal() {
+    const cells = document.querySelectorAll(".cell:not(.cell-disabled)");
+    cells.forEach(function (cell) {
+      cell.addEventListener("click", function () {
+        const modal = document.querySelector(".modal");
+        modal.classList.add("show-modal");
+        const modalDate = document.querySelector("[js-data-booking-date]");
+        // add date to input value
+        const formatdate = cell.dataset.bookingDate.replace(/[() -]/g, "/");
+        modalDate.value = `${formatdate}`;
+        // add date to modal
+        const modalDateText = document.querySelector("[js-modal-date]");
+        modalDateText.innerHTML = `${formatdate}`;
+
+        /// call datalayer
+        /// anaytics capture date click
+        console.log(window.dataLayer);
+        window.dataLayer.push({
+          Action: "BookingDateClick",
+          event: "booking_date_click",
+          bookingDate: modalDateText.innerHTML,
+          bookingSession: sessionStorage.getItem("calendarId"),
+        });
+        console.log(modalDateText.innerHTML);
+        console.log(window.dataLayer);
+      });
+    });
+    closeModal();
+  }
+
+  /////////////////////////////////////////////////////END SHOW MODAL//////////////////////////////////////
+
+  /////////////////////////////////////////////////////CLODE MODAL//////////////////////////////////////
+  function closeModal() {
+    const close = document.querySelector("[js-modal-close]");
+    if (!close) {
+      console.log("no close");
+      return false;
+    }
+
+    console.log("close");
+
+    close.addEventListener("click", function () {
+      const modalDateText = document.querySelector("[js-modal-date]");
+      const modal = document.querySelector(".modal");
+      modal.classList.remove("show-modal");
+      window.dataLayer.push({
+        Action: "BookingDateCancel",
+        event: "booking_date_cancel",
+        bookingDate: modalDateText.innerHTML,
+        bookingSession: sessionStorage.getItem("calendarId"),
+      });
+    });
+  }
+
+  /////////////////////////////////////////////////////END CLODE MODAL//////////////////////////////////////
+
+  /////////////////////////////////////////////////////SHOW CALENDAR//////////////////////////////////////
 
   function showCalendar(month, year) {
+    console.log("calendar");
+    let cells;
     let firstDay = new Date(year, month).getDay();
 
     // clearing all previous cells
@@ -215,6 +278,17 @@ export const calendar = () => {
           let cell = document.createElement("div"); // td
           cell.classList.add("cell");
           let cellText = document.createTextNode(date);
+
+            // if before today, disable the cell
+            if (
+              year < today.getFullYear() ||
+              (year === today.getFullYear() && month < today.getMonth()) ||
+              (year === today.getFullYear() && month === today.getMonth() &&
+                date < today.getDate())
+            ) {
+              cell.classList.add("cell-disabled");
+            }
+
           if (
             date === today.getDate() &&
             year === today.getFullYear() &&
@@ -231,49 +305,18 @@ export const calendar = () => {
 
       tbl.appendChild(row); // appending each row into calendar body.
     }
+
+    // set each cell with an event listener
+    cells = document.querySelectorAll(".cell");
+    console.log(cells);
+    /// show modal event set up and waiting
+    showModal();
   }
+
+  /////////////////////////////////////////////////////END SHOW CALENDAR//////////////////////////////////////
 
   // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
   function daysInMonth(iMonth, iYear) {
     return 32 - new Date(iYear, iMonth, 32).getDate();
   }
-
-  /// on click cell show modal
-  const cells = document.querySelectorAll(".cell");
-  cells.forEach(function (cell) {
-    cell.addEventListener("click", function () {
-      const modal = document.querySelector(".modal");
-      modal.classList.add("show-modal");
-      const modalDate = document.querySelector("[js-data-booking-date]");
-      // add date to input value
-      const formatdate = cell.dataset.bookingDate.replace(/[() -]/g, "/");
-      modalDate.value = `${formatdate}`;
-      // add date to modal
-      const modalDateText = document.querySelector("[js-modal-date]");
-      modalDateText.innerHTML = `${formatdate}`;
-
-      /// call datalayer
-      /// anaytics capture date click
-      console.log(window.dataLayer);
-      window.dataLayer.push({
-        // pageCategory: "Booking",
-        event: "booking_date_click",
-        bookingDate: cell.dataset.bookingDate,
-        bookingSession: sessionStorage.getItem("calendarId"),
-      });
-      console.log(cell.dataset.bookingDate);
-      console.log(window.dataLayer);
-    });
-  });
-  const close = document.querySelector("[js-modal-close]");
-  close.addEventListener("click", function () {
-    const modal = document.querySelector(".modal");
-    modal.classList.remove("show-modal");
-  });
-  const modal = document.querySelector(".modal");
-  window.addEventListener("click", function (event) {
-    if (event.target == modal) {
-      modal.classList.remove("show");
-    }
-  });
 };
