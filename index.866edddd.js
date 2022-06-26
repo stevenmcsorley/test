@@ -6599,7 +6599,7 @@ var calendar = function calendar() {
 ;// CONCATENATED MODULE: ./src/js/analytics/analytics.js
 function cov_1dem8e6ysh() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\analytics\\analytics.js";
-  var hash = "e3b4be77a5cead85138f25eea4a40b090d4919b0";
+  var hash = "a971a9d86b2178c77126abebb6e8d28cbcec8890";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -6613,66 +6613,6 @@ function cov_1dem8e6ysh() {
         end: {
           line: 382,
           column: 1
-        }
-      },
-      "1": {
-        start: {
-          line: 22,
-          column: 4
-        },
-        end: {
-          line: 28,
-          column: 13
-        }
-      },
-      "2": {
-        start: {
-          line: 23,
-          column: 8
-        },
-        end: {
-          line: 26,
-          column: 11
-        }
-      },
-      "3": {
-        start: {
-          line: 31,
-          column: 4
-        },
-        end: {
-          line: 38,
-          column: 13
-        }
-      },
-      "4": {
-        start: {
-          line: 32,
-          column: 8
-        },
-        end: {
-          line: 35,
-          column: 11
-        }
-      },
-      "5": {
-        start: {
-          line: 159,
-          column: 4
-        },
-        end: {
-          line: 164,
-          column: 17
-        }
-      },
-      "6": {
-        start: {
-          line: 160,
-          column: 8
-        },
-        end: {
-          line: 163,
-          column: 11
         }
       }
     },
@@ -6700,99 +6640,18 @@ function cov_1dem8e6ysh() {
           }
         },
         line: 1
-      },
-      "1": {
-        name: "(anonymous_1)",
-        decl: {
-          start: {
-            line: 22,
-            column: 40
-          },
-          end: {
-            line: 22,
-            column: 41
-          }
-        },
-        loc: {
-          start: {
-            line: 22,
-            column: 53
-          },
-          end: {
-            line: 27,
-            column: 5
-          }
-        },
-        line: 22
-      },
-      "2": {
-        name: "(anonymous_2)",
-        decl: {
-          start: {
-            line: 31,
-            column: 40
-          },
-          end: {
-            line: 31,
-            column: 41
-          }
-        },
-        loc: {
-          start: {
-            line: 31,
-            column: 53
-          },
-          end: {
-            line: 36,
-            column: 5
-          }
-        },
-        line: 31
-      },
-      "3": {
-        name: "(anonymous_3)",
-        decl: {
-          start: {
-            line: 159,
-            column: 40
-          },
-          end: {
-            line: 159,
-            column: 41
-          }
-        },
-        loc: {
-          start: {
-            line: 159,
-            column: 53
-          },
-          end: {
-            line: 164,
-            column: 5
-          }
-        },
-        line: 159
       }
     },
     branchMap: {},
     s: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0
+      "0": 0
     },
     f: {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0
+      "0": 0
     },
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "e3b4be77a5cead85138f25eea4a40b090d4919b0"
+    hash: "a971a9d86b2178c77126abebb6e8d28cbcec8890"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6812,10 +6671,7 @@ function cov_1dem8e6ysh() {
 
 cov_1dem8e6ysh();
 cov_1dem8e6ysh().s[0]++;
-var analytics = function analytics() {
-  cov_1dem8e6ysh().f[0]++;
-  cov_1dem8e6ysh().s[1]++;
-  // // scroll tracking
+var analytics = function analytics() {// // scroll tracking
   // window.addEventListener("scroll", function (e) {
   //     gtag('event', 'scroll', {
   //         event_category: 'scroll',
@@ -6830,25 +6686,23 @@ var analytics = function analytics() {
   //     });
   // }
   // , false);
-  // form tracking
-  document.addEventListener("submit", function (e) {
-    cov_1dem8e6ysh().f[1]++;
-    cov_1dem8e6ysh().s[2]++;
-    gtag('event', 'submit', {
-      event_category: 'submit',
-      event_label: e.target.value
-    });
-  }, false); // form tracking
-
-  cov_1dem8e6ysh().s[3]++;
-  document.addEventListener("change", function (e) {
-    cov_1dem8e6ysh().f[2]++;
-    cov_1dem8e6ysh().s[4]++;
-    gtag('event', 'change', {
-      event_category: 'change',
-      event_label: e.target.value
-    });
-  }, false); // // form tracking
+  // // form tracking
+  // document.addEventListener("submit", function (e) {
+  //     gtag('event', 'submit', {
+  //         event_category: 'submit',
+  //         event_label: e.target.value
+  //     });
+  // }
+  // , false);
+  // // form tracking
+  // document.addEventListener("change", function (e) {
+  //     gtag('event', 'change', {
+  //         event_category: 'change',
+  //         event_label: e.target.value
+  //     });
+  // }   
+  // , false);
+  // // form tracking
   // document.addEventListener("focus", function (e) {
   //     gtag('event', 'focus', {
   //         event_category: 'focus',
@@ -6950,16 +6804,13 @@ var analytics = function analytics() {
   //     });
   // }   , false);
   // form tracking
-
-  cov_1dem8e6ysh().s[5]++;
-  document.addEventListener("resize", function (e) {
-    cov_1dem8e6ysh().f[3]++;
-    cov_1dem8e6ysh().s[6]++;
-    gtag('event', 'resize', {
-      event_category: 'resize',
-      event_label: e.target.id
-    });
-  }, false); //     // form tracking
+  // document.addEventListener("resize", function (e) {
+  //     gtag('event', 'resize', {
+  //         event_category: 'resize',
+  //         event_label: e.target.id
+  //     });
+  // }   , false);
+  //     // form tracking
   //     document.addEventListener("scroll", function (e) {
   //         gtag('event', 'scroll', {
   //             event_category: 'scroll',
@@ -7143,6 +6994,8 @@ var analytics = function analytics() {
   //             event_label: e.target.id
   //         });
   //     }   , false);
+
+  cov_1dem8e6ysh().f[0]++;
 };
 ;// CONCATENATED MODULE: ./src/js/index.js
 function cov_9erk2grnj() {
