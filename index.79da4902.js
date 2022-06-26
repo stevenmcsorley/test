@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "9f74894c1044e3b48fb9d708010b9bbeee3ff828";
+  var hash = "1b925af7c1714e10f9ac57a3edfab8d4f8a1da64";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3805,7 +3805,7 @@ function cov_18oei45ori() {
           column: 24
         },
         end: {
-          line: 281,
+          line: 287,
           column: 1
         }
       },
@@ -5045,7 +5045,7 @@ function cov_18oei45ori() {
           column: 2
         },
         end: {
-          line: 274,
+          line: 280,
           column: 5
         }
       },
@@ -5071,41 +5071,51 @@ function cov_18oei45ori() {
       },
       "127": {
         start: {
-          line: 275,
-          column: 16
-        },
-        end: {
-          line: 275,
-          column: 48
-        }
-      },
-      "128": {
-        start: {
-          line: 276,
-          column: 2
-        },
-        end: {
-          line: 280,
-          column: 5
-        }
-      },
-      "129": {
-        start: {
-          line: 277,
+          line: 274,
           column: 4
         },
         end: {
           line: 279,
+          column: 9
+        }
+      },
+      "128": {
+        start: {
+          line: 281,
+          column: 16
+        },
+        end: {
+          line: 281,
+          column: 48
+        }
+      },
+      "129": {
+        start: {
+          line: 282,
+          column: 2
+        },
+        end: {
+          line: 286,
           column: 5
         }
       },
       "130": {
         start: {
-          line: 278,
+          line: 283,
+          column: 4
+        },
+        end: {
+          line: 285,
+          column: 5
+        }
+      },
+      "131": {
+        start: {
+          line: 284,
           column: 6
         },
         end: {
-          line: 278,
+          line: 284,
           column: 37
         }
       }
@@ -5129,7 +5139,7 @@ function cov_18oei45ori() {
             column: 30
           },
           end: {
-            line: 281,
+            line: 287,
             column: 1
           }
         },
@@ -5465,7 +5475,7 @@ function cov_18oei45ori() {
             column: 46
           },
           end: {
-            line: 274,
+            line: 280,
             column: 3
           }
         },
@@ -5475,25 +5485,25 @@ function cov_18oei45ori() {
         name: "(anonymous_15)",
         decl: {
           start: {
-            line: 276,
+            line: 282,
             column: 35
           },
           end: {
-            line: 276,
+            line: 282,
             column: 36
           }
         },
         loc: {
           start: {
-            line: 276,
+            line: 282,
             column: 52
           },
           end: {
-            line: 280,
+            line: 286,
             column: 3
           }
         },
-        line: 276
+        line: 282
       }
     },
     branchMap: {
@@ -6004,22 +6014,22 @@ function cov_18oei45ori() {
       "15": {
         loc: {
           start: {
-            line: 277,
+            line: 283,
             column: 4
           },
           end: {
-            line: 279,
+            line: 285,
             column: 5
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 277,
+            line: 283,
             column: 4
           },
           end: {
-            line: 279,
+            line: 285,
             column: 5
           }
         }, {
@@ -6032,7 +6042,7 @@ function cov_18oei45ori() {
             column: undefined
           }
         }],
-        line: 277
+        line: 283
       }
     },
     s: {
@@ -6166,7 +6176,8 @@ function cov_18oei45ori() {
       "127": 0,
       "128": 0,
       "129": 0,
-      "130": 0
+      "130": 0,
+      "131": 0
     },
     f: {
       "0": 0,
@@ -6205,7 +6216,7 @@ function cov_18oei45ori() {
       "15": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "9f74894c1044e3b48fb9d708010b9bbeee3ff828"
+    hash: "1b925af7c1714e10f9ac57a3edfab8d4f8a1da64"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6468,15 +6479,21 @@ var calendar = function calendar() {
 
         if ((cov_18oei45ori().b[11][0]++, i === 0) && (cov_18oei45ori().b[11][1]++, j < firstDay)) {
           cov_18oei45ori().b[10][0]++;
-          var cell = (cov_18oei45ori().s[91]++, document.createElement("div")); // td
+
+          var _cell = (cov_18oei45ori().s[91]++, document.createElement("div")); // td
+
 
           cov_18oei45ori().s[92]++;
-          cell.classList.add("cell-null");
+
+          _cell.classList.add("cell-null");
+
           var cellText = (cov_18oei45ori().s[93]++, document.createTextNode(""));
           cov_18oei45ori().s[94]++;
-          cell.appendChild(cellText);
+
+          _cell.appendChild(cellText);
+
           cov_18oei45ori().s[95]++;
-          row.appendChild(cell);
+          row.appendChild(_cell);
         } else {
           cov_18oei45ori().b[10][1]++;
           cov_18oei45ori().s[96]++;
@@ -6488,12 +6505,12 @@ var calendar = function calendar() {
           } else {
             cov_18oei45ori().b[12][1]++;
 
-            var _cell = (cov_18oei45ori().s[98]++, document.createElement("div")); // td
+            var _cell2 = (cov_18oei45ori().s[98]++, document.createElement("div")); // td
 
 
             cov_18oei45ori().s[99]++;
 
-            _cell.classList.add("cell");
+            _cell2.classList.add("cell");
 
             var _cellText = (cov_18oei45ori().s[100]++, document.createTextNode(date));
 
@@ -6503,7 +6520,7 @@ var calendar = function calendar() {
               cov_18oei45ori().b[13][0]++;
               cov_18oei45ori().s[102]++;
 
-              _cell.classList.add("today");
+              _cell2.classList.add("today");
             } else {
               cov_18oei45ori().b[13][1]++;
             } // color today's date
@@ -6511,14 +6528,14 @@ var calendar = function calendar() {
 
             cov_18oei45ori().s[103]++;
 
-            _cell.appendChild(_cellText);
+            _cell2.appendChild(_cellText);
 
             cov_18oei45ori().s[104]++;
 
-            _cell.setAttribute("data-booking-date", "".concat(date, "-").concat(month, "-").concat(year));
+            _cell2.setAttribute("data-booking-date", "".concat(date, "-").concat(month, "-").concat(year));
 
             cov_18oei45ori().s[105]++;
-            row.appendChild(_cell);
+            row.appendChild(_cell2);
             cov_18oei45ori().s[106]++;
             date++;
           }
@@ -6563,7 +6580,7 @@ var calendar = function calendar() {
       console.log(window.dataLayer);
       cov_18oei45ori().s[120]++;
       window.dataLayer.push({
-        // pageCategory: "Booking",
+        Action: "BookingDateClick",
         event: "booking_date_click",
         bookingDate: cell.dataset.bookingDate,
         bookingSession: sessionStorage.getItem("calendarId")
@@ -6581,16 +6598,23 @@ var calendar = function calendar() {
     var modal = (cov_18oei45ori().s[125]++, document.querySelector(".modal"));
     cov_18oei45ori().s[126]++;
     modal.classList.remove("show-modal");
+    cov_18oei45ori().s[127]++;
+    window.dataLayer.push({
+      Action: "BookingDateCancel",
+      event: "booking_date_cancel",
+      bookingDate: cell.dataset.bookingDate,
+      bookingSession: sessionStorage.getItem("calendarId")
+    });
   });
-  var modal = (cov_18oei45ori().s[127]++, document.querySelector(".modal"));
-  cov_18oei45ori().s[128]++;
+  var modal = (cov_18oei45ori().s[128]++, document.querySelector(".modal"));
+  cov_18oei45ori().s[129]++;
   window.addEventListener("click", function (event) {
     cov_18oei45ori().f[15]++;
-    cov_18oei45ori().s[129]++;
+    cov_18oei45ori().s[130]++;
 
     if (event.target == modal) {
       cov_18oei45ori().b[15][0]++;
-      cov_18oei45ori().s[130]++;
+      cov_18oei45ori().s[131]++;
       modal.classList.remove("show");
     } else {
       cov_18oei45ori().b[15][1]++;
