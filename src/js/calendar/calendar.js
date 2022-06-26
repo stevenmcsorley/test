@@ -1,34 +1,47 @@
 export const calendar = () => {
+  //// if on thank you page, don't run calendar
 
-//// if on thank you page, don't run calendar
-
-
-/// event document ready nneeds moved to its own place
-document.addEventListener("DOMContentLoaded", function () {
-
-if (document.querySelector(".booking-confirm")) {
-        // if localstorage is set, redirect
-        if (!localStorage.getItem("Booking")) {
-            // redirect to index.html
-            window.location.href = "index.html";
-        }
-    const modalTransactionId = document.querySelector("[js-modal-transaction-id]");
-    modalTransactionId.innerHTML = `${localStorage.getItem('BookingRef')}`;
-    const modalTransactionname= document.querySelector("[js-modal-transaction-name]");
-    modalTransactionname.innerHTML = `${JSON.parse(localStorage.getItem('Booking'))[0]}`;
-    const modalTransactiondate= document.querySelector("[js-modal-transaction-date]");
-    modalTransactiondate.innerHTML = `${JSON.parse(localStorage.getItem('Booking'))[3]}`;
-    const modalTransactiontime= document.querySelector("[js-modal-transaction-time]");
-    modalTransactiontime.innerHTML = `${JSON.parse(localStorage.getItem('Booking'))[4]}`;
-    const modalTransactionEmail= document.querySelector("[js-modal-transaction-email]");
-    modalTransactionEmail.innerHTML = `${JSON.parse(localStorage.getItem('Booking'))[1]}`;
-    window.localStorage.removeItem('Booking');
-    window.localStorage.removeItem('BookingRef');
- return;
-}
-});
-
-
+  /// event document ready nneeds moved to its own place
+  document.addEventListener("DOMContentLoaded", function () {
+    if (document.querySelector(".booking-confirm")) {
+      // if localstorage is set, redirect
+      if (!localStorage.getItem("Booking")) {
+        // redirect to index.html
+        window.location.href = "index.html";
+      }
+      const modalTransactionId = document.querySelector(
+        "[js-modal-transaction-id]"
+      );
+      modalTransactionId.innerHTML = `${localStorage.getItem("BookingRef")}`;
+      const modalTransactionname = document.querySelector(
+        "[js-modal-transaction-name]"
+      );
+      modalTransactionname.innerHTML = `${
+        JSON.parse(localStorage.getItem("Booking"))[0]
+      }`;
+      const modalTransactiondate = document.querySelector(
+        "[js-modal-transaction-date]"
+      );
+      modalTransactiondate.innerHTML = `${
+        JSON.parse(localStorage.getItem("Booking"))[3]
+      }`;
+      const modalTransactiontime = document.querySelector(
+        "[js-modal-transaction-time]"
+      );
+      modalTransactiontime.innerHTML = `${
+        JSON.parse(localStorage.getItem("Booking"))[4]
+      }`;
+      const modalTransactionEmail = document.querySelector(
+        "[js-modal-transaction-email]"
+      );
+      modalTransactionEmail.innerHTML = `${
+        JSON.parse(localStorage.getItem("Booking"))[1]
+      }`;
+      window.localStorage.removeItem("Booking");
+      window.localStorage.removeItem("BookingRef");
+      return;
+    }
+  });
 
   //submit form
   const submitForm = document.querySelector("[js-submit-form]");
@@ -64,11 +77,11 @@ if (document.querySelector(".booking-confirm")) {
           });
 
           console.log(formDataString);
-        //add transaction id to localstorage on sucessful submit
+          //add transaction id to localstorage on sucessful submit
 
-        localStorage.setItem('Booking', JSON.stringify(formDataArray));
-        localStorage.setItem('BookingRef', JSON.stringify(`${uuidv4()}`));
-        
+          localStorage.setItem("Booking", JSON.stringify(formDataArray));
+          localStorage.setItem("BookingRef", JSON.stringify(`${uuidv4()}`));
+
           window.location.href = "booking-confirm.html";
         }
       },
@@ -235,10 +248,9 @@ if (document.querySelector(".booking-confirm")) {
       // add date to input value
       const formatdate = cell.dataset.bookingDate.replace(/[() -]/g, "/");
       modalDate.value = `${formatdate}`;
-        // add date to modal
-        const modalDateText = document.querySelector("[js-modal-date]");
-        modalDateText.innerHTML = `${formatdate}`;
-
+      // add date to modal
+      const modalDateText = document.querySelector("[js-modal-date]");
+      modalDateText.innerHTML = `${formatdate}`;
 
       /// call datalayer
       /// anaytics capture date click
