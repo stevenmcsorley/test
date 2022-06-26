@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "93282b31f10ca7c68ffcfb95941acba5c0eea3cc";
+  var hash = "c5edbe87b85ec1064b82c50acef304e7ada19b21";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -5116,7 +5116,7 @@ function cov_18oei45ori() {
         },
         end: {
           line: 311,
-          column: 64
+          column: 54
         }
       },
       "132": {
@@ -6444,7 +6444,7 @@ function cov_18oei45ori() {
       "17": [0, 0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "93282b31f10ca7c68ffcfb95941acba5c0eea3cc"
+    hash: "c5edbe87b85ec1064b82c50acef304e7ada19b21"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6856,7 +6856,7 @@ var calendar = function calendar() {
 
             cov_18oei45ori().s[131]++;
 
-            _cell.setAttribute("data-action", 'BookingDateCancel');
+            _cell.setAttribute("data-action", 'Booking');
 
             cov_18oei45ori().s[132]++;
 
