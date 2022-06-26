@@ -6325,7 +6325,7 @@ var calendar = function calendar() {
 
         cov_18oei45ori().s[38]++;
         window.dataLayer.push({
-          // event: "bookingSubmitted",
+          event: "bookingSubmission",
           bookingSubmitted: formDataString,
           bookingTransactionId: sessionStorage.getItem("calendarId")
         });
