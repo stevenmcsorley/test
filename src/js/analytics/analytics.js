@@ -27,6 +27,7 @@ export const analytics = () => {
     document.addEventListener("click", function (e) {
       console.log("click", e.target);
       let events = { ...e.target.dataset }
+      console.log("event", events);
       if (Object.keys(events).length) {
         console.log("event", events);
         window.dataLayer.push({

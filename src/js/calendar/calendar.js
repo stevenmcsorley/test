@@ -227,20 +227,22 @@ export const calendar = () => {
 
   /////////////////////////////////////////////////////CLODE MODAL//////////////////////////////////////
   function closeModal() {
-    const close = document.querySelector("[js-modal-close]");
+    const close = document.querySelector(".modal-close");
     if (!close) {
       console.log("no close");
       return false;
     }
 
-    console.log("close");
+  
 
     close.addEventListener("click", function () {
+        console.log("close");
       const modalDateText = document.querySelector("[js-modal-date]");
       const modal = document.querySelector(".modal");
-      modal.classList.remove("show-modal");
       close.setAttribute("data-label", sessionStorage.getItem("calendarId"))
       close.setAttribute("data-value",  modalDateText.innerHTML)
+      modal.classList.remove("show-modal");
+
     //   window.dataLayer.push({
     //     Action: "BookingDateCancel",
     //     event: "booking_date_cancel",
@@ -308,7 +310,7 @@ export const calendar = () => {
           } // color today's date
           cell.appendChild(cellText);
           cell.setAttribute("data-booking-date", `${date}-${month}-${year}`);
-          cell.setAttribute("data-action", 'BookingDateCancel');
+          cell.setAttribute("data-action", 'Booking');
             cell.setAttribute("data-label", sessionStorage.getItem("calendarId"));
             cell.setAttribute("data-value", `${date}-${month}-${year}`);
             cell.setAttribute("data-event", "booking_date_click");

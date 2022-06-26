@@ -44,8 +44,8 @@ a:hover {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
-  display: none;
-  // visibility: hidden;
+  // display: none;
+  visibility: hidden;
   // opacity: 0;
   transition: all 0.3s ease-in-out;
 
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .show-modal {
-    display: block;
+    // display: block;
     visibility: visible;
     opacity: 1;
 

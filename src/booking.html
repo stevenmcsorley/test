@@ -106,8 +106,9 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h2 class="modal-title">Booking for <span js-modal-date></span></h2>
-                        <button type="button" class="close" data-action="Booking" data-event="booking_date_cancel" js-modal-close>
-                            <span aria-hidden="true">&times;</span>
+                        <button type="button" class="close modal-close" data-action="Booking"
+                            data-event="booking_date_cancel">
+                            Cancel
                         </button>
                     </div>
                     <div class="modal-body">
@@ -156,8 +157,8 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-default" js-submit-form-button
-                                        data-action="Booking" data-event="bookingSubmission">Submit</button>
+                                    <button type="submit" class="btn btn-default" data-action="Booking"
+                                        data-event="bookingSubmission" js-submit-form-button>Submit</button>
                                 </div>
                             </div>
                         </form>
