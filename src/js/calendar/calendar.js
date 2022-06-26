@@ -70,13 +70,21 @@ export const calendar = () => {
           for (let i = 0; i < formDataArrayLength; i++) {
             formDataString += formDataArray[i] + " ";
           }
-          // send to google
-          window.dataLayer.push({
-            Action: "Booking",
-            event: "bookingSubmission",
-            bookingUser: formDataString,
-            bookingTransactionId: sessionStorage.getItem("calendarId"),
-          });
+
+          // Events in GA has "Category", "Action", "Label" and "Value".
+          // Add data to html data-attributes for GA 
+          // only need dynamic data for GA - Label and Value
+          // in the dev cycle, we will need to add the data to the html - Category, Action 
+           
+            submitFormButton.setAttribute("data-label", sessionStorage.getItem("calendarId"));
+            submitFormButton.setAttribute("data-value", formDataString);
+          // send to google - the messy way
+        //   window.dataLayer.push({
+        //     Action: "Booking",
+        //     event: "bookingSubmission",
+        //     bookingUser: formDataString,
+        //     bookingTransactionId: sessionStorage.getItem("calendarId"),
+        //   });
 
           console.log(formDataString);
           //add transaction id to localstorage on sucessful submit
@@ -84,7 +92,7 @@ export const calendar = () => {
           localStorage.setItem("Booking", JSON.stringify(formDataArray));
           localStorage.setItem("BookingRef", JSON.stringify(`${uuidv4()}`));
 
-          window.location.href = "booking-confirm.html";
+        //   window.location.href = "booking-confirm.html";
         }
       },
       false
@@ -201,15 +209,15 @@ export const calendar = () => {
 
         /// call datalayer
         /// anaytics capture date click
-        console.log(window.dataLayer);
-        window.dataLayer.push({
-          Action: "BookingDateClick",
-          event: "booking_date_click",
-          bookingDate: modalDateText.innerHTML,
-          bookingSession: sessionStorage.getItem("calendarId"),
-        });
+        // console.log(window.dataLayer);
+        // window.dataLayer.push({
+        //   Action: "BookingDateClick",
+        //   event: "booking_date_click",
+        //   bookingDate: modalDateText.innerHTML,
+        //   bookingSession: sessionStorage.getItem("calendarId"),
+        // });
         console.log(modalDateText.innerHTML);
-        console.log(window.dataLayer);
+        // console.log(window.dataLayer);
       });
     });
     closeModal();
@@ -231,12 +239,14 @@ export const calendar = () => {
       const modalDateText = document.querySelector("[js-modal-date]");
       const modal = document.querySelector(".modal");
       modal.classList.remove("show-modal");
-      window.dataLayer.push({
-        Action: "BookingDateCancel",
-        event: "booking_date_cancel",
-        bookingDate: modalDateText.innerHTML,
-        bookingSession: sessionStorage.getItem("calendarId"),
-      });
+      close.setAttribute("data-label", sessionStorage.getItem("calendarId"))
+      close.setAttribute("data-value",  modalDateText.innerHTML)
+    //   window.dataLayer.push({
+    //     Action: "BookingDateCancel",
+    //     event: "booking_date_cancel",
+    //     bookingDate: modalDateText.innerHTML,
+    //     bookingSession: sessionStorage.getItem("calendarId"),
+    //   });
     });
   }
 
@@ -298,6 +308,11 @@ export const calendar = () => {
           } // color today's date
           cell.appendChild(cellText);
           cell.setAttribute("data-booking-date", `${date}-${month}-${year}`);
+          cell.setAttribute("data-action", 'BookingDateCancel');
+            cell.setAttribute("data-label", sessionStorage.getItem("calendarId"));
+            cell.setAttribute("data-value", `${date}-${month}-${year}`);
+            cell.setAttribute("data-event", "booking_date_click");
+          // data-action="Booking" data-event="submission"
           row.appendChild(cell);
           date++;
         }
@@ -308,7 +323,7 @@ export const calendar = () => {
 
     // set each cell with an event listener
     cells = document.querySelectorAll(".cell");
-    console.log(cells);
+    // console.log(cells);
     /// show modal event set up and waiting
     showModal();
   }

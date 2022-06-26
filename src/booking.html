@@ -5,14 +5,14 @@
     <title>Booking</title>
     <meta charset="UTF-8" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37160576-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37160576-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-37160576-3');
-</script>
+        gtag('config', 'UA-37160576-3');
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZXFMM8ZRL"></script>
     <script>
@@ -54,7 +54,7 @@
 
         <div class="mobile-menu hidden" js-mobile-menu>
             <div class="mobile-menu-close hidden">
-                <button type="button" class="close" js-mobile-menu-close-button>
+                <button type="button" class="close" js-mobile-menu-close-button data-close="close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -106,7 +106,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h2 class="modal-title">Booking for <span js-modal-date></span></h2>
-                        <button type="button" class="close" js-modal-close>
+                        <button type="button" class="close" data-action="Booking" data-event="booking_date_cancel" js-modal-close>
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -129,14 +129,14 @@
                             <div class="form-group">
                                 <label for="phone" class="col-sm-2 control-label">Phone</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone"
-                                        >
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="date" class="col-sm-2 control-label sr-only">Date</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="date" name="date" placeholder="Date" js-data-booking-date hidden>
+                                    <input type="text" class="form-control" id="date" name="date" placeholder="Date"
+                                        js-data-booking-date hidden>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -150,13 +150,14 @@
                             <div class="form-group">
                                 <label for="message" class="col-sm-2 control-label">Message</label>
                                 <div class="col-sm-10">
-                                    <textarea class="form-control" id="message" name="message" placeholder="Message"
-                                        ></textarea>
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Message"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-default" js-submit-form-button>Submit</button>
+                                    <button type="submit" class="btn btn-default" js-submit-form-button
+                                        data-action="Booking" data-event="bookingSubmission">Submit</button>
                                 </div>
                             </div>
                         </form>
