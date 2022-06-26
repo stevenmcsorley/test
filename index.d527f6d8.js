@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "1b925af7c1714e10f9ac57a3edfab8d4f8a1da64";
+  var hash = "f819c1ea632c0658c92b23f088b3124ebbf9b6e5";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3805,7 +3805,7 @@ function cov_18oei45ori() {
           column: 24
         },
         end: {
-          line: 287,
+          line: 288,
           column: 1
         }
       },
@@ -5045,28 +5045,28 @@ function cov_18oei45ori() {
           column: 2
         },
         end: {
-          line: 280,
+          line: 281,
           column: 5
         }
       },
       "125": {
         start: {
           line: 272,
-          column: 18
+          column: 26
         },
         end: {
           line: 272,
-          column: 50
+          column: 67
         }
       },
       "126": {
         start: {
           line: 273,
-          column: 4
+          column: 18
         },
         end: {
           line: 273,
-          column: 41
+          column: 50
         }
       },
       "127": {
@@ -5075,47 +5075,57 @@ function cov_18oei45ori() {
           column: 4
         },
         end: {
-          line: 279,
-          column: 9
+          line: 274,
+          column: 41
         }
       },
       "128": {
         start: {
-          line: 281,
-          column: 16
+          line: 275,
+          column: 4
         },
         end: {
-          line: 281,
-          column: 48
+          line: 280,
+          column: 9
         }
       },
       "129": {
         start: {
           line: 282,
-          column: 2
+          column: 16
         },
         end: {
-          line: 286,
-          column: 5
+          line: 282,
+          column: 48
         }
       },
       "130": {
         start: {
           line: 283,
-          column: 4
+          column: 2
         },
         end: {
-          line: 285,
+          line: 287,
           column: 5
         }
       },
       "131": {
         start: {
           line: 284,
+          column: 4
+        },
+        end: {
+          line: 286,
+          column: 5
+        }
+      },
+      "132": {
+        start: {
+          line: 285,
           column: 6
         },
         end: {
-          line: 284,
+          line: 285,
           column: 37
         }
       }
@@ -5139,7 +5149,7 @@ function cov_18oei45ori() {
             column: 30
           },
           end: {
-            line: 287,
+            line: 288,
             column: 1
           }
         },
@@ -5475,7 +5485,7 @@ function cov_18oei45ori() {
             column: 46
           },
           end: {
-            line: 280,
+            line: 281,
             column: 3
           }
         },
@@ -5485,25 +5495,25 @@ function cov_18oei45ori() {
         name: "(anonymous_15)",
         decl: {
           start: {
-            line: 282,
+            line: 283,
             column: 35
           },
           end: {
-            line: 282,
+            line: 283,
             column: 36
           }
         },
         loc: {
           start: {
-            line: 282,
+            line: 283,
             column: 52
           },
           end: {
-            line: 286,
+            line: 287,
             column: 3
           }
         },
-        line: 282
+        line: 283
       }
     },
     branchMap: {
@@ -6014,22 +6024,22 @@ function cov_18oei45ori() {
       "15": {
         loc: {
           start: {
-            line: 283,
+            line: 284,
             column: 4
           },
           end: {
-            line: 285,
+            line: 286,
             column: 5
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 283,
+            line: 284,
             column: 4
           },
           end: {
-            line: 285,
+            line: 286,
             column: 5
           }
         }, {
@@ -6042,7 +6052,7 @@ function cov_18oei45ori() {
             column: undefined
           }
         }],
-        line: 283
+        line: 284
       }
     },
     s: {
@@ -6177,7 +6187,8 @@ function cov_18oei45ori() {
       "128": 0,
       "129": 0,
       "130": 0,
-      "131": 0
+      "131": 0,
+      "132": 0
     },
     f: {
       "0": 0,
@@ -6216,7 +6227,7 @@ function cov_18oei45ori() {
       "15": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "1b925af7c1714e10f9ac57a3edfab8d4f8a1da64"
+    hash: "f819c1ea632c0658c92b23f088b3124ebbf9b6e5"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6479,21 +6490,15 @@ var calendar = function calendar() {
 
         if ((cov_18oei45ori().b[11][0]++, i === 0) && (cov_18oei45ori().b[11][1]++, j < firstDay)) {
           cov_18oei45ori().b[10][0]++;
-
-          var _cell = (cov_18oei45ori().s[91]++, document.createElement("div")); // td
-
+          var cell = (cov_18oei45ori().s[91]++, document.createElement("div")); // td
 
           cov_18oei45ori().s[92]++;
-
-          _cell.classList.add("cell-null");
-
+          cell.classList.add("cell-null");
           var cellText = (cov_18oei45ori().s[93]++, document.createTextNode(""));
           cov_18oei45ori().s[94]++;
-
-          _cell.appendChild(cellText);
-
+          cell.appendChild(cellText);
           cov_18oei45ori().s[95]++;
-          row.appendChild(_cell);
+          row.appendChild(cell);
         } else {
           cov_18oei45ori().b[10][1]++;
           cov_18oei45ori().s[96]++;
@@ -6505,12 +6510,12 @@ var calendar = function calendar() {
           } else {
             cov_18oei45ori().b[12][1]++;
 
-            var _cell2 = (cov_18oei45ori().s[98]++, document.createElement("div")); // td
+            var _cell = (cov_18oei45ori().s[98]++, document.createElement("div")); // td
 
 
             cov_18oei45ori().s[99]++;
 
-            _cell2.classList.add("cell");
+            _cell.classList.add("cell");
 
             var _cellText = (cov_18oei45ori().s[100]++, document.createTextNode(date));
 
@@ -6520,7 +6525,7 @@ var calendar = function calendar() {
               cov_18oei45ori().b[13][0]++;
               cov_18oei45ori().s[102]++;
 
-              _cell2.classList.add("today");
+              _cell.classList.add("today");
             } else {
               cov_18oei45ori().b[13][1]++;
             } // color today's date
@@ -6528,14 +6533,14 @@ var calendar = function calendar() {
 
             cov_18oei45ori().s[103]++;
 
-            _cell2.appendChild(_cellText);
+            _cell.appendChild(_cellText);
 
             cov_18oei45ori().s[104]++;
 
-            _cell2.setAttribute("data-booking-date", "".concat(date, "-").concat(month, "-").concat(year));
+            _cell.setAttribute("data-booking-date", "".concat(date, "-").concat(month, "-").concat(year));
 
             cov_18oei45ori().s[105]++;
-            row.appendChild(_cell2);
+            row.appendChild(_cell);
             cov_18oei45ori().s[106]++;
             date++;
           }
@@ -6595,26 +6600,27 @@ var calendar = function calendar() {
   cov_18oei45ori().s[124]++;
   close.addEventListener("click", function () {
     cov_18oei45ori().f[14]++;
-    var modal = (cov_18oei45ori().s[125]++, document.querySelector(".modal"));
-    cov_18oei45ori().s[126]++;
-    modal.classList.remove("show-modal");
+    var modalDateText = (cov_18oei45ori().s[125]++, document.querySelector("[js-modal-date]"));
+    var modal = (cov_18oei45ori().s[126]++, document.querySelector(".modal"));
     cov_18oei45ori().s[127]++;
+    modal.classList.remove("show-modal");
+    cov_18oei45ori().s[128]++;
     window.dataLayer.push({
       Action: "BookingDateCancel",
       event: "booking_date_cancel",
-      bookingDate: cell.dataset.bookingDate,
+      bookingDate: modalDateText.innerHTML,
       bookingSession: sessionStorage.getItem("calendarId")
     });
   });
-  var modal = (cov_18oei45ori().s[128]++, document.querySelector(".modal"));
-  cov_18oei45ori().s[129]++;
+  var modal = (cov_18oei45ori().s[129]++, document.querySelector(".modal"));
+  cov_18oei45ori().s[130]++;
   window.addEventListener("click", function (event) {
     cov_18oei45ori().f[15]++;
-    cov_18oei45ori().s[130]++;
+    cov_18oei45ori().s[131]++;
 
     if (event.target == modal) {
       cov_18oei45ori().b[15][0]++;
-      cov_18oei45ori().s[131]++;
+      cov_18oei45ori().s[132]++;
       modal.classList.remove("show");
     } else {
       cov_18oei45ori().b[15][1]++;
