@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "602b882e4e689751959e2ddf3ee82049e64a34ac";
+  var hash = "0e9111ff3dd80e60e5a96f60eb6229409f2472de";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -4186,7 +4186,7 @@ function cov_18oei45ori() {
         },
         end: {
           line: 79,
-          column: 72
+          column: 79
         }
       },
       "39": {
@@ -4796,7 +4796,7 @@ function cov_18oei45ori() {
         },
         end: {
           line: 242,
-          column: 55
+          column: 62
         }
       },
       "100": {
@@ -5136,7 +5136,7 @@ function cov_18oei45ori() {
         },
         end: {
           line: 314,
-          column: 60
+          column: 67
         }
       },
       "134": {
@@ -6455,7 +6455,7 @@ function cov_18oei45ori() {
       "17": [0, 0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "602b882e4e689751959e2ddf3ee82049e64a34ac"
+    hash: "0e9111ff3dd80e60e5a96f60eb6229409f2472de"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6577,7 +6577,7 @@ var calendar = function calendar() {
 
 
         cov_18oei45ori().s[38]++;
-        submitFormButton.setAttribute("data-label", 'booking date');
+        submitFormButton.setAttribute("data-label", 'booking_date_submit');
         cov_18oei45ori().s[39]++;
         submitFormButton.setAttribute("data-value", formDataString); // send to google - the messy way
         //   window.dataLayer.push({
@@ -6757,7 +6757,7 @@ var calendar = function calendar() {
       var modalDateText = (cov_18oei45ori().s[97]++, document.querySelector("[js-modal-date]"));
       var modal = (cov_18oei45ori().s[98]++, document.querySelector(".modal"));
       cov_18oei45ori().s[99]++;
-      close.setAttribute("data-label", 'Booking date');
+      close.setAttribute("data-label", 'booking_date_cancel');
       cov_18oei45ori().s[100]++;
       close.setAttribute("data-value", modalDateText.innerHTML);
       cov_18oei45ori().s[101]++;
@@ -6873,7 +6873,7 @@ var calendar = function calendar() {
 
             cov_18oei45ori().s[133]++;
 
-            _cell.setAttribute("data-label", 'Booking date');
+            _cell.setAttribute("data-label", 'booking_date_choose');
 
             cov_18oei45ori().s[134]++;
 
