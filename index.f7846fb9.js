@@ -6587,7 +6587,7 @@ var calendar = function calendar() {
       window.dataLayer.push({
         Action: "BookingDateClick",
         event: "booking_date_click",
-        bookingDate: cell.dataset.bookingDate,
+        bookingDate: modalDateText.innerHTML,
         bookingSession: sessionStorage.getItem("calendarId")
       });
       cov_18oei45ori().s[121]++;
