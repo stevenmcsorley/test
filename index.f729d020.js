@@ -3793,7 +3793,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "72b4794c26415ee7795057e7da8641f5d986ea96";
+  var hash = "ef02bba678d936c9621eed97d8b6560606ce15a2";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -4231,6 +4231,16 @@ function cov_18oei45ori() {
       },
       "43": {
         start: {
+          line: 95,
+          column: 10
+        },
+        end: {
+          line: 95,
+          column: 56
+        }
+      },
+      "44": {
+        start: {
           line: 103,
           column: 4
         },
@@ -4239,7 +4249,7 @@ function cov_18oei45ori() {
           column: 6
         }
       },
-      "44": {
+      "45": {
         start: {
           line: 104,
           column: 6
@@ -4249,7 +4259,7 @@ function cov_18oei45ori() {
           column: 20
         }
       },
-      "45": {
+      "46": {
         start: {
           line: 111,
           column: 2
@@ -4259,7 +4269,7 @@ function cov_18oei45ori() {
           column: 24
         }
       },
-      "46": {
+      "47": {
         start: {
           line: 115,
           column: 2
@@ -4269,7 +4279,7 @@ function cov_18oei45ori() {
           column: 3
         }
       },
-      "47": {
+      "48": {
         start: {
           line: 116,
           column: 4
@@ -4279,7 +4289,7 @@ function cov_18oei45ori() {
           column: 51
         }
       },
-      "48": {
+      "49": {
         start: {
           line: 119,
           column: 12
@@ -4289,7 +4299,7 @@ function cov_18oei45ori() {
           column: 52
         }
       },
-      "49": {
+      "50": {
         start: {
           line: 120,
           column: 2
@@ -4299,7 +4309,7 @@ function cov_18oei45ori() {
           column: 3
         }
       },
-      "50": {
+      "51": {
         start: {
           line: 121,
           column: 4
@@ -4309,7 +4319,7 @@ function cov_18oei45ori() {
           column: 17
         }
       },
-      "51": {
+      "52": {
         start: {
           line: 123,
           column: 14
@@ -4319,7 +4329,7 @@ function cov_18oei45ori() {
           column: 24
         }
       },
-      "52": {
+      "53": {
         start: {
           line: 124,
           column: 21
@@ -4329,7 +4339,7 @@ function cov_18oei45ori() {
           column: 37
         }
       },
-      "53": {
+      "54": {
         start: {
           line: 125,
           column: 20
@@ -4339,7 +4349,7 @@ function cov_18oei45ori() {
           column: 39
         }
       },
-      "54": {
+      "55": {
         start: {
           line: 126,
           column: 19
@@ -4349,7 +4359,7 @@ function cov_18oei45ori() {
           column: 50
         }
       },
-      "55": {
+      "56": {
         start: {
           line: 127,
           column: 20
@@ -4359,7 +4369,7 @@ function cov_18oei45ori() {
           column: 52
         }
       },
-      "56": {
+      "57": {
         start: {
           line: 129,
           column: 15
@@ -4369,7 +4379,7 @@ function cov_18oei45ori() {
           column: 3
         }
       },
-      "57": {
+      "58": {
         start: {
           line: 144,
           column: 21
@@ -4379,7 +4389,7 @@ function cov_18oei45ori() {
           column: 60
         }
       },
-      "58": {
+      "59": {
         start: {
           line: 145,
           column: 2
@@ -4389,27 +4399,27 @@ function cov_18oei45ori() {
           column: 42
         }
       },
-      "59": {
-        start: {
-          line: 147,
-          column: 15
-        },
-        end: {
-          line: 147,
-          column: 46
-        }
-      },
       "60": {
         start: {
-          line: 148,
+          line: 147,
           column: 15
         },
         end: {
-          line: 148,
+          line: 147,
           column: 46
         }
       },
       "61": {
+        start: {
+          line: 148,
+          column: 15
+        },
+        end: {
+          line: 148,
+          column: 46
+        }
+      },
+      "62": {
         start: {
           line: 150,
           column: 2
@@ -4419,7 +4429,7 @@ function cov_18oei45ori() {
           column: 4
         }
       },
-      "62": {
+      "63": {
         start: {
           line: 153,
           column: 6
@@ -4429,7 +4439,7 @@ function cov_18oei45ori() {
           column: 72
         }
       },
-      "63": {
+      "64": {
         start: {
           line: 154,
           column: 6
@@ -4439,7 +4449,7 @@ function cov_18oei45ori() {
           column: 45
         }
       },
-      "64": {
+      "65": {
         start: {
           line: 155,
           column: 6
@@ -4449,7 +4459,7 @@ function cov_18oei45ori() {
           column: 46
         }
       },
-      "65": {
+      "66": {
         start: {
           line: 160,
           column: 2
@@ -4459,7 +4469,7 @@ function cov_18oei45ori() {
           column: 4
         }
       },
-      "66": {
+      "67": {
         start: {
           line: 163,
           column: 6
@@ -4469,7 +4479,7 @@ function cov_18oei45ori() {
           column: 71
         }
       },
-      "67": {
+      "68": {
         start: {
           line: 164,
           column: 6
@@ -4479,7 +4489,7 @@ function cov_18oei45ori() {
           column: 64
         }
       },
-      "68": {
+      "69": {
         start: {
           line: 165,
           column: 6
@@ -4489,7 +4499,7 @@ function cov_18oei45ori() {
           column: 46
         }
       },
-      "69": {
+      "70": {
         start: {
           line: 170,
           column: 2
@@ -4499,7 +4509,7 @@ function cov_18oei45ori() {
           column: 4
         }
       },
-      "70": {
+      "71": {
         start: {
           line: 173,
           column: 6
@@ -4509,7 +4519,7 @@ function cov_18oei45ori() {
           column: 8
         }
       },
-      "71": {
+      "72": {
         start: {
           line: 176,
           column: 10
@@ -4519,7 +4529,7 @@ function cov_18oei45ori() {
           column: 51
         }
       },
-      "72": {
+      "73": {
         start: {
           line: 177,
           column: 10
@@ -4529,7 +4539,7 @@ function cov_18oei45ori() {
           column: 53
         }
       },
-      "73": {
+      "74": {
         start: {
           line: 178,
           column: 10
@@ -4539,7 +4549,7 @@ function cov_18oei45ori() {
           column: 50
         }
       },
-      "74": {
+      "75": {
         start: {
           line: 183,
           column: 6
@@ -4549,7 +4559,7 @@ function cov_18oei45ori() {
           column: 8
         }
       },
-      "75": {
+      "76": {
         start: {
           line: 186,
           column: 10
@@ -4559,7 +4569,7 @@ function cov_18oei45ori() {
           column: 51
         }
       },
-      "76": {
+      "77": {
         start: {
           line: 187,
           column: 10
@@ -4569,7 +4579,7 @@ function cov_18oei45ori() {
           column: 53
         }
       },
-      "77": {
+      "78": {
         start: {
           line: 188,
           column: 10
@@ -4579,7 +4589,7 @@ function cov_18oei45ori() {
           column: 50
         }
       },
-      "78": {
+      "79": {
         start: {
           line: 197,
           column: 18
@@ -4589,7 +4599,7 @@ function cov_18oei45ori() {
           column: 72
         }
       },
-      "79": {
+      "80": {
         start: {
           line: 198,
           column: 4
@@ -4599,7 +4609,7 @@ function cov_18oei45ori() {
           column: 7
         }
       },
-      "80": {
+      "81": {
         start: {
           line: 199,
           column: 6
@@ -4609,7 +4619,7 @@ function cov_18oei45ori() {
           column: 9
         }
       },
-      "81": {
+      "82": {
         start: {
           line: 200,
           column: 22
@@ -4619,7 +4629,7 @@ function cov_18oei45ori() {
           column: 54
         }
       },
-      "82": {
+      "83": {
         start: {
           line: 201,
           column: 8
@@ -4629,7 +4639,7 @@ function cov_18oei45ori() {
           column: 42
         }
       },
-      "83": {
+      "84": {
         start: {
           line: 202,
           column: 26
@@ -4639,7 +4649,7 @@ function cov_18oei45ori() {
           column: 74
         }
       },
-      "84": {
+      "85": {
         start: {
           line: 204,
           column: 27
@@ -4649,7 +4659,7 @@ function cov_18oei45ori() {
           column: 75
         }
       },
-      "85": {
+      "86": {
         start: {
           line: 205,
           column: 8
@@ -4659,7 +4669,7 @@ function cov_18oei45ori() {
           column: 42
         }
       },
-      "86": {
+      "87": {
         start: {
           line: 207,
           column: 30
@@ -4669,7 +4679,7 @@ function cov_18oei45ori() {
           column: 71
         }
       },
-      "87": {
+      "88": {
         start: {
           line: 208,
           column: 8
@@ -4679,7 +4689,7 @@ function cov_18oei45ori() {
           column: 50
         }
       },
-      "88": {
+      "89": {
         start: {
           line: 219,
           column: 8
@@ -4689,7 +4699,7 @@ function cov_18oei45ori() {
           column: 45
         }
       },
-      "89": {
+      "90": {
         start: {
           line: 223,
           column: 4
@@ -4699,7 +4709,7 @@ function cov_18oei45ori() {
           column: 17
         }
       },
-      "90": {
+      "91": {
         start: {
           line: 230,
           column: 18
@@ -4709,7 +4719,7 @@ function cov_18oei45ori() {
           column: 56
         }
       },
-      "91": {
+      "92": {
         start: {
           line: 231,
           column: 4
@@ -4719,7 +4729,7 @@ function cov_18oei45ori() {
           column: 5
         }
       },
-      "92": {
+      "93": {
         start: {
           line: 232,
           column: 6
@@ -4729,7 +4739,7 @@ function cov_18oei45ori() {
           column: 30
         }
       },
-      "93": {
+      "94": {
         start: {
           line: 233,
           column: 6
@@ -4739,7 +4749,7 @@ function cov_18oei45ori() {
           column: 19
         }
       },
-      "94": {
+      "95": {
         start: {
           line: 238,
           column: 4
@@ -4749,7 +4759,7 @@ function cov_18oei45ori() {
           column: 7
         }
       },
-      "95": {
+      "96": {
         start: {
           line: 239,
           column: 8
@@ -4759,7 +4769,7 @@ function cov_18oei45ori() {
           column: 29
         }
       },
-      "96": {
+      "97": {
         start: {
           line: 240,
           column: 28
@@ -4769,7 +4779,7 @@ function cov_18oei45ori() {
           column: 69
         }
       },
-      "97": {
+      "98": {
         start: {
           line: 241,
           column: 20
@@ -4779,7 +4789,7 @@ function cov_18oei45ori() {
           column: 52
         }
       },
-      "98": {
+      "99": {
         start: {
           line: 242,
           column: 6
@@ -4789,7 +4799,7 @@ function cov_18oei45ori() {
           column: 76
         }
       },
-      "99": {
+      "100": {
         start: {
           line: 243,
           column: 6
@@ -4799,7 +4809,7 @@ function cov_18oei45ori() {
           column: 64
         }
       },
-      "100": {
+      "101": {
         start: {
           line: 244,
           column: 6
@@ -4809,7 +4819,7 @@ function cov_18oei45ori() {
           column: 43
         }
       },
-      "101": {
+      "102": {
         start: {
           line: 260,
           column: 4
@@ -4819,7 +4829,7 @@ function cov_18oei45ori() {
           column: 28
         }
       },
-      "102": {
+      "103": {
         start: {
           line: 262,
           column: 19
@@ -4829,7 +4839,7 @@ function cov_18oei45ori() {
           column: 49
         }
       },
-      "103": {
+      "104": {
         start: {
           line: 265,
           column: 4
@@ -4839,7 +4849,7 @@ function cov_18oei45ori() {
           column: 23
         }
       },
-      "104": {
+      "105": {
         start: {
           line: 268,
           column: 4
@@ -4849,7 +4859,7 @@ function cov_18oei45ori() {
           column: 56
         }
       },
-      "105": {
+      "106": {
         start: {
           line: 269,
           column: 4
@@ -4859,7 +4869,7 @@ function cov_18oei45ori() {
           column: 28
         }
       },
-      "106": {
+      "107": {
         start: {
           line: 270,
           column: 4
@@ -4869,7 +4879,7 @@ function cov_18oei45ori() {
           column: 30
         }
       },
-      "107": {
+      "108": {
         start: {
           line: 273,
           column: 15
@@ -4879,7 +4889,7 @@ function cov_18oei45ori() {
           column: 16
         }
       },
-      "108": {
+      "109": {
         start: {
           line: 274,
           column: 4
@@ -4889,7 +4899,7 @@ function cov_18oei45ori() {
           column: 5
         }
       },
-      "109": {
+      "110": {
         start: {
           line: 274,
           column: 17
@@ -4899,7 +4909,7 @@ function cov_18oei45ori() {
           column: 18
         }
       },
-      "110": {
+      "111": {
         start: {
           line: 276,
           column: 16
@@ -4909,7 +4919,7 @@ function cov_18oei45ori() {
           column: 45
         }
       },
-      "111": {
+      "112": {
         start: {
           line: 277,
           column: 6
@@ -4919,7 +4929,7 @@ function cov_18oei45ori() {
           column: 31
         }
       },
-      "112": {
+      "113": {
         start: {
           line: 280,
           column: 6
@@ -4929,7 +4939,7 @@ function cov_18oei45ori() {
           column: 7
         }
       },
-      "113": {
+      "114": {
         start: {
           line: 280,
           column: 19
@@ -4939,7 +4949,7 @@ function cov_18oei45ori() {
           column: 20
         }
       },
-      "114": {
+      "115": {
         start: {
           line: 281,
           column: 8
@@ -4949,7 +4959,7 @@ function cov_18oei45ori() {
           column: 9
         }
       },
-      "115": {
+      "116": {
         start: {
           line: 282,
           column: 21
@@ -4959,7 +4969,7 @@ function cov_18oei45ori() {
           column: 50
         }
       },
-      "116": {
+      "117": {
         start: {
           line: 283,
           column: 10
@@ -4969,7 +4979,7 @@ function cov_18oei45ori() {
           column: 42
         }
       },
-      "117": {
+      "118": {
         start: {
           line: 284,
           column: 25
@@ -4979,7 +4989,7 @@ function cov_18oei45ori() {
           column: 52
         }
       },
-      "118": {
+      "119": {
         start: {
           line: 285,
           column: 10
@@ -4989,7 +4999,7 @@ function cov_18oei45ori() {
           column: 37
         }
       },
-      "119": {
+      "120": {
         start: {
           line: 286,
           column: 10
@@ -4999,7 +5009,7 @@ function cov_18oei45ori() {
           column: 32
         }
       },
-      "120": {
+      "121": {
         start: {
           line: 287,
           column: 15
@@ -5009,7 +5019,7 @@ function cov_18oei45ori() {
           column: 9
         }
       },
-      "121": {
+      "122": {
         start: {
           line: 288,
           column: 10
@@ -5019,7 +5029,7 @@ function cov_18oei45ori() {
           column: 16
         }
       },
-      "122": {
+      "123": {
         start: {
           line: 290,
           column: 21
@@ -5029,7 +5039,7 @@ function cov_18oei45ori() {
           column: 50
         }
       },
-      "123": {
+      "124": {
         start: {
           line: 291,
           column: 10
@@ -5039,7 +5049,7 @@ function cov_18oei45ori() {
           column: 37
         }
       },
-      "124": {
+      "125": {
         start: {
           line: 292,
           column: 25
@@ -5049,7 +5059,7 @@ function cov_18oei45ori() {
           column: 54
         }
       },
-      "125": {
+      "126": {
         start: {
           line: 295,
           column: 12
@@ -5059,7 +5069,7 @@ function cov_18oei45ori() {
           column: 13
         }
       },
-      "126": {
+      "127": {
         start: {
           line: 301,
           column: 14
@@ -5069,7 +5079,7 @@ function cov_18oei45ori() {
           column: 50
         }
       },
-      "127": {
+      "128": {
         start: {
           line: 304,
           column: 10
@@ -5079,7 +5089,7 @@ function cov_18oei45ori() {
           column: 11
         }
       },
-      "128": {
+      "129": {
         start: {
           line: 309,
           column: 12
@@ -5089,7 +5099,7 @@ function cov_18oei45ori() {
           column: 40
         }
       },
-      "129": {
+      "130": {
         start: {
           line: 311,
           column: 10
@@ -5099,7 +5109,7 @@ function cov_18oei45ori() {
           column: 37
         }
       },
-      "130": {
+      "131": {
         start: {
           line: 312,
           column: 10
@@ -5109,7 +5119,7 @@ function cov_18oei45ori() {
           column: 77
         }
       },
-      "131": {
+      "132": {
         start: {
           line: 313,
           column: 10
@@ -5119,7 +5129,7 @@ function cov_18oei45ori() {
           column: 54
         }
       },
-      "132": {
+      "133": {
         start: {
           line: 314,
           column: 12
@@ -5129,7 +5139,7 @@ function cov_18oei45ori() {
           column: 82
         }
       },
-      "133": {
+      "134": {
         start: {
           line: 315,
           column: 12
@@ -5139,7 +5149,7 @@ function cov_18oei45ori() {
           column: 72
         }
       },
-      "134": {
+      "135": {
         start: {
           line: 316,
           column: 12
@@ -5149,7 +5159,7 @@ function cov_18oei45ori() {
           column: 66
         }
       },
-      "135": {
+      "136": {
         start: {
           line: 318,
           column: 10
@@ -5159,7 +5169,7 @@ function cov_18oei45ori() {
           column: 32
         }
       },
-      "136": {
+      "137": {
         start: {
           line: 319,
           column: 10
@@ -5169,7 +5179,7 @@ function cov_18oei45ori() {
           column: 17
         }
       },
-      "137": {
+      "138": {
         start: {
           line: 323,
           column: 6
@@ -5179,7 +5189,7 @@ function cov_18oei45ori() {
           column: 27
         }
       },
-      "138": {
+      "139": {
         start: {
           line: 327,
           column: 4
@@ -5189,7 +5199,7 @@ function cov_18oei45ori() {
           column: 47
         }
       },
-      "139": {
+      "140": {
         start: {
           line: 330,
           column: 4
@@ -5199,7 +5209,7 @@ function cov_18oei45ori() {
           column: 16
         }
       },
-      "140": {
+      "141": {
         start: {
           line: 337,
           column: 4
@@ -6402,7 +6412,8 @@ function cov_18oei45ori() {
       "137": 0,
       "138": 0,
       "139": 0,
-      "140": 0
+      "140": 0,
+      "141": 0
     },
     f: {
       "0": 0,
@@ -6444,7 +6455,7 @@ function cov_18oei45ori() {
       "17": [0, 0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "72b4794c26415ee7795057e7da8641f5d986ea96"
+    hash: "ef02bba678d936c9621eed97d8b6560606ce15a2"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6582,7 +6593,9 @@ var calendar = function calendar() {
         cov_18oei45ori().s[41]++;
         localStorage.setItem("Booking", JSON.stringify(formDataArray));
         cov_18oei45ori().s[42]++;
-        localStorage.setItem("BookingRef", JSON.stringify("".concat(uuidv4()))); //   window.location.href = "booking-confirm.html";
+        localStorage.setItem("BookingRef", JSON.stringify("".concat(uuidv4())));
+        cov_18oei45ori().s[43]++;
+        window.location.href = "booking-confirm.html";
       }
     }, false);
   } else {
@@ -6591,116 +6604,116 @@ var calendar = function calendar() {
 
   function uuidv4() {
     cov_18oei45ori().f[3]++;
-    cov_18oei45ori().s[43]++;
+    cov_18oei45ori().s[44]++;
     return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, function (c) {
       cov_18oei45ori().f[4]++;
-      cov_18oei45ori().s[44]++;
+      cov_18oei45ori().s[45]++;
       return (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16);
     });
   }
 
-  cov_18oei45ori().s[45]++;
+  cov_18oei45ori().s[46]++;
   console.log(uuidv4()); // create a session storage id for the calendar
   // if it doesn't exist, create it
 
-  cov_18oei45ori().s[46]++;
+  cov_18oei45ori().s[47]++;
 
   if (!sessionStorage.getItem("calendarId")) {
     cov_18oei45ori().b[5][0]++;
-    cov_18oei45ori().s[47]++;
+    cov_18oei45ori().s[48]++;
     sessionStorage.setItem("calendarId", uuidv4());
   } else {
     cov_18oei45ori().b[5][1]++;
   }
 
-  var tbl = (cov_18oei45ori().s[48]++, document.getElementById("calendar-body")); // body of the calendar
+  var tbl = (cov_18oei45ori().s[49]++, document.getElementById("calendar-body")); // body of the calendar
 
-  cov_18oei45ori().s[49]++;
+  cov_18oei45ori().s[50]++;
 
   if (!tbl) {
     cov_18oei45ori().b[6][0]++;
-    cov_18oei45ori().s[50]++;
+    cov_18oei45ori().s[51]++;
     return false;
   } else {
     cov_18oei45ori().b[6][1]++;
   }
 
-  var today = (cov_18oei45ori().s[51]++, new Date());
-  var currentMonth = (cov_18oei45ori().s[52]++, today.getMonth());
-  var currentYear = (cov_18oei45ori().s[53]++, today.getFullYear());
-  var selectYear = (cov_18oei45ori().s[54]++, document.getElementById("year"));
-  var selectMonth = (cov_18oei45ori().s[55]++, document.getElementById("month"));
-  var months = (cov_18oei45ori().s[56]++, ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]);
-  var monthAndYear = (cov_18oei45ori().s[57]++, document.getElementById("monthAndYear"));
-  cov_18oei45ori().s[58]++;
+  var today = (cov_18oei45ori().s[52]++, new Date());
+  var currentMonth = (cov_18oei45ori().s[53]++, today.getMonth());
+  var currentYear = (cov_18oei45ori().s[54]++, today.getFullYear());
+  var selectYear = (cov_18oei45ori().s[55]++, document.getElementById("year"));
+  var selectMonth = (cov_18oei45ori().s[56]++, document.getElementById("month"));
+  var months = (cov_18oei45ori().s[57]++, ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]);
+  var monthAndYear = (cov_18oei45ori().s[58]++, document.getElementById("monthAndYear"));
+  cov_18oei45ori().s[59]++;
   showCalendar(currentMonth, currentYear);
-  var next = (cov_18oei45ori().s[59]++, document.getElementById("next"));
-  var prev = (cov_18oei45ori().s[60]++, document.getElementById("prev"));
-  cov_18oei45ori().s[61]++;
+  var next = (cov_18oei45ori().s[60]++, document.getElementById("next"));
+  var prev = (cov_18oei45ori().s[61]++, document.getElementById("prev"));
+  cov_18oei45ori().s[62]++;
   next.addEventListener("click", function () {
     cov_18oei45ori().f[5]++;
-    cov_18oei45ori().s[62]++;
-    currentYear = currentMonth === 11 ? (cov_18oei45ori().b[7][0]++, currentYear + 1) : (cov_18oei45ori().b[7][1]++, currentYear);
     cov_18oei45ori().s[63]++;
-    currentMonth = (currentMonth + 1) % 12;
+    currentYear = currentMonth === 11 ? (cov_18oei45ori().b[7][0]++, currentYear + 1) : (cov_18oei45ori().b[7][1]++, currentYear);
     cov_18oei45ori().s[64]++;
+    currentMonth = (currentMonth + 1) % 12;
+    cov_18oei45ori().s[65]++;
     showCalendar(currentMonth, currentYear);
   }, false);
-  cov_18oei45ori().s[65]++;
+  cov_18oei45ori().s[66]++;
   prev.addEventListener("click", function () {
     cov_18oei45ori().f[6]++;
-    cov_18oei45ori().s[66]++;
-    currentYear = currentMonth === 0 ? (cov_18oei45ori().b[8][0]++, currentYear - 1) : (cov_18oei45ori().b[8][1]++, currentYear);
     cov_18oei45ori().s[67]++;
-    currentMonth = currentMonth === 0 ? (cov_18oei45ori().b[9][0]++, 11) : (cov_18oei45ori().b[9][1]++, currentMonth - 1);
+    currentYear = currentMonth === 0 ? (cov_18oei45ori().b[8][0]++, currentYear - 1) : (cov_18oei45ori().b[8][1]++, currentYear);
     cov_18oei45ori().s[68]++;
+    currentMonth = currentMonth === 0 ? (cov_18oei45ori().b[9][0]++, 11) : (cov_18oei45ori().b[9][1]++, currentMonth - 1);
+    cov_18oei45ori().s[69]++;
     showCalendar(currentMonth, currentYear);
   }, false);
-  cov_18oei45ori().s[69]++;
+  cov_18oei45ori().s[70]++;
   document.addEventListener("DOMContentLoaded", function () {
     cov_18oei45ori().f[7]++;
-    cov_18oei45ori().s[70]++;
+    cov_18oei45ori().s[71]++;
     selectYear.addEventListener("change", function () {
       cov_18oei45ori().f[8]++;
-      cov_18oei45ori().s[71]++;
-      currentYear = parseInt(selectYear.value);
       cov_18oei45ori().s[72]++;
-      currentMonth = parseInt(selectMonth.value);
+      currentYear = parseInt(selectYear.value);
       cov_18oei45ori().s[73]++;
+      currentMonth = parseInt(selectMonth.value);
+      cov_18oei45ori().s[74]++;
       showCalendar(currentMonth, currentYear);
     }, false);
-    cov_18oei45ori().s[74]++;
+    cov_18oei45ori().s[75]++;
     selectMonth.addEventListener("change", function () {
       cov_18oei45ori().f[9]++;
-      cov_18oei45ori().s[75]++;
-      currentYear = parseInt(selectYear.value);
       cov_18oei45ori().s[76]++;
-      currentMonth = parseInt(selectMonth.value);
+      currentYear = parseInt(selectYear.value);
       cov_18oei45ori().s[77]++;
+      currentMonth = parseInt(selectMonth.value);
+      cov_18oei45ori().s[78]++;
       showCalendar(currentMonth, currentYear);
     }, false);
   }, false); /////////////////////////////////////////////////////SHOW MODAL/////////////////////////////////////////
 
   function showModal() {
     cov_18oei45ori().f[10]++;
-    var cells = (cov_18oei45ori().s[78]++, document.querySelectorAll(".cell:not(.cell-disabled)"));
-    cov_18oei45ori().s[79]++;
+    var cells = (cov_18oei45ori().s[79]++, document.querySelectorAll(".cell:not(.cell-disabled)"));
+    cov_18oei45ori().s[80]++;
     cells.forEach(function (cell) {
       cov_18oei45ori().f[11]++;
-      cov_18oei45ori().s[80]++;
+      cov_18oei45ori().s[81]++;
       cell.addEventListener("click", function () {
         cov_18oei45ori().f[12]++;
-        var modal = (cov_18oei45ori().s[81]++, document.querySelector(".modal"));
-        cov_18oei45ori().s[82]++;
+        var modal = (cov_18oei45ori().s[82]++, document.querySelector(".modal"));
+        cov_18oei45ori().s[83]++;
         modal.classList.add("show-modal");
-        var modalDate = (cov_18oei45ori().s[83]++, document.querySelector("[js-data-booking-date]")); // add date to input value
+        var modalDate = (cov_18oei45ori().s[84]++, document.querySelector("[js-data-booking-date]")); // add date to input value
 
-        var formatdate = (cov_18oei45ori().s[84]++, cell.dataset.bookingDate.replace(/[() -]/g, "/"));
-        cov_18oei45ori().s[85]++;
+        var formatdate = (cov_18oei45ori().s[85]++, cell.dataset.bookingDate.replace(/[() -]/g, "/"));
+        cov_18oei45ori().s[86]++;
         modalDate.value = "".concat(formatdate); // add date to modal
 
-        var modalDateText = (cov_18oei45ori().s[86]++, document.querySelector("[js-modal-date]"));
-        cov_18oei45ori().s[87]++;
+        var modalDateText = (cov_18oei45ori().s[87]++, document.querySelector("[js-modal-date]"));
+        cov_18oei45ori().s[88]++;
         modalDateText.innerHTML = "".concat(formatdate); /// call datalayer
         /// anaytics capture date click
         // console.log(window.dataLayer);
@@ -6711,11 +6724,11 @@ var calendar = function calendar() {
         //   bookingSession: sessionStorage.getItem("calendarId"),
         // });
 
-        cov_18oei45ori().s[88]++;
+        cov_18oei45ori().s[89]++;
         console.log(modalDateText.innerHTML); // console.log(window.dataLayer);
       });
     });
-    cov_18oei45ori().s[89]++;
+    cov_18oei45ori().s[90]++;
     closeModal();
   } /////////////////////////////////////////////////////END SHOW MODAL//////////////////////////////////////
   /////////////////////////////////////////////////////CLODE MODAL//////////////////////////////////////
@@ -6723,31 +6736,31 @@ var calendar = function calendar() {
 
   function closeModal() {
     cov_18oei45ori().f[13]++;
-    var close = (cov_18oei45ori().s[90]++, document.querySelector(".modal-close"));
-    cov_18oei45ori().s[91]++;
+    var close = (cov_18oei45ori().s[91]++, document.querySelector(".modal-close"));
+    cov_18oei45ori().s[92]++;
 
     if (!close) {
       cov_18oei45ori().b[10][0]++;
-      cov_18oei45ori().s[92]++;
-      console.log("no close");
       cov_18oei45ori().s[93]++;
+      console.log("no close");
+      cov_18oei45ori().s[94]++;
       return false;
     } else {
       cov_18oei45ori().b[10][1]++;
     }
 
-    cov_18oei45ori().s[94]++;
+    cov_18oei45ori().s[95]++;
     close.addEventListener("click", function () {
       cov_18oei45ori().f[14]++;
-      cov_18oei45ori().s[95]++;
+      cov_18oei45ori().s[96]++;
       console.log("close");
-      var modalDateText = (cov_18oei45ori().s[96]++, document.querySelector("[js-modal-date]"));
-      var modal = (cov_18oei45ori().s[97]++, document.querySelector(".modal"));
-      cov_18oei45ori().s[98]++;
-      close.setAttribute("data-label", sessionStorage.getItem("calendarId"));
+      var modalDateText = (cov_18oei45ori().s[97]++, document.querySelector("[js-modal-date]"));
+      var modal = (cov_18oei45ori().s[98]++, document.querySelector(".modal"));
       cov_18oei45ori().s[99]++;
-      close.setAttribute("data-value", modalDateText.innerHTML);
+      close.setAttribute("data-label", sessionStorage.getItem("calendarId"));
       cov_18oei45ori().s[100]++;
+      close.setAttribute("data-value", modalDateText.innerHTML);
+      cov_18oei45ori().s[101]++;
       modal.classList.remove("show-modal"); //   window.dataLayer.push({
       //     Action: "BookingDateCancel",
       //     event: "booking_date_cancel",
@@ -6761,84 +6774,84 @@ var calendar = function calendar() {
 
   function showCalendar(month, year) {
     cov_18oei45ori().f[15]++;
-    cov_18oei45ori().s[101]++;
+    cov_18oei45ori().s[102]++;
     console.log("calendar");
     var cells;
-    var firstDay = (cov_18oei45ori().s[102]++, new Date(year, month).getDay()); // clearing all previous cells
-
-    cov_18oei45ori().s[103]++;
-    tbl.innerHTML = ""; // filing data about month and in the page via DOM.
+    var firstDay = (cov_18oei45ori().s[103]++, new Date(year, month).getDay()); // clearing all previous cells
 
     cov_18oei45ori().s[104]++;
-    monthAndYear.innerHTML = months[month] + " " + year;
+    tbl.innerHTML = ""; // filing data about month and in the page via DOM.
+
     cov_18oei45ori().s[105]++;
-    selectYear.value = year;
+    monthAndYear.innerHTML = months[month] + " " + year;
     cov_18oei45ori().s[106]++;
+    selectYear.value = year;
+    cov_18oei45ori().s[107]++;
     selectMonth.value = month; // creating all cells
 
-    var date = (cov_18oei45ori().s[107]++, 1);
-    cov_18oei45ori().s[108]++;
+    var date = (cov_18oei45ori().s[108]++, 1);
+    cov_18oei45ori().s[109]++;
 
-    for (var i = (cov_18oei45ori().s[109]++, 0); i < 6; i++) {
+    for (var i = (cov_18oei45ori().s[110]++, 0); i < 6; i++) {
       // creates a table row
-      var row = (cov_18oei45ori().s[110]++, document.createElement("div")); //tr
-
-      cov_18oei45ori().s[111]++;
-      row.classList.add("row"); //creating individual cells, filing them up with data.
+      var row = (cov_18oei45ori().s[111]++, document.createElement("div")); //tr
 
       cov_18oei45ori().s[112]++;
+      row.classList.add("row"); //creating individual cells, filing them up with data.
 
-      for (var j = (cov_18oei45ori().s[113]++, 0); j < 7; j++) {
-        cov_18oei45ori().s[114]++;
+      cov_18oei45ori().s[113]++;
+
+      for (var j = (cov_18oei45ori().s[114]++, 0); j < 7; j++) {
+        cov_18oei45ori().s[115]++;
 
         if ((cov_18oei45ori().b[12][0]++, i === 0) && (cov_18oei45ori().b[12][1]++, j < firstDay)) {
           cov_18oei45ori().b[11][0]++;
-          var cell = (cov_18oei45ori().s[115]++, document.createElement("div")); // td
+          var cell = (cov_18oei45ori().s[116]++, document.createElement("div")); // td
 
-          cov_18oei45ori().s[116]++;
+          cov_18oei45ori().s[117]++;
           cell.classList.add("cell-null");
-          var cellText = (cov_18oei45ori().s[117]++, document.createTextNode(""));
-          cov_18oei45ori().s[118]++;
-          cell.appendChild(cellText);
+          var cellText = (cov_18oei45ori().s[118]++, document.createTextNode(""));
           cov_18oei45ori().s[119]++;
+          cell.appendChild(cellText);
+          cov_18oei45ori().s[120]++;
           row.appendChild(cell);
         } else {
           cov_18oei45ori().b[11][1]++;
-          cov_18oei45ori().s[120]++;
+          cov_18oei45ori().s[121]++;
 
           if (date > daysInMonth(month, year)) {
             cov_18oei45ori().b[13][0]++;
-            cov_18oei45ori().s[121]++;
+            cov_18oei45ori().s[122]++;
             break;
           } else {
             cov_18oei45ori().b[13][1]++;
 
-            var _cell = (cov_18oei45ori().s[122]++, document.createElement("div")); // td
+            var _cell = (cov_18oei45ori().s[123]++, document.createElement("div")); // td
 
 
-            cov_18oei45ori().s[123]++;
+            cov_18oei45ori().s[124]++;
 
             _cell.classList.add("cell");
 
-            var _cellText = (cov_18oei45ori().s[124]++, document.createTextNode(date)); // if before today, disable the cell
+            var _cellText = (cov_18oei45ori().s[125]++, document.createTextNode(date)); // if before today, disable the cell
 
 
-            cov_18oei45ori().s[125]++;
+            cov_18oei45ori().s[126]++;
 
             if ((cov_18oei45ori().b[15][0]++, year < today.getFullYear()) || (cov_18oei45ori().b[15][1]++, year === today.getFullYear()) && (cov_18oei45ori().b[15][2]++, month < today.getMonth()) || (cov_18oei45ori().b[15][3]++, year === today.getFullYear()) && (cov_18oei45ori().b[15][4]++, month === today.getMonth()) && (cov_18oei45ori().b[15][5]++, date < today.getDate())) {
               cov_18oei45ori().b[14][0]++;
-              cov_18oei45ori().s[126]++;
+              cov_18oei45ori().s[127]++;
 
               _cell.classList.add("cell-disabled");
             } else {
               cov_18oei45ori().b[14][1]++;
             }
 
-            cov_18oei45ori().s[127]++;
+            cov_18oei45ori().s[128]++;
 
             if ((cov_18oei45ori().b[17][0]++, date === today.getDate()) && (cov_18oei45ori().b[17][1]++, year === today.getFullYear()) && (cov_18oei45ori().b[17][2]++, month === today.getMonth())) {
               cov_18oei45ori().b[16][0]++;
-              cov_18oei45ori().s[128]++;
+              cov_18oei45ori().s[129]++;
 
               _cell.classList.add("today");
             } else {
@@ -6846,49 +6859,49 @@ var calendar = function calendar() {
             } // color today's date
 
 
-            cov_18oei45ori().s[129]++;
+            cov_18oei45ori().s[130]++;
 
             _cell.appendChild(_cellText);
 
-            cov_18oei45ori().s[130]++;
+            cov_18oei45ori().s[131]++;
 
             _cell.setAttribute("data-booking-date", "".concat(date, "-").concat(month, "-").concat(year));
 
-            cov_18oei45ori().s[131]++;
+            cov_18oei45ori().s[132]++;
 
             _cell.setAttribute("data-action", 'Booking');
 
-            cov_18oei45ori().s[132]++;
+            cov_18oei45ori().s[133]++;
 
             _cell.setAttribute("data-label", sessionStorage.getItem("calendarId"));
 
-            cov_18oei45ori().s[133]++;
+            cov_18oei45ori().s[134]++;
 
             _cell.setAttribute("data-value", "".concat(date, "-").concat(month, "-").concat(year));
 
-            cov_18oei45ori().s[134]++;
+            cov_18oei45ori().s[135]++;
 
             _cell.setAttribute("data-event", "booking_date_click"); // data-action="Booking" data-event="submission"
 
 
-            cov_18oei45ori().s[135]++;
-            row.appendChild(_cell);
             cov_18oei45ori().s[136]++;
+            row.appendChild(_cell);
+            cov_18oei45ori().s[137]++;
             date++;
           }
         }
       }
 
-      cov_18oei45ori().s[137]++;
+      cov_18oei45ori().s[138]++;
       tbl.appendChild(row); // appending each row into calendar body.
     } // set each cell with an event listener
 
 
-    cov_18oei45ori().s[138]++;
+    cov_18oei45ori().s[139]++;
     cells = document.querySelectorAll(".cell"); // console.log(cells);
     /// show modal event set up and waiting
 
-    cov_18oei45ori().s[139]++;
+    cov_18oei45ori().s[140]++;
     showModal();
   } /////////////////////////////////////////////////////END SHOW CALENDAR//////////////////////////////////////
   // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
@@ -6896,7 +6909,7 @@ var calendar = function calendar() {
 
   function daysInMonth(iMonth, iYear) {
     cov_18oei45ori().f[16]++;
-    cov_18oei45ori().s[140]++;
+    cov_18oei45ori().s[141]++;
     return 32 - new Date(iYear, iMonth, 32).getDate();
   }
 };
