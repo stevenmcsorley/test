@@ -71,6 +71,13 @@ a:hover {
 
 .modal-content {
   @include container();
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
   background-color: $white;
   border-radius: 5px;
   padding: 1rem;
@@ -87,6 +94,34 @@ a:hover {
 .modal-body {
   padding: 2rem;
   @include container();
+}
+
+.form-horizontal {
+  @include container();
+  margin-top: 1rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  padding: 1rem;
+  border-bottom: 1px solid $border-color-base;
+}
+
+.close{
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  color: $text-color-secondary;
+  text-shadow: 0 1px 0 $text-color-secondary;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .show-modal {

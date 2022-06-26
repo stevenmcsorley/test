@@ -136,6 +136,14 @@ module.exports = {
       filename: "thankyou.html",
       scriptLoading: "defer",
     }),
+    new HtmlWebpackPlugin({
+      favicon: "./src/favicon.ico",
+      template: "./src/booking-confirm.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "booking-confirm.html",
+      scriptLoading: "defer",
+    }),
     new ImageMinWebpWebpackPlugin({
       config: [
         {

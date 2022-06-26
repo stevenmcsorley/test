@@ -1,20 +1,97 @@
 export const calendar = () => {
 
-    function uuidv4() {
-        return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
-          (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
-        );
-      }
-      
-      console.log(uuidv4());
-
-    // create a session storage id for the calendar
-    // if it doesn't exist, create it
-    if (!sessionStorage.getItem("calendarId")) {
-        sessionStorage.setItem("calendarId", uuidv4());
-    }
+//// if on thank you page, don't run calendar
 
 
+/// event document ready nneeds moved to its own place
+document.addEventListener("DOMContentLoaded", function () {
+
+if (document.querySelector(".booking-confirm")) {
+        // if localstorage is set, redirect
+        if (!localStorage.getItem("Booking")) {
+            // redirect to index.html
+            window.location.href = "index.html";
+        }
+    const modalTransactionId = document.querySelector("[js-modal-transaction-id]");
+    modalTransactionId.innerHTML = `${localStorage.getItem('BookingRef')}`;
+    const modalTransactionname= document.querySelector("[js-modal-transaction-name]");
+    modalTransactionname.innerHTML = `${JSON.parse(localStorage.getItem('Booking'))[0]}`;
+    const modalTransactiondate= document.querySelector("[js-modal-transaction-date]");
+    modalTransactiondate.innerHTML = `${JSON.parse(localStorage.getItem('Booking'))[3]}`;
+    const modalTransactiontime= document.querySelector("[js-modal-transaction-time]");
+    modalTransactiontime.innerHTML = `${JSON.parse(localStorage.getItem('Booking'))[4]}`;
+    const modalTransactionEmail= document.querySelector("[js-modal-transaction-email]");
+    modalTransactionEmail.innerHTML = `${JSON.parse(localStorage.getItem('Booking'))[1]}`;
+    window.localStorage.removeItem('Booking');
+    window.localStorage.removeItem('BookingRef');
+ return;
+}
+});
+
+
+
+  //submit form
+  const submitForm = document.querySelector("[js-submit-form]");
+  const submitFormButton = document.querySelector("[js-submit-form-button]");
+
+  if (submitFormButton) {
+    submitFormButton.addEventListener(
+      "click",
+      function (event) {
+        // check formData for empty fields
+        const formData = new FormData(submitForm);
+        const formDataArray = Array.from(formData.values());
+        const formDataArrayLength = formDataArray.length;
+        let emptyFields = 0;
+        for (let i = 0; i < formDataArrayLength; i++) {
+          if (formDataArray[i] === "") {
+            emptyFields++;
+          }
+        }
+        if (emptyFields > 2) {
+          event.preventDefault();
+          alert("Please fill in all fields");
+        } else {
+          event.preventDefault();
+          let formDataString = "";
+          for (let i = 0; i < formDataArrayLength; i++) {
+            formDataString += formDataArray[i] + " ";
+          }
+          // send to google
+          window.dataLayer.push({
+            event: "formSubmitted",
+            formData: formDataString,
+          });
+
+          console.log(formDataString);
+        //add transaction id to localstorage on sucessful submit
+
+        localStorage.setItem('Booking', JSON.stringify(formDataArray));
+        localStorage.setItem('BookingRef', JSON.stringify(`${uuidv4()}`));
+        
+          window.location.href = "booking-confirm.html";
+        }
+      },
+      false
+    );
+  }
+
+  function uuidv4() {
+    return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
+      (
+        c ^
+        (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
+      ).toString(16)
+    );
+  }
+
+  console.log(uuidv4());
+
+  // create a session storage id for the calendar
+  // if it doesn't exist, create it
+  if (!sessionStorage.getItem("calendarId")) {
+    sessionStorage.setItem("calendarId", uuidv4());
+  }
 
   let tbl = document.getElementById("calendar-body"); // body of the calendar
   if (!tbl) {
@@ -154,13 +231,26 @@ export const calendar = () => {
     cell.addEventListener("click", function () {
       const modal = document.querySelector(".modal");
       modal.classList.add("show-modal");
+      const modalDate = document.querySelector("[js-data-booking-date]");
+      // add date to input value
+      const formatdate = cell.dataset.bookingDate.replace(/[() -]/g, "/");
+      modalDate.value = `${formatdate}`;
+        // add date to modal
+        const modalDateText = document.querySelector("[js-modal-date]");
+        modalDateText.innerHTML = `${formatdate}`;
+
+
       /// call datalayer
       /// anaytics capture date click
+      console.log(window.dataLayer);
       window.dataLayer.push({
-        pageCategory: "Booking",
+        // pageCategory: "Booking",
+        event: "booking_date_click",
         bookingDate: cell.dataset.bookingDate,
         bookingSession: sessionStorage.getItem("calendarId"),
       });
+      console.log(cell.dataset.bookingDate);
+      console.log(window.dataLayer);
     });
   });
   const close = document.querySelector("[js-modal-close]");

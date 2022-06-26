@@ -66,6 +66,7 @@
 }
 
 .main-section {
+  position: relative;
   @include section-default();
   .title {
     @include h2();

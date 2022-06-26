@@ -1,22 +1,22 @@
 export const analytics = () => {
 
 
-    // scroll tracking
-    window.addEventListener("scroll", function (e) {
-        gtag('event', 'scroll', {
-            event_category: 'scroll',
-            event_label: window.pageYOffset
-        });
-    }   , false);
+    // // scroll tracking
+    // window.addEventListener("scroll", function (e) {
+    //     gtag('event', 'scroll', {
+    //         event_category: 'scroll',
+    //         event_label: window.pageYOffset
+    //     });
+    // }   , false);
 
-    // click tracking
-    document.addEventListener("click", function (e) {
-        gtag('event', 'click', {
-            event_category: 'click',
-            event_label: e.target.value
-        });
-    }
-    , false);
+    // // click tracking
+    // document.addEventListener("click", function (e) {
+    //     gtag('event', 'click', {
+    //         event_category: 'click',
+    //         event_label: e.target.value
+    //     });
+    // }
+    // , false);
 
     // form tracking
     document.addEventListener("submit", function (e) {

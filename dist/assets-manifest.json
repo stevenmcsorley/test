@@ -1,11 +1,12 @@
 {
   "about.html": "about.html",
+  "booking-confirm.html": "booking-confirm.html",
   "booking.html": "booking.html",
   "contact.html": "contact.html",
   "favicon.ico": "favicon.ico",
-  "index.css": "index.c896f4e0.css",
+  "index.css": "index.a728680f.css",
   "index.html": "index.html",
-  "index.js": "index.c896f4e0.js",
+  "index.js": "index.a728680f.js",
   "services.html": "services.html",
   "src/assets/aviation.webp": "src/assets/aviation.webp",
   "src/assets/forestroad.webp": "src/assets/forestroad.webp",
@@ -13,5 +14,5 @@
   "src/assets/mining.webp": "src/assets/mining.webp",
   "src/assets/video/SatelliteDishHdr.mp4": "src/assets/video/SatelliteDishHdr.mp4",
   "thankyou.html": "thankyou.html",
-  "vendor.css": "vendor.c896f4e0.css"
+  "vendor.css": "vendor.a728680f.css"
 }
