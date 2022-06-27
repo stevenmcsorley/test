@@ -3782,7 +3782,7 @@ var menu = function menu() {
 ;// CONCATENATED MODULE: ./src/js/calendar/calendar.js
 function cov_18oei45ori() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\calendar\\calendar.js";
-  var hash = "41dcc232e8b811fb2692832d6ab7b883a52f06cc";
+  var hash = "67ddacfabb294a49263d719a404a43d584e3636c";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -3794,7 +3794,7 @@ function cov_18oei45ori() {
           column: 24
         },
         end: {
-          line: 341,
+          line: 342,
           column: 1
         }
       },
@@ -4884,7 +4884,7 @@ function cov_18oei45ori() {
           column: 4
         },
         end: {
-          line: 326,
+          line: 327,
           column: 5
         }
       },
@@ -4924,7 +4924,7 @@ function cov_18oei45ori() {
           column: 6
         },
         end: {
-          line: 323,
+          line: 324,
           column: 7
         }
       },
@@ -4944,7 +4944,7 @@ function cov_18oei45ori() {
           column: 8
         },
         end: {
-          line: 322,
+          line: 323,
           column: 9
         }
       },
@@ -5004,7 +5004,7 @@ function cov_18oei45ori() {
           column: 15
         },
         end: {
-          line: 322,
+          line: 323,
           column: 9
         }
       },
@@ -5115,7 +5115,7 @@ function cov_18oei45ori() {
         },
         end: {
           line: 315,
-          column: 54
+          column: 66
         }
       },
       "133": {
@@ -5150,12 +5150,12 @@ function cov_18oei45ori() {
       },
       "136": {
         start: {
-          line: 320,
+          line: 319,
           column: 10
         },
         end: {
-          line: 320,
-          column: 32
+          line: 319,
+          column: 56
         }
       },
       "137": {
@@ -5165,46 +5165,56 @@ function cov_18oei45ori() {
         },
         end: {
           line: 321,
-          column: 17
+          column: 32
         }
       },
       "138": {
         start: {
-          line: 325,
-          column: 6
+          line: 322,
+          column: 10
         },
         end: {
-          line: 325,
-          column: 27
+          line: 322,
+          column: 17
         }
       },
       "139": {
         start: {
-          line: 329,
-          column: 4
+          line: 326,
+          column: 6
         },
         end: {
-          line: 329,
-          column: 47
+          line: 326,
+          column: 27
         }
       },
       "140": {
         start: {
-          line: 332,
+          line: 330,
           column: 4
         },
         end: {
-          line: 332,
-          column: 16
+          line: 330,
+          column: 47
         }
       },
       "141": {
         start: {
-          line: 339,
+          line: 333,
           column: 4
         },
         end: {
-          line: 339,
+          line: 333,
+          column: 16
+        }
+      },
+      "142": {
+        start: {
+          line: 340,
+          column: 4
+        },
+        end: {
+          line: 340,
           column: 54
         }
       }
@@ -5228,7 +5238,7 @@ function cov_18oei45ori() {
             column: 30
           },
           end: {
-            line: 341,
+            line: 342,
             column: 1
           }
         },
@@ -5588,7 +5598,7 @@ function cov_18oei45ori() {
             column: 37
           },
           end: {
-            line: 333,
+            line: 334,
             column: 3
           }
         },
@@ -5598,25 +5608,25 @@ function cov_18oei45ori() {
         name: "daysInMonth",
         decl: {
           start: {
-            line: 338,
+            line: 339,
             column: 11
           },
           end: {
-            line: 338,
+            line: 339,
             column: 22
           }
         },
         loc: {
           start: {
-            line: 338,
+            line: 339,
             column: 38
           },
           end: {
-            line: 340,
+            line: 341,
             column: 3
           }
         },
-        line: 338
+        line: 339
       }
     },
     branchMap: {
@@ -5990,7 +6000,7 @@ function cov_18oei45ori() {
             column: 8
           },
           end: {
-            line: 322,
+            line: 323,
             column: 9
           }
         },
@@ -6001,7 +6011,7 @@ function cov_18oei45ori() {
             column: 8
           },
           end: {
-            line: 322,
+            line: 323,
             column: 9
           }
         }, {
@@ -6010,7 +6020,7 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 322,
+            line: 323,
             column: 9
           }
         }],
@@ -6056,7 +6066,7 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 322,
+            line: 323,
             column: 9
           }
         },
@@ -6067,7 +6077,7 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 322,
+            line: 323,
             column: 9
           }
         }, {
@@ -6076,7 +6086,7 @@ function cov_18oei45ori() {
             column: 15
           },
           end: {
-            line: 322,
+            line: 323,
             column: 9
           }
         }],
@@ -6402,7 +6412,8 @@ function cov_18oei45ori() {
       "138": 0,
       "139": 0,
       "140": 0,
-      "141": 0
+      "141": 0,
+      "142": 0
     },
     f: {
       "0": 0,
@@ -6444,7 +6455,7 @@ function cov_18oei45ori() {
       "17": [0, 0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "41dcc232e8b811fb2692832d6ab7b883a52f06cc"
+    hash: "67ddacfabb294a49263d719a404a43d584e3636c"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -6858,7 +6869,7 @@ var calendar = function calendar() {
 
             cov_18oei45ori().s[132]++;
 
-            _cell.setAttribute("data-action", "Booking");
+            _cell.setAttribute("data-action", "Booking Choose Date");
 
             cov_18oei45ori().s[133]++;
 
@@ -6870,27 +6881,31 @@ var calendar = function calendar() {
 
             cov_18oei45ori().s[135]++;
 
-            _cell.setAttribute("data-event", "booking_date_click"); // data-action="Booking" data-event="submission"
-
+            _cell.setAttribute("data-event", "booking_date_click");
 
             cov_18oei45ori().s[136]++;
-            row.appendChild(_cell);
+
+            _cell.setAttribute("data-category", "Booking"); // data-action="Booking" data-event="submission"
+
+
             cov_18oei45ori().s[137]++;
+            row.appendChild(_cell);
+            cov_18oei45ori().s[138]++;
             date++;
           }
         }
       }
 
-      cov_18oei45ori().s[138]++;
+      cov_18oei45ori().s[139]++;
       tbl.appendChild(row); // appending each row into calendar body.
     } // set each cell with an event listener
 
 
-    cov_18oei45ori().s[139]++;
+    cov_18oei45ori().s[140]++;
     cells = document.querySelectorAll(".cell"); // console.log(cells);
     /// show modal event set up and waiting
 
-    cov_18oei45ori().s[140]++;
+    cov_18oei45ori().s[141]++;
     showModal();
   } /////////////////////////////////////////////////////END SHOW CALENDAR//////////////////////////////////////
   // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
@@ -6898,7 +6913,7 @@ var calendar = function calendar() {
 
   function daysInMonth(iMonth, iYear) {
     cov_18oei45ori().f[16]++;
-    cov_18oei45ori().s[141]++;
+    cov_18oei45ori().s[142]++;
     return 32 - new Date(iYear, iMonth, 32).getDate();
   }
 };
