@@ -312,10 +312,11 @@ export const calendar = () => {
           } // color today's date
           cell.appendChild(cellText);
           cell.setAttribute("data-booking-date", `${date}-${month}-${year}`);
-          cell.setAttribute("data-action", "Booking");
+          cell.setAttribute("data-action", "Booking Choose Date");
           cell.setAttribute("data-label", "booking_date_choose");
           cell.setAttribute("data-value", `${date}-${month}-${year}`);
           cell.setAttribute("data-event", "booking_date_click");
+          cell.setAttribute("data-category", "Booking");
           // data-action="Booking" data-event="submission"
           row.appendChild(cell);
           date++;
