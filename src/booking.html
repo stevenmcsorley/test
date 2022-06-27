@@ -54,7 +54,11 @@
 
         <div class="mobile-menu hidden" js-mobile-menu>
             <div class="mobile-menu-close hidden">
-                <button type="button" class="close" js-mobile-menu-close-button data-close="close">
+                <button type="button" class="close" js-mobile-menu-close-button data-close="close"
+                data-category="Main_menu"
+                data-action="menu_click"
+                data-event="menu_close"
+                >
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -106,8 +110,10 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h2 class="modal-title">Booking for <span js-modal-date></span></h2>
-                        <button type="button" class="close modal-close" data-action="Booking Cancel"
-                            data-event="booking_date_cancel">
+                        <button type="button" class="close modal-close" 
+                        data-category="Booking"
+                        data-action="Booking Cancel"
+                        data-event="booking_date_cancel">
                             Cancel
                         </button>
                     </div>

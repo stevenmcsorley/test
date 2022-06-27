@@ -72,19 +72,22 @@ export const calendar = () => {
           }
 
           // Events in GA has "Category", "Action", "Label" and "Value".
-          // Add data to html data-attributes for GA 
+          // Add data to html data-attributes for GA
           // only need dynamic data for GA - Label and Value
-          // in the dev cycle, we will need to add the data to the html - Category, Action 
-           
-            submitFormButton.setAttribute("data-label", 'booking_date_submit');
-            submitFormButton.setAttribute("data-value", sessionStorage.getItem("calendarId"));
+          // in the dev cycle, we will need to add the data to the html - Category, Action
+
+          submitFormButton.setAttribute("data-label", "booking_date_submit");
+          submitFormButton.setAttribute(
+            "data-value",
+            sessionStorage.getItem("calendarId")
+          );
           // send to google - the messy way
-        //   window.dataLayer.push({
-        //     Action: "Booking",
-        //     event: "bookingSubmission",
-        //     bookingUser: formDataString,
-        //     bookingTransactionId: sessionStorage.getItem("calendarId"),
-        //   });
+          //   window.dataLayer.push({
+          //     Action: "Booking",
+          //     event: "bookingSubmission",
+          //     bookingUser: formDataString,
+          //     bookingTransactionId: sessionStorage.getItem("calendarId"),
+          //   });
 
           console.log(formDataString);
           //add transaction id to localstorage on sucessful submit
@@ -233,22 +236,20 @@ export const calendar = () => {
       return false;
     }
 
-  
-
     close.addEventListener("click", function () {
-        console.log("close");
+      console.log("close");
       const modalDateText = document.querySelector("[js-modal-date]");
       const modal = document.querySelector(".modal");
-      close.setAttribute("data-label", 'booking_date_cancel');
-      close.setAttribute("data-value",  modalDateText.innerHTML)
+      close.setAttribute("data-label", "booking_date_cancel");
+      close.setAttribute("data-value", modalDateText.innerHTML);
       modal.classList.remove("show-modal");
 
-    //   window.dataLayer.push({
-    //     Action: "BookingDateCancel",
-    //     event: "booking_date_cancel",
-    //     bookingDate: modalDateText.innerHTML,
-    //     bookingSession: sessionStorage.getItem("calendarId"),
-    //   });
+      //   window.dataLayer.push({
+      //     Action: "BookingDateCancel",
+      //     event: "booking_date_cancel",
+      //     bookingDate: modalDateText.innerHTML,
+      //     bookingSession: sessionStorage.getItem("calendarId"),
+      //   });
     });
   }
 
@@ -291,15 +292,16 @@ export const calendar = () => {
           cell.classList.add("cell");
           let cellText = document.createTextNode(date);
 
-            // if before today, disable the cell
-            if (
-              year < today.getFullYear() ||
-              (year === today.getFullYear() && month < today.getMonth()) ||
-              (year === today.getFullYear() && month === today.getMonth() &&
-                date < today.getDate())
-            ) {
-              cell.classList.add("cell-disabled");
-            }
+          // if before today, disable the cell
+          if (
+            year < today.getFullYear() ||
+            (year === today.getFullYear() && month < today.getMonth()) ||
+            (year === today.getFullYear() &&
+              month === today.getMonth() &&
+              date < today.getDate())
+          ) {
+            cell.classList.add("cell-disabled");
+          }
 
           if (
             date === today.getDate() &&
@@ -310,10 +312,10 @@ export const calendar = () => {
           } // color today's date
           cell.appendChild(cellText);
           cell.setAttribute("data-booking-date", `${date}-${month}-${year}`);
-          cell.setAttribute("data-action", 'Booking');
-            cell.setAttribute("data-label", 'booking_date_choose');
-            cell.setAttribute("data-value", `${date}-${month}-${year}`);
-            cell.setAttribute("data-event", "booking_date_click");
+          cell.setAttribute("data-action", "Booking");
+          cell.setAttribute("data-label", "booking_date_choose");
+          cell.setAttribute("data-value", `${date}-${month}-${year}`);
+          cell.setAttribute("data-event", "booking_date_click");
           // data-action="Booking" data-event="submission"
           row.appendChild(cell);
           date++;

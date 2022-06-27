@@ -18,13 +18,13 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-RZXFMM8ZRL"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+      // window.dataLayer = window.dataLayer || [];
+      // function gtag() {
+      //   dataLayer.push(arguments);
+      // }
+      // gtag("js", new Date());
 
-      gtag("config", "G-RZXFMM8ZRL");
+      // gtag("config", "G-RZXFMM8ZRL");
     </script>
     <!-- Google Tag Manager -->
     <script>
@@ -63,7 +63,11 @@
 
       <div class="mobile-menu hidden" js-mobile-menu>
         <div class="mobile-menu-close hidden">
-          <button type="button" class="close" js-mobile-menu-close-button>
+          <button type="button" class="close" 
+          data-category="Main_menu"
+          data-action="menu_click_close"
+          data-event="menu_close"
+          js-mobile-menu-close-button>
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -92,7 +96,11 @@
           <a href="booking.html" class="btn-primary btn-primary--outline">
             Book a meeting
           </a>
-          <div class="mobile-menu-open" js-mobile-menu-button>
+          <div class="mobile-menu-open" 
+          data-category="Main_menu"
+          data-action="menu_click_open"
+          data-event="menu_open"
+          js-mobile-menu-button>
             <span class="mobile-menu-open-text sr-only">Menu</span>
             <div class="burger-icon">
               <span class="burger-icon-line"></span>

@@ -6,8 +6,6 @@ export const menu = () => {
     const mobileMenuCloseButton = document.querySelector("[js-mobile-menu-close-button]");
     const mobileMenuOverlay = document.querySelector("[js-mobile-menu-overlay]");
     const mobileMenuItems = document.querySelectorAll("[js-mobile-menu-item]");
-    const mobileMenuItemLinks = document.querySelectorAll("[js-mobile-menu-item-link]");
-    const mobileMenuItemSubmenus = document.querySelectorAll("[js-mobile-menu-item-submenu]");
     const mobileMenuItemSubmenuLinks = document.querySelectorAll("[js-mobile-menu-item-submenu-link]");
     const mobileMenuItemSubmenuCloseButtons = document.querySelectorAll("[js-mobile-menu-item-submenu-close-button]");
     const mobileMenuItemSubmenuOverlays = document.querySelectorAll("[js-mobile-menu-item-submenu-overlay]");
@@ -17,6 +15,7 @@ export const menu = () => {
     const handleMobileMenuButtonClick = () => {
         mobileMenu.classList.toggle("hidden");
         mobileMenuOverlay.classList.toggle("hidden");
+        console.log("mobile menu button clicked");
     }
 
     const handleMobileMenuCloseButtonClick = () => {
