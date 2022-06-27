@@ -76,8 +76,8 @@ export const calendar = () => {
           // only need dynamic data for GA - Label and Value
           // in the dev cycle, we will need to add the data to the html - Category, Action 
            
-            submitFormButton.setAttribute("data-label", sessionStorage.getItem("calendarId"));
-            submitFormButton.setAttribute("data-value", formDataString);
+            submitFormButton.setAttribute("data-label", 'booking_date_submit');
+            submitFormButton.setAttribute("data-value", sessionStorage.getItem("calendarId"));
           // send to google - the messy way
         //   window.dataLayer.push({
         //     Action: "Booking",
@@ -92,7 +92,7 @@ export const calendar = () => {
           localStorage.setItem("Booking", JSON.stringify(formDataArray));
           localStorage.setItem("BookingRef", JSON.stringify(`${uuidv4()}`));
 
-        //   window.location.href = "booking-confirm.html";
+          window.location.href = "booking-confirm.html";
         }
       },
       false
@@ -239,7 +239,7 @@ export const calendar = () => {
         console.log("close");
       const modalDateText = document.querySelector("[js-modal-date]");
       const modal = document.querySelector(".modal");
-      close.setAttribute("data-label", sessionStorage.getItem("calendarId"))
+      close.setAttribute("data-label", 'booking_date_cancel');
       close.setAttribute("data-value",  modalDateText.innerHTML)
       modal.classList.remove("show-modal");
 
@@ -311,7 +311,7 @@ export const calendar = () => {
           cell.appendChild(cellText);
           cell.setAttribute("data-booking-date", `${date}-${month}-${year}`);
           cell.setAttribute("data-action", 'Booking');
-            cell.setAttribute("data-label", sessionStorage.getItem("calendarId"));
+            cell.setAttribute("data-label", 'booking_date_choose');
             cell.setAttribute("data-value", `${date}-${month}-${year}`);
             cell.setAttribute("data-event", "booking_date_click");
           // data-action="Booking" data-event="submission"
