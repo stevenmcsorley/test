@@ -45,6 +45,20 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.xml/,
+        type: 'asset/resource',
+        generator: {
+            filename: 'sitemap.xml',
+        },
+    },
+    {
+      test: /\.txt/,
+      type: 'asset/resource',
+      generator: {
+          filename: 'robots.txt',
+      },
+  },
     ],
   },
   optimization: {
