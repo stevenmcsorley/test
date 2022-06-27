@@ -19,6 +19,7 @@ export const menu = () => {
     }
 
     const handleMobileMenuCloseButtonClick = () => {
+        console.log("mobile menu close button clicked");
         mobileMenu.classList.toggle("hidden");
         mobileMenuOverlay.classList.toggle("hidden");
     }

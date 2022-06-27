@@ -1,5 +1,4 @@
 export const filter = () => {
-
   const industrySelect = document.querySelector("[js-data-select]");
   const cards = document.querySelectorAll("[data-industry]");
   var delayInMilliseconds = 300;
@@ -16,11 +15,10 @@ export const filter = () => {
         }, delayInMilliseconds);
       }
     });
-    window.dataLayer.push({
-      event: 'selectionMade',
-      selectedElement: value
-    });
-    
+    // window.dataLayer.push({
+    //   event: 'selectionMade',
+    //   selectedElement: value
+    // });
   };
 
   if (industrySelect) {
