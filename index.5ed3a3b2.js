@@ -6916,7 +6916,7 @@ var calendar = function calendar() {
 ;// CONCATENATED MODULE: ./src/js/analytics/analytics.js
 function cov_1dem8e6ysh() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\analytics\\analytics.js";
-  var hash = "4dfb56fa2568c4cefa20132db92747d05f373389";
+  var hash = "627abf741d9f5e521334b9f2c9c47b5bce70f774";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -6928,7 +6928,7 @@ function cov_1dem8e6ysh() {
           column: 25
         },
         end: {
-          line: 417,
+          line: 26,
           column: 1
         }
       },
@@ -6944,81 +6944,71 @@ function cov_1dem8e6ysh() {
       },
       "2": {
         start: {
-          line: 26,
+          line: 8,
           column: 2
         },
         end: {
-          line: 42,
+          line: 24,
           column: 5
         }
       },
       "3": {
         start: {
-          line: 27,
+          line: 9,
           column: 4
         },
         end: {
-          line: 41,
+          line: 23,
           column: 7
         }
       },
       "4": {
         start: {
-          line: 28,
+          line: 10,
           column: 6
         },
         end: {
-          line: 28,
+          line: 10,
           column: 37
         }
       },
       "5": {
         start: {
-          line: 29,
+          line: 12,
           column: 19
         },
         end: {
-          line: 29,
+          line: 12,
           column: 42
         }
       },
       "6": {
         start: {
-          line: 30,
+          line: 13,
           column: 6
         },
         end: {
-          line: 30,
-          column: 35
+          line: 22,
+          column: 7
         }
       },
       "7": {
         start: {
-          line: 31,
-          column: 6
+          line: 14,
+          column: 8
         },
         end: {
-          line: 40,
-          column: 7
+          line: 14,
+          column: 37
         }
       },
       "8": {
         start: {
-          line: 32,
+          line: 15,
           column: 8
         },
         end: {
-          line: 32,
-          column: 37
-        }
-      },
-      "9": {
-        start: {
-          line: 33,
-          column: 8
-        },
-        end: {
-          line: 39,
+          line: 21,
           column: 11
         }
       }
@@ -7042,7 +7032,7 @@ function cov_1dem8e6ysh() {
             column: 31
           },
           end: {
-            line: 417,
+            line: 26,
             column: 1
           }
         },
@@ -7052,71 +7042,71 @@ function cov_1dem8e6ysh() {
         name: "(anonymous_1)",
         decl: {
           start: {
-            line: 26,
+            line: 8,
             column: 48
           },
           end: {
-            line: 26,
+            line: 8,
             column: 49
           }
         },
         loc: {
           start: {
-            line: 26,
+            line: 8,
             column: 60
           },
           end: {
-            line: 42,
+            line: 24,
             column: 3
           }
         },
-        line: 26
+        line: 8
       },
       "2": {
         name: "(anonymous_2)",
         decl: {
           start: {
-            line: 27,
+            line: 9,
             column: 39
           },
           end: {
-            line: 27,
+            line: 9,
             column: 40
           }
         },
         loc: {
           start: {
-            line: 27,
+            line: 9,
             column: 52
           },
           end: {
-            line: 41,
+            line: 23,
             column: 5
           }
         },
-        line: 27
+        line: 9
       }
     },
     branchMap: {
       "0": {
         loc: {
           start: {
-            line: 31,
+            line: 13,
             column: 6
           },
           end: {
-            line: 40,
+            line: 22,
             column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 31,
+            line: 13,
             column: 6
           },
           end: {
-            line: 40,
+            line: 22,
             column: 7
           }
         }, {
@@ -7129,7 +7119,7 @@ function cov_1dem8e6ysh() {
             column: undefined
           }
         }],
-        line: 31
+        line: 13
       }
     },
     s: {
@@ -7141,8 +7131,7 @@ function cov_1dem8e6ysh() {
       "5": 0,
       "6": 0,
       "7": 0,
-      "8": 0,
-      "9": 0
+      "8": 0
     },
     f: {
       "0": 0,
@@ -7153,7 +7142,7 @@ function cov_1dem8e6ysh() {
       "0": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "4dfb56fa2568c4cefa20132db92747d05f373389"
+    hash: "627abf741d9f5e521334b9f2c9c47b5bce70f774"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -7183,24 +7172,7 @@ cov_1dem8e6ysh().s[0]++;
 var analytics = function analytics() {
   cov_1dem8e6ysh().f[0]++;
   cov_1dem8e6ysh().s[1]++;
-  console.log("analytics", window.dataLayer); // /// listen for all custom events and push if defined
-  // document.addEventListener("DOMContentLoaded", function () {
-  //     document.addEventListener("click", function (e) {
-  //         console.log("click", e.target);
-  //         if (e.target.dataset) {
-  //             console.log("event", e.target.dataset);
-  //             // window.dataLayer.push({
-  //             //     event: e.target.dataset.event,
-  //             //     element: e.target.dataset.element,
-  //             //     action: e.target.dataset.action,
-  //             //     label: e.target.dataset.label
-  //             // });
-  //         }
-  //     }
-  //     );
-  // }
-  // );
-  // Events in GA has "Category", "Action", "Label" and "Value".
+  console.log("analytics", window.dataLayer); // Events in GA has "Category", "Action", "Label" and "Value".
   // https://developers.google.com/analytics/devguides/collection/gtagjs/events
   // Trigger = custom event or by Category ie: event name
   // listein for all addEventListener and push to dataLayer if defined
@@ -7215,14 +7187,12 @@ var analytics = function analytics() {
       console.log("click", e.target);
       var events = (cov_1dem8e6ysh().s[5]++, _objectSpread({}, e.target.dataset));
       cov_1dem8e6ysh().s[6]++;
-      console.log("event", events);
-      cov_1dem8e6ysh().s[7]++;
 
       if (Object.keys(events).length) {
         cov_1dem8e6ysh().b[0][0]++;
-        cov_1dem8e6ysh().s[8]++;
+        cov_1dem8e6ysh().s[7]++;
         console.log("event", events);
-        cov_1dem8e6ysh().s[9]++;
+        cov_1dem8e6ysh().s[8]++;
         window.dataLayer.push({
           event: events.event,
           Action: events.action,
@@ -7234,329 +7204,7 @@ var analytics = function analytics() {
         cov_1dem8e6ysh().b[0][1]++;
       }
     });
-  }); // // scroll tracking
-  // window.addEventListener("scroll", function (e) {
-  //     gtag('event', 'scroll', {
-  //         event_category: 'scroll',
-  //         event_label: window.pageYOffset
-  //     });
-  // }   , false);
-  // // click tracking
-  // document.addEventListener("click", function (e) {
-  //     gtag('event', 'click', {
-  //         event_category: 'click',
-  //         event_label: e.target.value
-  //     });
-  // }
-  // , false);
-  // // form tracking
-  // document.addEventListener("submit", function (e) {
-  //     gtag('event', 'submit', {
-  //         event_category: 'submit',
-  //         event_label: e.target.value
-  //     });
-  // }
-  // , false);
-  // // form tracking
-  // document.addEventListener("change", function (e) {
-  //     gtag('event', 'change', {
-  //         event_category: 'change',
-  //         event_label: e.target.value
-  //     });
-  // }
-  // , false);
-  // // form tracking
-  // document.addEventListener("focus", function (e) {
-  //     gtag('event', 'focus', {
-  //         event_category: 'focus',
-  //         event_label: e.target.id
-  //     });
-  // }
-  // , false);
-  // // form tracking
-  // document.addEventListener("blur", function (e) {
-  //     gtag('event', 'blur', {
-  //         event_category: 'blur',
-  //         event_label: e.target.id
-  //     });
-  // }
-  // , false);
-  // // form tracking
-  // document.addEventListener("keydown", function (e) {
-  //     gtag('event', 'keydown', {
-  //         event_category: 'keydown',
-  //         event_label: e.target.id
-  //     });
-  // }   , false);
-  // // form tracking
-  // document.addEventListener("keyup", function (e) {
-  //     gtag('event', 'keyup', {
-  //         event_category: 'keyup',
-  //         event_label: e.target.id
-  //     });
-  // }
-  // , false);
-  // // form tracking
-  // document.addEventListener("keypress", function (e) {
-  //     gtag('event', 'keypress', {
-  //         event_category: 'keypress',
-  //         event_label: e.target.id
-  //     });
-  // }   , false);
-  // // form tracking
-  // document.addEventListener("mouseover", function (e) {
-  //     gtag('event', 'mouseover', {
-  //         event_category: 'mouseover',
-  //         event_label: e.target.id
-  //     });
-  // }   , false);
-  // // // form tracking
-  // // document.addEventListener("mouseout", function (e) {
-  // //     gtag('event', 'mouseout', {
-  // //         event_category: 'mouseout',
-  // //         event_label: e.target.id
-  // //     });
-  // // }   , false);
-  // // // form tracking
-  // // document.addEventListener("mousedown", function (e) {
-  // //     gtag('event', 'mousedown', {
-  // //         event_category: 'mousedown',
-  // //         event_label: e.target.id
-  // //     });
-  // // }   , false);
-  // // // form tracking
-  // // document.addEventListener("mouseup", function (e) {
-  // //     gtag('event', 'mouseup', {
-  // //         event_category: 'mouseup',
-  // //         event_label: e.target.id
-  // //     });
-  // // }   , false);
-  // // // form tracking
-  // // document.addEventListener("mousemove", function (e) {
-  // //     gtag('event', 'mousemove', {
-  // //         event_category: 'mousemove',
-  // //         event_label: e.target.id
-  // //     });
-  // // }   , false);
-  // // form tracking
-  // // document.addEventListener("DOMContentLoaded", function (e) {
-  // //     gtag('event', 'DOMContentLoaded', {
-  // //         event_category: 'DOMContentLoaded',
-  // //         event_label: e.target.id
-  // //     });
-  // // }   , false);
-  // // form tracking
-  // document.addEventListener("load", function (e) {
-  //     gtag('event', 'load', {
-  //         event_category: 'load',
-  //         event_label: e.target.id
-  //     });
-  // }   , false);
-  // // form tracking
-  // document.addEventListener("unload", function (e) {
-  //     gtag('event', 'unload', {
-  //         event_category: 'unload',
-  //         event_label: e.target.id
-  //     });
-  // }   , false);
-  // // form tracking
-  // document.addEventListener("beforeunload", function (e) {
-  //     gtag('event', 'beforeunload', {
-  //         event_category: 'beforeunload',
-  //         event_label: e.target.id
-  //     });
-  // }   , false);
-  // form tracking
-  // document.addEventListener("resize", function (e) {
-  //     gtag('event', 'resize', {
-  //         event_category: 'resize',
-  //         event_label: e.target.id
-  //     });
-  // }   , false);
-  //     // form tracking
-  //     document.addEventListener("scroll", function (e) {
-  //         gtag('event', 'scroll', {
-  //             event_category: 'scroll',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("wheel", function (e) {
-  //         gtag('event', 'wheel', {
-  //             event_category: 'wheel',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("mousewheel", function (e) {
-  //         gtag('event', 'mousewheel', {
-  //             event_category: 'mousewheel',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("DOMMouseScroll", function (e) {
-  //         gtag('event', 'DOMMouseScroll', {
-  //             event_category: 'DOMMouseScroll',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("contextmenu", function (e) {
-  //         gtag('event', 'contextmenu', {
-  //             event_category: 'contextmenu',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("drag", function (e) {
-  //         gtag('event', 'drag', {
-  //             event_category: 'drag',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("dragstart", function (e) {
-  //         gtag('event', 'dragstart', {
-  //             event_category: 'dragstart',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("dragend", function (e) {
-  //         gtag('event', 'dragend', {
-  //             event_category: 'dragend',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("dragenter", function (e) {
-  //         gtag('event', 'dragenter', {
-  //             event_category: 'dragenter',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("dragover", function (e) {
-  //         gtag('event', 'dragover', {
-  //             event_category: 'dragover',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("dragleave", function (e) {
-  //         gtag('event', 'dragleave', {
-  //             event_category: 'dragleave',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("drop", function (e) {
-  //         gtag('event', 'drop', {
-  //             event_category: 'drop',
-  //             event_label: e.target.id
-  //         });
-  //     }
-  //     , false);
-  //     // form tracking
-  //     document.addEventListener("copy", function (e) {
-  //         gtag('event', 'copy', {
-  //             event_category: 'copy',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("cut", function (e) {
-  //         gtag('event', 'cut', {
-  //             event_category: 'cut',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("paste", function (e) {
-  //         gtag('event', 'paste', {
-  //             event_category: 'paste',
-  //             event_label: e.target.id
-  //         });
-  //     }
-  //     , false);
-  //     // form tracking
-  //     document.addEventListener("change", function (e) {
-  //         gtag('event', 'change', {
-  //             event_category: 'change',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // form tracking
-  //     document.addEventListener("select", function (e) {
-  //         gtag('event', 'select', {
-  //             event_category: 'select',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  // // track all clicks on the page
-  //     document.addEventListener("click", function (e) {
-  //         gtag('event', 'click', {
-  //             event_category: 'click',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  // // track everything that is a submit button
-  //     document.addEventListener("submit", function (e) {
-  //         gtag('event', 'submit', {
-  //             event_category: 'submit',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  // // track everthing that is a touch event
-  //     document.addEventListener("touchstart", function (e) {
-  //         gtag('event', 'touchstart', {
-  //             event_category: 'touchstart',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // track everything that is a video event
-  //     document.addEventListener("play", function (e) {
-  //         gtag('event', 'play', {
-  //             event_category: 'play',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // track everything that is a network event
-  //     document.addEventListener("network", function (e) {
-  //         gtag('event', 'network', {
-  //             event_category: 'network',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // track time on page
-  //     document.addEventListener("timeupdate", function (e) {
-  //         gtag('event', 'timeupdate', {
-  //             event_category: 'timeupdate',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     //conversion tracking
-  //     document.addEventListener("conversion", function (e) {
-  //         gtag('event', 'conversion', {
-  //             event_category: 'conversion',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // track mouse coordinates
-  //     document.addEventListener("mousemove", function (e) {
-  //         gtag('event', 'mousemove', {
-  //             event_category: 'mousemove',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
-  //     // track select event
-  //     document.addEventListener("select", function (e) {
-  //         gtag('event', 'select', {
-  //             event_category: 'select',
-  //             event_label: e.target.id
-  //         });
-  //     }   , false);
+  });
 };
 ;// CONCATENATED MODULE: ./src/js/index.js
 function cov_9erk2grnj() {
