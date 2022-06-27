@@ -6920,7 +6920,7 @@ var calendar = function calendar() {
 ;// CONCATENATED MODULE: ./src/js/analytics/analytics.js
 function cov_1dem8e6ysh() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\analytics\\analytics.js";
-  var hash = "b4fc629dc116b6132d4dca9cbadbb9cdac9c29b2";
+  var hash = "d13d74e9928a4c02f165a36c2c44a5b414dfa02c";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -6932,7 +6932,7 @@ function cov_1dem8e6ysh() {
           column: 25
         },
         end: {
-          line: 26,
+          line: 28,
           column: 1
         }
       },
@@ -6948,81 +6948,101 @@ function cov_1dem8e6ysh() {
       },
       "2": {
         start: {
-          line: 8,
-          column: 2
+          line: 3,
+          column: 20
         },
         end: {
-          line: 25,
-          column: 5
+          line: 3,
+          column: 39
         }
       },
       "3": {
         start: {
+          line: 8,
+          column: 2
+        },
+        end: {
+          line: 27,
+          column: 5
+        }
+      },
+      "4": {
+        start: {
           line: 9,
           column: 4
+        },
+        end: {
+          line: 26,
+          column: 3
+        }
+      },
+      "5": {
+        start: {
+          line: 10,
+          column: 4
+        },
+        end: {
+          line: 25,
+          column: 7
+        }
+      },
+      "6": {
+        start: {
+          line: 11,
+          column: 6
+        },
+        end: {
+          line: 11,
+          column: 37
+        }
+      },
+      "7": {
+        start: {
+          line: 12,
+          column: 19
+        },
+        end: {
+          line: 12,
+          column: 42
+        }
+      },
+      "8": {
+        start: {
+          line: 13,
+          column: 6
+        },
+        end: {
+          line: 13,
+          column: 48
+        }
+      },
+      "9": {
+        start: {
+          line: 14,
+          column: 6
         },
         end: {
           line: 24,
           column: 7
         }
       },
-      "4": {
-        start: {
-          line: 10,
-          column: 6
-        },
-        end: {
-          line: 10,
-          column: 37
-        }
-      },
-      "5": {
-        start: {
-          line: 11,
-          column: 19
-        },
-        end: {
-          line: 11,
-          column: 42
-        }
-      },
-      "6": {
-        start: {
-          line: 12,
-          column: 6
-        },
-        end: {
-          line: 12,
-          column: 48
-        }
-      },
-      "7": {
-        start: {
-          line: 13,
-          column: 6
-        },
-        end: {
-          line: 23,
-          column: 7
-        }
-      },
-      "8": {
-        start: {
-          line: 14,
-          column: 8
-        },
-        end: {
-          line: 14,
-          column: 47
-        }
-      },
-      "9": {
+      "10": {
         start: {
           line: 15,
           column: 8
         },
         end: {
-          line: 22,
+          line: 15,
+          column: 47
+        }
+      },
+      "11": {
+        start: {
+          line: 16,
+          column: 8
+        },
+        end: {
+          line: 23,
           column: 11
         }
       }
@@ -7046,7 +7066,7 @@ function cov_1dem8e6ysh() {
             column: 31
           },
           end: {
-            line: 26,
+            line: 28,
             column: 1
           }
         },
@@ -7070,7 +7090,7 @@ function cov_1dem8e6ysh() {
             column: 60
           },
           end: {
-            line: 25,
+            line: 27,
             column: 3
           }
         },
@@ -7081,46 +7101,70 @@ function cov_1dem8e6ysh() {
         decl: {
           start: {
             line: 9,
-            column: 39
+            column: 22
           },
           end: {
             line: 9,
-            column: 40
+            column: 23
           }
         },
         loc: {
           start: {
             line: 9,
-            column: 52
+            column: 33
           },
           end: {
-            line: 24,
-            column: 5
+            line: 26,
+            column: 1
           }
         },
         line: 9
+      },
+      "3": {
+        name: "(anonymous_3)",
+        decl: {
+          start: {
+            line: 10,
+            column: 37
+          },
+          end: {
+            line: 10,
+            column: 38
+          }
+        },
+        loc: {
+          start: {
+            line: 10,
+            column: 50
+          },
+          end: {
+            line: 25,
+            column: 5
+          }
+        },
+        line: 10
       }
     },
     branchMap: {
       "0": {
         loc: {
           start: {
-            line: 13,
+            line: 14,
             column: 6
           },
           end: {
-            line: 23,
+            line: 24,
             column: 7
           }
         },
         type: "if",
         locations: [{
           start: {
-            line: 13,
+            line: 14,
             column: 6
           },
           end: {
-            line: 23,
+            line: 24,
             column: 7
           }
         }, {
@@ -7133,7 +7177,7 @@ function cov_1dem8e6ysh() {
             column: undefined
           }
         }],
-        line: 13
+        line: 14
       }
     },
     s: {
@@ -7146,18 +7190,21 @@ function cov_1dem8e6ysh() {
       "6": 0,
       "7": 0,
       "8": 0,
-      "9": 0
+      "9": 0,
+      "10": 0,
+      "11": 0
     },
     f: {
       "0": 0,
       "1": 0,
-      "2": 0
+      "2": 0,
+      "3": 0
     },
     b: {
       "0": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "b4fc629dc116b6132d4dca9cbadbb9cdac9c29b2"
+    hash: "d13d74e9928a4c02f165a36c2c44a5b414dfa02c"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -7187,40 +7234,45 @@ cov_1dem8e6ysh().s[0]++;
 var analytics = function analytics() {
   cov_1dem8e6ysh().f[0]++;
   cov_1dem8e6ysh().s[1]++;
-  console.log("analytics", window.dataLayer); // Events in GA has "Category", "Action", "Label" and "Value".
+  console.log("analytics", window.dataLayer);
+  var eventList = (cov_1dem8e6ysh().s[2]++, ["change", "click"]); // Events in GA has "Category", "Action", "Label" and "Value".
   // https://developers.google.com/analytics/devguides/collection/gtagjs/events
   // Trigger = custom event or by Category ie: event name
   // listein for all addEventListener and push to dataLayer if defined
 
-  cov_1dem8e6ysh().s[2]++;
+  cov_1dem8e6ysh().s[3]++;
   document.addEventListener("DOMContentLoaded", function () {
     cov_1dem8e6ysh().f[1]++;
-    cov_1dem8e6ysh().s[3]++;
-    document.addEventListener("click", function (e) {
+    cov_1dem8e6ysh().s[4]++;
+    eventList.forEach(function (event) {
       cov_1dem8e6ysh().f[2]++;
-      cov_1dem8e6ysh().s[4]++;
-      console.log("click", e.target);
-      var events = (cov_1dem8e6ysh().s[5]++, _objectSpread({}, e.target.dataset));
-      cov_1dem8e6ysh().s[6]++;
-      console.log("event pre sanitize", events);
-      cov_1dem8e6ysh().s[7]++;
-
-      if (Object.keys(events).length) {
-        cov_1dem8e6ysh().b[0][0]++;
+      cov_1dem8e6ysh().s[5]++;
+      document.addEventListener(event, function (e) {
+        cov_1dem8e6ysh().f[3]++;
+        cov_1dem8e6ysh().s[6]++;
+        console.log("click", e.target);
+        var events = (cov_1dem8e6ysh().s[7]++, _objectSpread({}, e.target.dataset));
         cov_1dem8e6ysh().s[8]++;
-        console.log("event sanitized", events);
+        console.log("event pre sanitize", events);
         cov_1dem8e6ysh().s[9]++;
-        window.dataLayer.push({
-          event: "trackevent",
-          eventName: events.event,
-          Action: events.action,
-          Label: events.label,
-          Value: events.value,
-          Category: events.category
-        });
-      } else {
-        cov_1dem8e6ysh().b[0][1]++;
-      }
+
+        if (Object.keys(events).length) {
+          cov_1dem8e6ysh().b[0][0]++;
+          cov_1dem8e6ysh().s[10]++;
+          console.log("event sanitized", events);
+          cov_1dem8e6ysh().s[11]++;
+          window.dataLayer.push({
+            event: "trackevent",
+            eventName: events.event,
+            Action: events.action,
+            Label: events.label,
+            Value: events.value,
+            Category: events.category
+          });
+        } else {
+          cov_1dem8e6ysh().b[0][1]++;
+        }
+      });
     });
   });
 };
