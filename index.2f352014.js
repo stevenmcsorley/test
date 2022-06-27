@@ -6933,7 +6933,7 @@ var calendar = function calendar() {
 ;// CONCATENATED MODULE: ./src/js/analytics/analytics.js
 function cov_1dem8e6ysh() {
   var path = "C:\\Users\\steven.mcsorley\\projects\\test\\src\\js\\analytics\\analytics.js";
-  var hash = "847747bffdd7866098e706e940e2cee8eeb52747";
+  var hash = "b4fc629dc116b6132d4dca9cbadbb9cdac9c29b2";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
@@ -6992,21 +6992,21 @@ function cov_1dem8e6ysh() {
       "5": {
         start: {
           line: 11,
-          column: 6
+          column: 19
         },
         end: {
           line: 11,
-          column: 48
+          column: 42
         }
       },
       "6": {
         start: {
           line: 12,
-          column: 19
+          column: 6
         },
         end: {
           line: 12,
-          column: 42
+          column: 48
         }
       },
       "7": {
@@ -7170,7 +7170,7 @@ function cov_1dem8e6ysh() {
       "0": [0, 0]
     },
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "847747bffdd7866098e706e940e2cee8eeb52747"
+    hash: "b4fc629dc116b6132d4dca9cbadbb9cdac9c29b2"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -7213,9 +7213,9 @@ var analytics = function analytics() {
       cov_1dem8e6ysh().f[2]++;
       cov_1dem8e6ysh().s[4]++;
       console.log("click", e.target);
-      cov_1dem8e6ysh().s[5]++;
+      var events = (cov_1dem8e6ysh().s[5]++, _objectSpread({}, e.target.dataset));
+      cov_1dem8e6ysh().s[6]++;
       console.log("event pre sanitize", events);
-      var events = (cov_1dem8e6ysh().s[6]++, _objectSpread({}, e.target.dataset));
       cov_1dem8e6ysh().s[7]++;
 
       if (Object.keys(events).length) {
