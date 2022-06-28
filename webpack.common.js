@@ -4,8 +4,9 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const ImageMinWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 const WebpackAssetsManifest = require("webpack-assets-manifest");
-const dotenv = require('dotenv').config({ path: __dirname + '/.env' })
-const webpack = require('webpack');
+const HtmlWebpackPartialsPlugin = require("html-webpack-partials-plugin");
+const dotenv = require("dotenv").config({ path: __dirname + "/.env" });
+const webpack = require("webpack");
 
 module.exports = {
   entry: {
@@ -47,18 +48,18 @@ module.exports = {
       },
       {
         test: /\.xml/,
-        type: 'asset/resource',
+        type: "asset/resource",
         generator: {
-            filename: 'sitemap.xml',
+          filename: "sitemap.xml",
         },
-    },
-    {
-      test: /\.txt/,
-      type: 'asset/resource',
-      generator: {
-          filename: 'robots.txt',
       },
-  },
+      {
+        test: /\.txt/,
+        type: "asset/resource",
+        generator: {
+          filename: "robots.txt",
+        },
+      },
     ],
   },
   optimization: {
@@ -98,7 +99,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env': JSON.stringify(dotenv.parsed)
+      "process.env": JSON.stringify(dotenv.parsed),
     }),
     new CleanWebpackPlugin(),
 
