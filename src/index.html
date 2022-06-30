@@ -55,19 +55,19 @@
     <div class="grid-section">
       <label for="industry" class="sr-only"> Filter by industry </label>
       <select id="industry" class="industry select" js-data-select data-category="Industry_Select"
-        data-action="industry_select_click" data-event="industry_filter">
+        data-action="industry_select_click" data-event="industry_filter" data-value="clicked_on_industry_select">
         <option value="all" data-category="Industry_Select" data-action="industry_option_click"
           data-event="industry_filter" data-value="All">
           Show all
         </option>
         <option value="manufacturing" data-category="Industry_Select" data-action="industry_option_click"
-          data-event="industry_filter" data-value="Manufacturing">
+          data-event="industry_filter" data-value="Manufacturing" data-label="Manufacturing">
           Manufacturing
         </option>
-        <option value="mining" data-action="industry_option_click" data-event="industry_filter" data-value="Mining">
+        <option value="mining" data-action="industry_option_click" data-event="industry_filter" data-value="Mining" data-label="Mining">
           Mining
         </option>
-        <option value="aviation" data-action="industry_option_click" data-event="industry_filter" data-value="Aviation">
+        <option value="aviation" data-action="industry_option_click" data-event="industry_filter" data-value="Aviation" data-label="Aviation">
           Aviation
         </option>
       </select>
@@ -203,7 +203,9 @@
     </div>
     <div class="cta-section js-view">
       <p class="title">Cant find what youre looking for? Let us help.</p>
-      <a class="btn-primary" href="booking.html" data-category="Booking" data-action="booking_cta_button_click"
+      <a class="btn-primary" href="booking.html" 
+      data-category="Booking"
+       data-action="booking_cta_button_click"
         data-event="got_to_booking">Book a meeting</a>
     </div>
 
