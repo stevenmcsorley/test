@@ -1,0 +1,11 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=756
+END=1152
+title=Lighthouse loads fast enough
+[CHAPTER]
+TIMEBASE=1/1000
+START=664
+END=1552
+title=Lighthouse shows the text report returned by from the plugins task
