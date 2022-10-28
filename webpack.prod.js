@@ -1,6 +1,16 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { merge } = require("webpack-merge");
 const common = require("./webpack.common");
+const content = require("figlet");
+
+console.log(
+  content.textSync("Test", {
+    font: "standard",
+    width: 80,
+    height: 40,
+    whitespaceBreak: true,
+  })
+);
 
 module.exports = merge(common, {
   mode: "production",
@@ -31,4 +41,5 @@ module.exports = merge(common, {
       filename: "[name].[hash:8].css",
     }),
   ],
+  
 });

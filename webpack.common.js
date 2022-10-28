@@ -5,6 +5,7 @@ const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const ImageMinWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 const WebpackAssetsManifest = require("webpack-assets-manifest");
 const HtmlWebpackPartialsPlugin = require("html-webpack-partials-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 const dotenv = require("dotenv").config({ path: __dirname + "/.env" });
 const webpack = require("webpack");
 
@@ -63,6 +64,7 @@ module.exports = {
     ],
   },
   optimization: {
+    minimize: true,
     minimizer: [
       new ImageMinimizerPlugin({
         minimizer: {
@@ -80,6 +82,25 @@ module.exports = {
             },
           },
         ],
+      }),
+      new TerserPlugin({
+        terserOptions: {
+          format: {
+            comments: false,
+          },
+          mangle: true,
+          compress: {
+            sequences: true,
+            dead_code: true,
+            conditionals: true,
+            booleans: true,
+            unused: true,
+            if_return: true,
+            join_vars: true,
+            drop_console: true,
+          },
+        },
+        extractComments: false,
       }),
     ],
     splitChunks: {
@@ -174,9 +195,9 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[name].[hash:8].js",
-    sourceMapFilename: "[name].[hash:8].map",
-    chunkFilename: "[id].[hash:8].js",
+    filename: "[name].[fullhash].js",
+    sourceMapFilename: "[name].[fullhash].map",
+    chunkFilename: "[id].[fullhash].js",
     assetModuleFilename: "src/assets/[name][ext]",
   },
 };
